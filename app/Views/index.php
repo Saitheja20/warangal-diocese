@@ -205,22 +205,22 @@
     <div class="col-lg-8 mx-auto px-3 pt-2 pb-2">
         <div class="row text-decoration-none">
 
-            <a href="https://mananthavadydiocese.com/bulletin" class="col-6 col-sm-3 text-body text-decoration-none d-flex align-items-center mb-3 vertical-divider">
+            <a href="#" data-aos="fade-right" data-aos-duration="2000" class="col-6 col-sm-3 text-body text-decoration-none d-flex align-items-center mb-3 vertical-divider">
                 <i class="fas fa-newspaper fa-2x me-3" style="color: rgb(78,105,153);"></i>
                 <h6 class="fw-bold m-0">Diocesan<br>Bulletin</h6>
             </a>
 
-            <a href="https://mananthavadydiocese.com/diocese/bishops-program" class="col-6 col-sm-3 text-body text-decoration-none d-flex align-items-center mb-3 vertical-divider">
+            <a href="#" data-aos="fade-right" data-aos-duration="2000" class="col-6 col-sm-3 text-body text-decoration-none d-flex align-items-center mb-3 vertical-divider">
                 <i class="fas fa-calendar-alt fa-2x me-3" style="color: rgb(78,105,153);"></i>
                 <h6 class="fw-bold m-0">Bishop's<br>Programs</h6>
             </a>
 
-            <a href="https://www.warangaldiocese.com/newsletter.html" class="col-6 col-sm-3 text-body text-decoration-none d-flex align-items-center mb-3 vertical-divider">
+            <a href="https://www.warangaldiocese.com/newsletter.html" data-aos="fade-left" data-aos-duration="2000" class="col-6 col-sm-3 text-body text-decoration-none d-flex align-items-center mb-3 vertical-divider">
                 <i class="fas fa-bullhorn fa-2x me-3" style="color: rgb(78,105,153);"></i>
                 <h6 class="fw-bold m-0">News<br>Letters</h6>
             </a>
 
-            <a href="https://www.warangaldiocese.com/images/Aboutus.pdf" class="col-6 col-sm-3 text-body text-decoration-none d-flex align-items-center mb-3">
+            <a href="https://www.warangaldiocese.com/images/Aboutus.pdf" data-aos="fade-left" data-aos-duration="2000" class="col-6 col-sm-3 text-body text-decoration-none d-flex align-items-center mb-3">
                 <i class="fas fa-file-pdf fa-2x me-3" style="color: rgb(78,105,153);"></i>
                 <h6 class="fw-bold m-0">About <br>Us</h6>
             </a>
@@ -368,7 +368,7 @@
                     Thomas D’Souza was born on <strong>08<sup>th</sup> January 1965</strong> in Warangal.
                     He was ordained as Priest on <strong>02<sup>nd</sup> April 1992</strong> and opted for the Diocese of warangal
                     on <strong>15<sup>th</sup> August 1998</strong>.
-                    The Holy Father has appointed D. Vijaya Paul Reddy to lead the Diocese of warangal as the Bishop of Vasai from <strong>December 15, 2024</strong>.
+                    The Holy Father has appointed D. Vijaya Paul Reddy to lead the Diocese of warangal as the Bishop of warangal from <strong>December 15, 2024</strong>.
                 </p>
                 <a href="https://www.dioceseofvasai.com/about/bishop/" class="btn btn-warning mt-3" target="_blank">
                     Know More &rarr;

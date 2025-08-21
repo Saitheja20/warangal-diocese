@@ -9,11 +9,18 @@
     </div>
 </nav> -->
 
+<!-- AOS CSS (in the <head>) -->
+<!-- <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
+AOS JS (before closing </body>)
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script> -->
 
 <section class="bg-white border-bottom sticky-top hide-print">
     <div class="col-sm-11 col-lg-11 mx-auto pr-0">
-        <nav class="navbar navbar-expand-lg navbar-light pr-0" style="width:100%">
+        <nav class="navbar navbar-expand-lg navbar-light pr-0" style="width:100%" data-aos="fade-down" data-aos-duration="900">
             <div class="row align-items-center" style="width:100%">
                 <!-- Logo + Toggle -->
                 <!-- <div class="col-lg-3 p-0">
