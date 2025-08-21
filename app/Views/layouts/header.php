@@ -26,7 +26,7 @@
 
                 <div class="col-lg-3 p-0 d-flex align-items-center justify-content-between">
                     <a class="navbar-brand" href="#">
-                        <img src="https://mananthavadydiocese.com/assets/images/cs/eparchy-logo.svg" class="img-fluid logo" alt="Logo">
+                        <img src="<?= base_url('public/assets/images/logo/logo.jpg') ?>" class="img-fluid logo" alt="Logo">
                     </a>
                     <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                         <span class="navbar-toggler-icon"></span>

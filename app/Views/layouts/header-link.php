@@ -13,6 +13,12 @@
 
     <!-- Your Custom CSS (optional) -->
     <!-- <link href="< base_url('assets/css/style.css') ?>" rel="stylesheet"> -->
+
+    <style>
+        /* * {
+            outline: 1px solid red;
+        } */
+    </style>
 </head>
 
 <body>
