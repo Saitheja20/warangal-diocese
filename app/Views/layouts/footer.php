@@ -109,7 +109,7 @@
             <div class="col-sm-6 text-center text-sm-end">
                 Powered by
                 <a href="https://kakatiyasolutions.com/" class="text-warning text-decoration-none" target="_blank">
-                    <img src="https://www.warangaldiocese.com/images/pwrd_kas.png" class="img-fluid" style="max-height:20px">
+                    <!-- <img src="https://www.warangaldiocese.com/images/pwrd_kas.png" class="img-fluid" style="max-height:20px"> -->
                     Kakatiya Solutions
                 </a>
             </div>
@@ -133,6 +133,11 @@
         transform: scale(1.2);
     }
 </style>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 
 </html>

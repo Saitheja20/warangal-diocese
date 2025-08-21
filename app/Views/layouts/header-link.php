@@ -14,6 +14,10 @@
     <!-- Your Custom CSS (optional) -->
     <!-- <link href="< base_url('assets/css/style.css') ?>" rel="stylesheet"> -->
 
+
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <style>
         /* * {
             outline: 1px solid red;
