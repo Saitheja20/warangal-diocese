@@ -20,7 +20,7 @@ AOS JS (before closing </body>)
 
 <section class="bg-white border-bottom sticky-top hide-print">
     <div class="col-sm-11 col-lg-11 mx-auto pr-0">
-        <nav class="navbar navbar-expand-lg navbar-light pr-0" style="width:100%" data-aos="fade-down" data-aos-duration="900">
+        <nav class="navbar navbar-expand-lg navbar-light pr-0" style="width:100%">
             <div class="row align-items-center" style="width:100%">
                 <!-- Logo + Toggle -->
                 <!-- <div class="col-lg-3 p-0">
