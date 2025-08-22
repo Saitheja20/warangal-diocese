@@ -7,3 +7,4 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('welcome', 'Home::welcome');
+$routes->get('news-letters', 'Home::newsletters');

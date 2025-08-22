@@ -30,7 +30,7 @@
 <section class="container-fluid pt-5 pb-3 hide-print bg-dark text-light" id="footer">
     <div class="col-lg-10 mx-auto pt-lg-5 pb-lg-5" data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
-        data-aos-duration="1500">>
+        data-aos-duration="2000">
         <div class="row g-4">
 
             <!-- Get in Touch -->

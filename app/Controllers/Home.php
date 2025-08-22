@@ -13,4 +13,9 @@ class Home extends BaseController
     {
         return view('welcome_message');
     }
+
+    public function newsletters(): string
+    {
+        return view('news-letters');
+    }
 }

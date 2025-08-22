@@ -215,7 +215,7 @@
                 <h6 class="fw-bold m-0">Bishop's<br>Programs</h6>
             </a>
 
-            <a href="https://www.warangaldiocese.com/newsletter.html" data-aos="fade-left" data-aos-duration="2000" class="col-6 col-sm-3 text-body text-decoration-none d-flex align-items-center mb-3 vertical-divider">
+            <a href="<?= base_url() .'news-letters/' ?>" data-aos="fade-left" data-aos-duration="2000" class="col-6 col-sm-3 text-body text-decoration-none d-flex align-items-center mb-3 vertical-divider">
                 <i class="fas fa-bullhorn fa-2x me-3" style="color: rgb(78,105,153);"></i>
                 <h6 class="fw-bold m-0">News<br>Letters</h6>
             </a>
@@ -260,6 +260,22 @@
 
 <section class="container my-5">
     <div class="row align-items-center">
+
+
+
+        <div class="col-lg-5 col-md-12 col-12 mb-4 mt-4" data-aos="fade-right" data-aos-duration="3000">
+            <div class="card shadow border-0 h-100 bishop-card">
+                <div class="card-body text-center">
+                    <img src="<?= base_url('public/assets/images/churchimage.png') ?>"
+                        alt="Diocese of Warangal"
+                        class="img-fluid rounded shadow-sm"
+                        style="max-height: 300px; width: 100%;">
+                </div>
+            </div>
+        </div>
+
+
+
         <!-- Welcome Text -->
         <div class="col-lg-7 mb-4 mb-lg-0">
             <h2 class="mb-4 text-center text-success fw-bold">Welcome to the Diocese of Warangal</h2>
@@ -283,71 +299,6 @@
 
             </p>
         </div>
-
-        <!-- Bishop Photo Card -->
-        <!-- <div class="col-lg-3">
-            <div class="card shadow border-0 h-100 bishop-card">
-                <div class="card-body text-center">
-                    <h5 class="card-title text-dark">Bishop of Warangal</h5>
-                    <figure>
-                        <img src="<?= base_url('public/assets/images/bishops/vijay-paul-reddy.jpg') ?>"
-                            alt="Rev. Fr. D. Vijaya Paul Reddy, Bishop of Warangal"
-                            class="img-fluid rounded shadow-sm mb-3"
-                            style="max-height: 350px;">
-                        <figcaption>
-                            <h6 class="mt-2 text-diocese">Rev. Fr. D. Vijaya Paul Reddy</h6>
-                        </figcaption>
-                    </figure>
-                    <div class="text-start d-inline-block text-secondary">
-                        <p><strong>DOB:</strong> 08-01-1965</p>
-                        <button class="btn btn-primary">Know More</button>
-                        <p><strong>Priestly Ordination:</strong> 02-04-1992</p>
-                    
-                        <p><strong>Appointed Bishop:</strong> 00-00-0000</p>
-                        <p><strong>Episcopal Ordination:</strong> 00-00-0000</p>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-        <div class="col-lg-5 col-md-12 col-12 mb-4 mt-4" data-aos="fade-left" data-aos-duration="3000">
-            <div class="card shadow border-0 h-100 bishop-card">
-                <!-- Responsive Flex Layout for Small Screens -->
-                <div class="card-body d-flex flex-column flex-md-row align-items-center text-start text-md-start">
-
-                    <!-- Bishop Image -->
-                    <div class="me-md-3 mb-3 mb-md-0 text-center text-md-start">
-                        <h5 class="text-diocese mb-1 text-center text-danger">Bishop of Warangal</h5>
-                        <img src="<?= base_url('public/assets/images/bishops/vijay-paul-reddy.jpg') ?>"
-                            alt="Rev. Fr. D. Vijaya Paul Reddy, Bishop of Warangal"
-                            class="img-fluid rounded shadow-sm"
-                            style="max-height: 300px; width: auto;">
-
-                    </div>
-
-                    <!-- Bishop Details -->
-                    <div class="mt-lg-4">
-                        <h5 class="text-diocese mb-1">Rev. Fr. D. Vijaya Paul Reddy</h5>
-                        <br>
-                        <span>
-                            <p class=" mb-1"><strong>DOB:</strong> 08-01-1965</p>
-                            <!-- <button class="btn btn-primary">Know More</button> -->
-                            <p><strong>Priestly Ordination:</strong> 02-04-1992</p>
-
-                            <p><strong>Appointed Bishop:</strong> 00-00-0000</p>
-                            <p><strong>Episcopal Ordination:</strong> 00-00-0000</p>
-                            <a href="/bishop-details" class="btn btn-sm btn-outline-primary mt-2 text-center">
-                                Know More &rarr;
-                            </a>
-                        </span>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-
-
     </div>
 </section>
 
@@ -356,7 +307,7 @@
     <div class="container"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
-        data-aos-duration="1000">
+        data-aos-duration="2000">
 
         <div class="row align-items-center">
 
