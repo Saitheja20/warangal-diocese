@@ -58,7 +58,7 @@ AOS JS (before closing </body>)
                                     <a class="dropdown-item" href="#">Diocesan Curia</a>
                                     <a class="dropdown-item" href="#">College of Consultors</a>
                                     <a class="dropdown-item" href="#">Senate Members</a>
-                                    <a class="dropdown-item" href="#">Commissions</a>
+                                    <a class="dropdown-item" href="<?= base_url() ?>commissions">Commissions</a>
                                     <a class="dropdown-item" href="#">Committees</a>
                                     <a class="dropdown-item" href="#">Marriage Tribunal</a>
                                     <a class="dropdown-item" href="#">Deaneries</a>
