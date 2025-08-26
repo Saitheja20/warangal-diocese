@@ -20,7 +20,7 @@ AOS JS (before closing </body>)
 
 <section class="bg-white border-bottom sticky-top hide-print">
     <div class="col-sm-11 col-lg-11 mx-auto pr-0">
-        <nav class="navbar navbar-expand-lg navbar-light pr-0" style="width:100%" data-aos="fade-down" data-aos-duration="900">
+        <nav class="navbar navbar-expand-lg navbar-light pr-0" style="width:100%">
             <div class="row align-items-center" style="width:100%">
                 <!-- Logo + Toggle -->
                 <!-- <div class="col-lg-3 p-0">
@@ -47,7 +47,7 @@ AOS JS (before closing </body>)
                         <ul class="navbar-nav font-weight-bold position-relative">
 
                             <!-- Home -->
-                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index">Home</a></li>
 
                             <!-- Diocese Dropdown -->
                             <li class="nav-item dropdown">
@@ -58,7 +58,7 @@ AOS JS (before closing </body>)
                                     <a class="dropdown-item" href="#">Diocesan Curia</a>
                                     <a class="dropdown-item" href="#">College of Consultors</a>
                                     <a class="dropdown-item" href="#">Senate Members</a>
-                                    <a class="dropdown-item" href="#">Commissions</a>
+                                    <a class="dropdown-item" href="<?= base_url() ?>commissions">Commissions</a>
                                     <a class="dropdown-item" href="#">Committees</a>
                                     <a class="dropdown-item" href="#">Marriage Tribunal</a>
                                     <a class="dropdown-item" href="#">Deaneries</a>
@@ -83,7 +83,7 @@ AOS JS (before closing </body>)
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Institutions</a>
                                 <div class="dropdown-menu rounded-0 sub-drop pb-3">
-                                    <a class="dropdown-item" href="#">Institutions</a>
+                                    <a class="dropdown-item" href="<?= base_url() ?>institutions">Institutions</a>
                                     <a class="dropdown-item" href="#">Educational Institutions</a>
                                     <a class="dropdown-item" href="#">Hospitals</a>
                                 </div>

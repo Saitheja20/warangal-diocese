@@ -1,0 +1,28 @@
+CRITICAL - 2025-08-22 09:29:03 --> ErrorException: Undefined variable $image
+[Method: GET, Route: news-letters]
+in APPPATH\Views\news-letters.php on line 466.
+ 1 APPPATH\Views\news-letters.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', 'C:\\xampp\\htdocs\\diocese\\app\\Views\\news-letters.php', 466)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\diocese\\app\\Views\\news-letters.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('news-letters', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('news-letters')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsletters()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-22 10:40:05 --> ErrorException: Undefined array key "year"
+[Method: GET, Route: news-letters]
+in APPPATH\Views\news-letters.php on line 659.
+ 1 APPPATH\Views\news-letters.php(659): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "year"', 'C:\\xampp\\htdocs\\diocese\\app\\Views\\news-letters.php', 659)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\diocese\\app\\Views\\news-letters.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('news-letters', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('news-letters')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsletters()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

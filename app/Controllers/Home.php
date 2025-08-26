@@ -18,4 +18,12 @@ class Home extends BaseController
     {
         return view('news-letters');
     }
+
+    public function institutions(): string{
+        return view('institutions');
+    }
+
+       public function commissions(): string{
+        return view('commissions');
+    }
 }
