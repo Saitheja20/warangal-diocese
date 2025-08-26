@@ -26,4 +26,23 @@ class Home extends BaseController
        public function commissions(): string{
         return view('commissions');
     }
+           public function institution_men(): string{
+        return view('Institute_Men');
+    }
+           public function institution_women(): string{
+        return view('Institute_Women');
+    }
+           public function Institute_Seminaries(): string{
+        return view('Institute_Seminaries');
+    }
+
+           public function diocese_curia(): string{
+        return view('diocese_curia');
+    }
+
+               public function Marriagetribunal(): string{
+        return view('Marriagetribunal');
+    }
+
+
 }

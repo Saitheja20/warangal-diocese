@@ -55,12 +55,12 @@ AOS JS (before closing </body>)
                                 <div class="dropdown-menu rounded-0 sub-drop pb-3">
                                     <a class="dropdown-item" href="#">About Us</a>
                                     <a class="dropdown-item" href="#">History</a>
-                                    <a class="dropdown-item" href="#">Diocesan Curia</a>
+                                    <a class="dropdown-item" href="<?= base_url() ?>diocese_curia">Diocesan Curia</a>
                                     <a class="dropdown-item" href="#">College of Consultors</a>
                                     <a class="dropdown-item" href="#">Senate Members</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>commissions">Commissions</a>
                                     <a class="dropdown-item" href="#">Committees</a>
-                                    <a class="dropdown-item" href="#">Marriage Tribunal</a>
+                                    <a class="dropdown-item" href="<?= base_url() ?>Marriagetribunal">Marriage Tribunal</a>
                                     <a class="dropdown-item" href="#">Deaneries</a>
                                     <a class="dropdown-item" href="#">Directress</a>
                                     <a class="dropdown-item" href="#">Parishes</a>
@@ -84,7 +84,7 @@ AOS JS (before closing </body>)
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Institutions</a>
                                 <div class="dropdown-menu rounded-0 sub-drop pb-3">
                                     <a class="dropdown-item" href="<?= base_url() ?>institutions">Institutions</a>
-                                    <a class="dropdown-item" href="#">Educational Institutions</a>
+                                    <a class="dropdown-item" href="">Educational Institutions</a>
                                     <a class="dropdown-item" href="#">Hospitals</a>
                                 </div>
                             </li>
