@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Marriage Tribunal – Warangal Diocese</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<?= view('layouts/header') ?>
+<?= view('layouts/header-link') ?>
+  
   <style>
     :root {
       --holy-blue: #004aad;   /* Bishop’s favorite pen ink */
@@ -150,6 +147,5 @@
       </div>
     </div>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+
+<?= view('layouts/footer') ?>
