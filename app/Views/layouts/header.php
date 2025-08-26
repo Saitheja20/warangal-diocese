@@ -47,7 +47,7 @@ AOS JS (before closing </body>)
                         <ul class="navbar-nav font-weight-bold position-relative">
 
                             <!-- Home -->
-                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index">Home</a></li>
 
                             <!-- Diocese Dropdown -->
                             <li class="nav-item dropdown">
@@ -83,7 +83,7 @@ AOS JS (before closing </body>)
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Institutions</a>
                                 <div class="dropdown-menu rounded-0 sub-drop pb-3">
-                                    <a class="dropdown-item" href="#">Institutions</a>
+                                    <a class="dropdown-item" href="<?= base_url() ?>institutions">Institutions</a>
                                     <a class="dropdown-item" href="#">Educational Institutions</a>
                                     <a class="dropdown-item" href="#">Hospitals</a>
                                 </div>

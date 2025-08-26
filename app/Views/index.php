@@ -205,12 +205,12 @@
     <div class="col-lg-8 mx-auto px-3 pt-2 pb-2">
         <div class="row text-decoration-none">
 
-            <a href="#" data-aos="fade-right" data-aos-duration="2000" class="col-6 col-sm-3 text-body text-decoration-none d-flex align-items-center mb-3 vertical-divider">
+            <a href="#" data-aos="fade-left" data-aos-duration="1000" class="col-6 col-sm-3 text-body text-decoration-none d-flex align-items-center mb-3 vertical-divider">
                 <i class="fas fa-newspaper fa-2x me-3" style="color: rgb(78,105,153);"></i>
                 <h6 class="fw-bold m-0">Diocesan<br>Bulletin</h6>
             </a>
 
-            <a href="#" data-aos="fade-right" data-aos-duration="2000" class="col-6 col-sm-3 text-body text-decoration-none d-flex align-items-center mb-3 vertical-divider">
+            <a href="#" data-aos="fade-left" data-aos-duration="1500" class="col-6 col-sm-3 text-body text-decoration-none d-flex align-items-center mb-3 vertical-divider">
                 <i class="fas fa-calendar-alt fa-2x me-3" style="color: rgb(78,105,153);"></i>
                 <h6 class="fw-bold m-0">Bishop's<br>Programs</h6>
             </a>
