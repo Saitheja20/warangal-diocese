@@ -84,7 +84,7 @@ AOS JS (before closing </body>)
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Institutions</a>
                                 <div class="dropdown-menu rounded-0 sub-drop pb-3">
                                     <a class="dropdown-item" href="<?= base_url() ?>institutions">Institutions</a>
-                                    <a class="dropdown-item" href="#">Educational Institutions</a>
+                                    <a class="dropdown-item" href="<?= base_url() ?>education">Educational Institutions</a>
                                     <a class="dropdown-item" href="#">Hospitals</a>
                                 </div>
                             </li>

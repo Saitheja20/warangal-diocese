@@ -26,4 +26,7 @@ class Home extends BaseController
        public function commissions(): string{
         return view('commissions');
     }
+     public function education(): string{
+        return view('education');
+    }
 }
