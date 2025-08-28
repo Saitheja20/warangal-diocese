@@ -115,8 +115,8 @@ AOS JS (before closing </body>)
                                 <div class="dropdown-menu rounded-0 sub-drop pb-3">
                                     <a class="dropdown-item" href="#">News & Events</a>
                                     <a class="dropdown-item" href="#">Articles</a>
-                                    <a class="dropdown-item" href="#">Photo Gallery</a>
-                                    <a class="dropdown-item" href="#">Video Gallery</a>
+                                    <a class="dropdown-item" href="<?= base_url() ?>Photo_Gallery">Photo Gallery</a>
+                                    <a class="dropdown-item" href="<?= base_url() ?>Video_gallery">Video Gallery</a>
                                     <a class="dropdown-item" href="#">Songs Gallery</a>
                                     <a class="dropdown-item" href="#">Newsletters</a>
                                 </div>

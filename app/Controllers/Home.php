@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use CodeIgniter\View\View;
+
 class Home extends BaseController
 {
     public function index(): string
@@ -44,5 +46,22 @@ class Home extends BaseController
         return view('Marriagetribunal');
     }
 
+
+
+                   public function Photo_Gallery(): string{
+        return view('Photo_Gallery');
+    }
+
+    
+   public function gallery_1(): string
+    {
+        return view('gallery/gallery_1');  
+    }
+
+        
+   public function Video_gallery(): string
+    {
+        return view('Video_gallery');  
+    }
 
 }

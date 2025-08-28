@@ -17,4 +17,9 @@ $routes->get('Institute_Seminaries', 'Home::Institute_Seminaries');
 $routes->get('diocese_curia', 'Home::diocese_curia');
 $routes->get('Marriagetribunal', 'Home::Marriagetribunal');
 
+$routes->get('Photo_Gallery', 'Home::Photo_Gallery');
+
+$routes->get('gallery/gallery_1', 'Home::gallery_1');
+
+$routes->get('Video_gallery', 'Home::Video_gallery');
 
