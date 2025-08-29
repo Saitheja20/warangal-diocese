@@ -39,7 +39,7 @@
  </section>
   <script>
     const people = [
-      { name: "Akhil", dob: "1996-08-29", img: "<?= base_url('public/assets/images/birthday/person2.png') ?>" },
+      { name: "Akhil", dob: "1996-08-29", img: "<?= base_url('public/assets/images/birthday/person1.png') ?>" },
       { name: "Sneha", dob: "2002-08-10", img: "<?= base_url('public/assets/images/birthday/person1.png') ?>" },
       { name: "Akhil", dob: "1996-08-28", img: "<?= base_url('public/assets/images/birthday/person2.png') ?>" },
       { name: "Sneha", dob: "2002-08-31", img: "<?= base_url('public/assets/images/birthday/person1.png') ?>" },
