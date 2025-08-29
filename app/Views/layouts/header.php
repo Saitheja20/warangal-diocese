@@ -107,8 +107,8 @@ AOS JS (before closing </body>)
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Calendars</a>
                                 <div class="dropdown-menu rounded-0 sub-drop pb-3">
-                                    <a class="dropdown-item" href="#">Birthday Calendar</a>
-                                    <a class="dropdown-item" href="#">Ordination Calendar</a>
+                                    <a class="dropdown-item" href="<?= base_url() ?>birthday_calender">Birthday Calendar</a>
+                                    <a class="dropdown-item" href="<?= base_url() ?>birthday_calender">Ordination Calendar</a>
                                     <a class="dropdown-item" href="#">Necrology</a>
                                 </div>
                             </li>
