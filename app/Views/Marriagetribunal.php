@@ -3,15 +3,15 @@
   
   <style>
     :root {
-      --holy-blue: #004aad;   /* Bishop’s favorite pen ink */
-      --holy-red: #8b0000;    /* Cardinal red drama */
-      --holy-hover: #d1e3ff;  /* Angel-approved hover */
-      --holy-bg: #f9f9f9;     /* Pious background */
+      --holy-blue: #004aad;   
+      --holy-red: #8b0000;   
+      --holy-hover: #d1e3ff; 
+      --holy-bg: #f9f9f9;    
       --holy-shadow: rgba(0, 0, 0, 0.15);
       --bd-color: #d1e3ff; 
     }
     body {
-      font-family: "Comic Sans MS", cursive, sans-serif;
+      /* font-family: "Comic Sans MS", cursive, sans-serif; */
       background: var(--holy-bg);
       margin: 30px;
       color: #222;

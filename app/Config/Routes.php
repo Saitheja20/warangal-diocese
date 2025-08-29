@@ -29,3 +29,5 @@ $routes->get('song_gallery', 'Home::song_gallery');
 
 $routes->get('education', 'Home::education');
 
+$routes->get('birthday_calender', 'Home::birthday_calender');
+
