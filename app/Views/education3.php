@@ -489,9 +489,7 @@
                             <h3>ASSISI HIGH SCHOOL </h3>
                             <hr>
                         </div> -->
-                        <div class="card mb-4" data-aos="fade-up"
-                            data-aos-anchor-placement="center-bottom"
-                            data-aos-duration="2000">
+                        <div class="card mb-4">
                             <div class="row no-gutters align-items-stretch" id="schoolCard">
                                 <!-- Image Side -->
                                 <div class="col-lg-4 col-md-12 transition-col" id="imageCol">
@@ -682,9 +680,7 @@
                                 (1990)</h3>
                             <hr>
                         </div> -->
-                        <div class="card mb-4" data-aos="fade-up"
-                            data-aos-anchor-placement="center-bottom"
-                            data-aos-duration="2000">
+                        <div class="card mb-4">
                             <div class="row no-gutters align-items-stretch" id="schoolCard">
                                 <!-- Image Side -->
                                 <div class="col-lg-4 col-md-12 transition-col" id="imageCol">
@@ -801,9 +797,7 @@
 
                         <!-- Third school -->
 
-                        <div class="card mb-4" data-aos="fade-up"
-                            data-aos-anchor-placement="center-bottom"
-                            data-aos-duration="2000">
+                        <div class="card mb-4">
                             <div class="row no-gutters align-items-stretch" id="schoolCard">
                                 <!-- Image Side -->
                                 <div class="col-lg-4 col-md-12 transition-col" id="imageCol">
@@ -920,9 +914,7 @@
                         </div>
 
                         <!-- Fourth School -->
-                        <div class="card mb-4" data-aos="fade-up"
-                            data-aos-anchor-placement="center-bottom"
-                            data-aos-duration="2000">
+                        <div class="card mb-4">
                             <div class="row no-gutters align-items-stretch" id="schoolCard">
                                 <!-- Image Side -->
                                 <div class="col-lg-4 col-md-12 transition-col" id="imageCol">
@@ -1043,9 +1035,7 @@
                         <!-- Fifth school -->
 
 
-                        <div class="card mb-4" data-aos="fade-up"
-                            data-aos-anchor-placement="center-bottom"
-                            data-aos-duration="2000">
+                        <div class="card mb-4">
                             <div class="row no-gutters align-items-stretch" id="schoolCard">
                                 <!-- Image Side -->
                                 <div class="col-lg-4 col-md-12 transition-col" id="imageCol">
@@ -1170,9 +1160,7 @@
                         <!-- SIxsth School -->
 
 
-                        <div class="card mb-4" data-aos="fade-up"
-                            data-aos-anchor-placement="center-bottom"
-                            data-aos-duration="1000">
+                        <div class="card mb-4">
                             <div class="row no-gutters align-items-stretch" id="schoolCard">
                                 <!-- Image Side -->
                                 <div class="col-lg-4 col-md-12 transition-col" id="imageCol">
@@ -1292,515 +1280,483 @@
                             </div>
                         </div>
 
-                        <?php
-                        $schools = [
-                            [
-                                'id' => 'GANDHICENTENARYGIRLSTELUGUMEDIUMHIGHSCHOOL',
-                                'name' => 'GANDHI  CENTENARY GIRLS’ TELUGU MEDIUM HIGH SCHOOL',
-                                'year' => '1967',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Karimnagar',
-                                'address' => 'Gandhi Centenary T.M. High School, Lourdunagar Karimnagar - 505002',
-                                'principal' => 'Sr. B. Sundari /Sr. Lourdu Mary',
-                                'managed_by' => 'Catechist Sisters of St. Ann',
-                                'telephone' => '-',
-                                'history' => 'Gandhi Centenary T.M.High School was started in the year 1967 by Catechist Sisters of St. Ann at Lourdunagar during the time of Most Rev. Alphonsus Beretta and Rev. Sr. Enrichetta, the then Mother General.
 
-                                             The Main purpose of establishing the school is to impart good education and all-round formation of the poor children of Karimnagar District. As a result of the services of many Sisters, who worked in this institution, adequate progress has been made towards fulfilling this objective. There were about 3,518 students who have studied so far in this school and 1,875 among them are Catholics.'
-                            ],
-                            [
-                                'id' => 'INFANTJESUSCONVENTHIGHSCHOOL ',
-                                'name' => 'INFANT JESUS CONVENT HIGH SCHOOL ',
-                                'year' => '1991',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Warangal',
-                                'address' => 'Infant Jesus Convent High School Reddipalem Vil, Mogilicherla P.O. Warangal Dt. - 506 006',
-                                'principal' => 'Sr. Lydiya, SD / Rev. Sr. Aggie, SD',
-                                'managed_by' => 'Sisters of the Destitute (S.D.)',
-                                'telephone' => '-',
-                                'history' => 'Most Rev. Thumma Bala felt the need of a school for the physically handicapped in Warangal Diocese and entrusted that duty to the Congregation of the Sisters of the Destitute under with the initiative of                   Sr. Petite Terese, the then Mother Superior of the Congregation. Fr.  Thomas Ampatt OFM Cap  was instrumental in bringing the Sisters and helping them in their initial stage of this school in 1991. It is an integrated school for the physically handicapped children. Normal children from 13 surrounding villages are also the beneficiaries of this institution. Bishop Thumma Bala blessed and inaugurated the boarding home on 16th March, 1994 and school building on 11th June, 1996.
+                        <!-- Seven School -->
+                        <div class="card mb-4">
+                            <div class="row no-gutters align-items-stretch" id="schoolCard">
+                                <!-- Image Side -->
+                                <div class="col-lg-4 col-md-12 transition-col" id="imageCol">
+                                    <img src="<?= base_url('public/assets/images/education/Carmel-Integrate-school2.jpg') ?>" class="img-fluid h-100 w-100" alt="EEE" style="object-fit: cover;">
+                                </div>
 
-                                                 The main purpose of establishing this institution is to impart good education to both Catholics and Non-catholics and especially to the physically handicapped children.'
-                            ],
-                            [
-                                'id' => 'LITTLEFLOWERHIGHSCHOOLFORTHEDEAFANDDUMP',
-                                'name' => 'LITTLE FLOWER HIGH SCHOOL FOR THE DEAF AND DUMP',
-                                'year' => '1990',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Warangal',
-                                'address' => 'Little Flower High School for
-                                                the Deaf Karunapuram,
-                                                Peddapendial( P.O) Warangal
-                                                Dt.- 506 151',
-                                'principal' => 'Sr. Pius Mary',
-                                'managed_by' => 'Assisi Sisters of Mary Immaculate',
-                                'telephone' => '( 08711) 243121',
-                                'history' => 'At the request of Most  Rev. Thumma Bala,  the Provincial, Sr. Celestine Francis, of Assisi Sisters of Mary Immaculate of Sacred Heart Province started this school for deaf and dumb on 6th August 1990. The boarding was blessed on 3rd July, 1994 and new school building was blessed and inaugurated on 21st September 1995 by Bishop Thumma Bala.
-
-                                                        The main purpose of this institution is to give education to the hearing impaired children in the area of Warangal Diocese. This is the first and the only catholic educational institution which serves  the deaf and dumb children in Warangal Diocese.
-                                                    .'
-                            ],
-                            [
-                                'id' => 'LITTLEFLOWEREMHIGHSCHOOL',
-                                'name' => 'LITTLE FLOWER E. M. HIGH SCHOOL',
-                                'year' => 'June 26th, 1994',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Warangal',
-                                'address' => 'Little Flower High School Raya-Chinnapuram Mulugu, Warangal Dt. - 506 343',
-                                'principal' => 'Sr. Victoria /
-                                                Sr. Jessy Jacob',
-                                'managed_by' => 'Missionary Sisters of Mary Help of Christians (MSMHC)',
-                                'telephone' => '-',
-                                'history' => 'Little Flower School was started on June 26th, 1994 at the invitation  of Most  Rev. Thumma Bala by Sr. Elsa Puthenpuraka, the Provincial of Tezpur, Assam. Fr. A. Prakash was instrumental in procuring the land and in getting the Sisters.The purpose of establishing this school is to serve and bear witness to Christ through the apostolate of education. It imparts moral, social cultural and academic studies to the children. The needy children, both catholics and non-catholics are given concessions and free education.'
-                            ],
-                            [
-                                'id' => 'LOYOLATMHIGHSCHOOL',
-                                'name' => 'LOYOLA  T.M. HIGH SCHOOL',
-                                'year' => '1980',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Karimnagar',
-                                'address' => 'Loyola High School Rekurthy,
-                                                Malkapur (Post) Karimnagar
-                                                Dt.- 505 451',
-                                'principal' => 'Rev. Fr. Wilson / Fr.Inna Reddy',
-                                'managed_by' => 'Andhra Jesuit Province',
-                                'telephone' => '( 0878)  2256808',
-                                'history' => 'At the invitation of Most Rev. Alphonsus Beretta, of Mr. K.S. Shrarma, the District Collector of Karimnagar and of the People of the locality, Fr. Elias Arockiasamy, SJ, was delegated in 1980 to venture on establishing a school. Later, Fr. William Thomas joined him to pave the way for opening of Loyola High School at Lourdunagar in the buildings provided by the Diocese. In 1985, the school was shifted to Rekurthy. Besides academic excellence and discipline, the school is known for the extra curricular activities such as literacy programmes for nearby villages. The purpose of this school is to impart education to the poor village children, making them knowledgeable and wise  citizens of India. It aims to form children to be the leaders in all walks of life and will serve their fellow men in Justice and truth. Hostel facility is provided for the students coming from distant places.'
-                            ],
-                            [
-                                'id' => 'MARIARANITMHIGHSCHOOLPrimarySchoolEM',
-                                'name' => 'MARIA RANI  T.M. HIGH SCHOOL & Primary School E.M.',
-                                'year' => '1991 & 1999',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Warangal',
-                                'address' => 'Maria Rani High School Karunapuram, Peddapendial P.O. Warangal Dt. - 506 151',
-                                'principal' => 'Sr. Lilly Michael / Sr. Amala Rani',
-                                'managed_by' => 'Missionaries of Mary Mediatrix',
-                                'telephone' => '-',
-                                'history' => 'Maria Rani School, Telugu Medium, was established on 12th June 1991 at Karunapuram with  the encouragement of  Most Rev. Thumma Bala  and at the initiative of Rev. Sr. Anne Narikattu, the then Delegate Superior.  Bishop Thumma Bala blessed Mariarani boarding home on 3rd July, 1993 and new school building on 6th July, 1996.
-
-                                    The main aim of this institution is to focus on the promotion of education of the underprivileged female children and the upliftment of the women folk. It provides educational opportunity and all-round formation for girls. The school has boarding facility. It provides good opportunity to the children from the neighbouring villages.Maria Rani E/M was established on 12th June 1999.The present school building was inagurated by bishop Thumma Bala on 22nd Agust 2008.'
-                            ],
-
-
-                            [
-                                'id' => 'MOUNTCARMELEMHIGHSCHOOL',
-                                'name' => 'MOUNT CARMEL  E.M. HIGH SCHOOL',
-                                'year' => '1996',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Karimnagar',
-                                'address' => 'Mount Carmel High School Karimnagar Dt.- 505 455',
-                                'principal' => 'Sr. Rincy',
-                                'managed_by' => 'Congregation of Mother of Carmel',
-                                'telephone' => '(08742) 223893',
-                                'history' => 'At the request of Most Rev. Thumma Bala, the Bishop of Warangal, the then Provincial, Sr. Dominic of Congregation of Mother of Carmel, decided to open a school to create good educational facility to the Town people of Jagtial. Thus, Mount Carmel High School was started in June, 1996 at Dharur, Jagtial, Karimnagar Dt. The school was blessed and inaugurated by Bishop Thumma Bala on 2nd April, 1998.'
-                            ],
-
-                            [
-                                'id' => 'NIRMALAEMTMHIGHSCHOOL',
-                                'name' => 'NIRMALA  E.M. & T.M. HIGH SCHOOL',
-                                'year' => '1966',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Warangal',
-                                'address' => 'Nirmala High School
-                                            Dornakal - 506 381
-                                            Warangal Dt.',
-                                'principal' => 'Sr.Vilma / Sr.Venancia',
-                                'managed_by' => 'Missionary Sisters of the Immaculate',
-                                'telephone' => '-',
-                                'history' => 'This Institution was established in June, 1966 by Nirmala Sisters at Dornakal at the request of Most Rev. Alphonsus Beretta.  Rev. Sr. Rita Maggioni was the then Regional Superior of Region. The primary purpose of establishing this institution was to impart quality education and all-round formation to both catholic and non-catholic students of Dornakal Town, especially to the children of railway employees.  It has both English & Telugu Media. With the services of several Headmistresses and the Staff, the school has steadily grown to the present status.  The present school building was blessed and inaugurated by Bishop Thumma Bala on 29th June, 1996.'
-                            ],
-                            [
-                                'id' => 'NIRMALAHIGHSCHOOLTM',
-                                'name' => 'NIRMALA HIGH SCHOOL  (T.M.)',
-                                'year' => '1978',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Karimnagar',
-                                'address' => 'Nirmala High School Shanthinagar,
-                                        P.B.No. 2 Vemulawada (Mandal)
-                                        Karimnagar Dt. - 505 302',
-                                'principal' => 'Sr. Ancy Jourge / Sr.Thomasamma.',
-                                'managed_by' => 'Missionary Sisters of the Immaculate',
-                                'telephone' => '-',
-                                'history' => 'Shantinagar and its surrounding villages in Karimnagar District are socially and economically backward with a less number of christian population. Literacy was at the lowest percentage.  Becoming aware of the situation and in order to uplift the people, on the invitation of late Most Rev. alphonsus Beretta, the Bishop of Warangal then, Sr. Carla Reboldi, the then Regional Superior of the Missionary Sisters of the Immaulate, started Nirmala Primary School at Shanthinagar in 1978.  In 1999 it was up-graded into a High School.'
-                            ],
-                            [
-                                'id' => 'ROSAMYSTICACONVENTSCHOOL',
-                                'name' => 'ROSA MYSTICA CONVENT SCHOOL',
-                                'year' => '1993',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Warangal',
-                                'address' => 'Rosa Mystica High School Kamalapuram( P.O.) Warangal Dt. - 506 172',
-                                'principal' => 'Sr. Paulina / Sr. Andria',
-                                'managed_by' => 'Congregation of the Carmelite Sisters',
-                                'telephone' => '-',
-                                'history' => 'At the request of A.P.Rayons and at the invitation of Bishop Thumma Bala, Sisters of the Congregation of Carmelite Religious opened a Convent at Kamalapuram in 1992 to run & manage the Thapar Vidya Vihar, owned by the A.P. Rayons. A year later, they opened an independent school by name Rosa Mystica Convent School in the Church Compound at Kamalapuram on 13th June 1993. Sr. Mary Euphrecia,  Regional Superior at the time of its establishment, took a lot of initiative in realizing the project.The aim of the school is  to provide educational service to this most backward mission tribal & forest area of the Diocese.'
-                            ],
-
-
-                            [
-                                'id' => 'SACREDHEARTGIRLSTMEMHIGHSCHOOL',
-                                'name' => 'SACRED HEART GIRLS’  T.M. & E.M.  HIGH SCHOOL',
-                                'year' => '1966',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Karimnagar',
-                                'address' => 'Sacred Heart Girls’ High School Godavarikhani - 505 209 Karimnagar Dt.',
-                                'principal' => 'Sr. M.Appalonia / Sr.Elizabeth',
-                                'managed_by' => 'Franciscan Missionaries of Mary',
-                                'telephone' => '( 08728) 244352',
-                                'history' => 'This institution was established in the year 1966 by F.M.M. Sisters at Godavarikhani during the time of  Most Rev. Alphonsus Beretta and Rev. Sr. Mary Law, the Provincial, at that time. The main purpose of establishing this institution was to impart good education and all-round formation  both to catholic and non-catholic children of the employees of Singareni Coal Mines. From June, 1966 to 1978, the school  remained as a upper primary school and in 1979 it was up-graded to high school. 5,000 students have studied in the school so far and 600 of them are Catholics.'
-                            ],
-                            [
-                                'id' => 'STALPHONESESHIGHSCHOOL',
-                                'name' => 'ST. ALPHONESE"S HIGH SCHOOL',
-                                'year' => '1986',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Karimnagar',
-                                'address' => 'H.M./Correspondent ,ST.
-                                                ALPHONESE"S HIGH SCHOOL,Lourdunagar,Jyothinagar
-                                                ,Karimnagar-505 002',
-                                'principal' => 'Rev.Fr.P.Raja',
-                                'managed_by' => 'Warangal Diocese Educational Society',
-                                'telephone' => '-',
-                                'history' => 'St. Alphone’s High School (T.M) was started as a tutorial school in August, 1986 by Warangal Diocesan Society during the time of Msgr.K.Joseph, the then Administrator of the Diocese. Later in March 1987, Bishop Bala made a serious study of the viability of running a regular school mainly to educate the catholic children. Having received a positive report, the Diocese established this school from VI to IX at a time. The same year, the school, got the approval of the Govt. of A.P.Fr.B.Anthony was the first Correspondent. An attached boarding for boys was opened simultaneously Fr.Basani Prakash was appointed the first Director of the boarding. He also taught regularly in the school. In 1992 a primary section T.M. was opened, hoping to serve the needs of the rural children. The main purpose of establishing this institution was to accommodate the catholic boys of the Diocese and to impart quality education in the light of gospel values. As there was no strength in the primary section, it had to be closed down in a few year’s time. In 1998, English Medium was started to meet the growing local needs. The new School block for this English medium was inaugurated and blessed by Bishop Thumma Bala on 10th July, 1999
-
-                                        Till date, 900 students received S.S.C. Certificates from the School of whom 300 were Catholics. It has to be noted that the Jesuits ran Loyola high school in these premises earlier for some time...'
-                            ],
-                            [
-                                'id' => 'STANNSEMGIRLSHIGHSCHOOL ',
-                                'name' => 'ST. ANN’S E.M. GIRLS’ HIGH SCHOOL ',
-                                'year' => '1964',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Warangal',
-                                'address' => 'St. Ann’s Girls’ High School Kazipet P.O. Warangal - 506 003    ',
-                                'principal' => 'Sr. Antonoa / Sr. Sally Joseph',
-                                'managed_by' => 'Sisters of St. Ann of Providence',
-                                'telephone' => '(0870) 2576320',
-                                'history' => 'St. Ann’s English Medium School  was established in 1964 during the time of Most Rev. Alphonsus Beretta and Sr. Mary Alessandra, the then Provincial of the Sisters of St. Ann. Prior to the establishment of this institution, they had worked in Railway School for two academic years from 1962 to 1964.
-                                    The purpose of starting this school is to provide  all-round education to every student admitted in it, irrespective of caste. creed and social status,  with a preference to the  catholic children and  to the children of the nearby villages.'
-                            ],
-                            [
-                                'id' => 'STANNSGIRLSHIGHSCHOOLTM',
-                                'name' => 'ST. ANN’S GIRLS’ HIGH SCHOOL T.M',
-                                'year' => '1933',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Warangal',
-                                'address' => 'St. Ann’s High School
-                                            Reddipalem( P.O.) Via  Wardhannapet Warangal- Dt. - 506 313',
-                                'principal' => 'Sr. Prabhavathi/ Sr. Pushpa',
-                                'managed_by' => 'Catechist Sisters of St. Ann',
-                                'telephone' => '-',
-
-                                'history' => 'St. Ann’s School is one of the oldest schools in the Diocese. It was established in the year 1933 by Catechist Sisters of St. Ann as a primary school with the support of Most Rev. Vismara, PIME, the then Bishop of Hyderabad.
-                                            The main purpose of establishing this school is to impart quality education and all-round development both to catholic and non-catholic girls of this rural area. Living up to its motive and purpose, this school has served to 6,594 rural catholic girls and boys out of 9,496 that passed through the school, so far.'
-                            ],
-                            [
-                                'id' => 'STANNSGIRLSEMHIGHSCHOOL',
-                                'name' => 'ST. ANN’S GIRLS’ E.M. HIGH SCHOOL ',
-                                'year' => '1993',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Karimnagar',
-                                'address' => 'St. Ann’s High School Rangampalli (Vill.) Peddapalli (P.O.) Karimnagar Dt. - 505 172',
-                                'principal' => 'Sr. Anni/ Sr. Cicily',
-                                'managed_by' => 'Sisters of St. Ann of Providence',
-                                'telephone' => '(08728) 222288',
-                                'history' => 'Rev. Fr. L. Delissandri, PIME, the then Parish Priest of Appannapeta, seeing the educational needs of the people of Pedapalli town and surrounding villages, bought the land, constructed the school building in the year 1993 and invited Sisters of St. Ann of Provindence with the permission of Bishop Thumma Bala. They opened a school in June, 1993. The school’s objective is to provide quality education on christian principles to children and youth.'
-                            ],
-                            // spacess
-                            [
-                                'id' => 'StAUGUSTINESHIGHSCHOOLEM',
-                                'name' => 'St.AUGUSTINE’S HIGH SCHOOL (E.M.)',
-                                'year' => '1994',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Warangal',
-                                'address' => 'St. Augustine’s High School Sevanagar, Maripeda (P.O.) Warangal Dt. - 506 315',
-                                'principal' => 'Sr. Tessina / Sr. Alphonsa Abraham',
-                                'managed_by' => 'Franciscan Clarist Province',
-                                'telephone' => '-',
-                                'history' => 'At the Invitation of  Most Rev. Thumma Bala,  the Bishop of Warangal, the then  Provincial Sr. Fatima, F.C.C., estabilished St. Augustine’s School in 1994 at Maripeda.  The School is situated in the rural area, where most of the people are tribals and illiterate.  Fr. M.P. Joseph has been instumental to get the land, in getting Sisters and in all the constructions there. The purpose of this school is to bring the people / children out of their ignorance and also proclaim the Good News through the medium of education.'
-                            ],
-                            [
-                                'id' => 'StFRANCISDESALESHIGHSCHOOLEM',
-                                'name' => 'St. FRANCIS DE SALES HIGH SCHOOL (E.M.)',
-                                'year' => '1995',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Karimnagar',
-                                'address' => 'S.F.S. School                     Francis Nagar, Korutla - 505 326 Karimnagar Dt.',
-                                'principal' => 'Rev. Fr. John.V.V / Rev. Fr. G. Sandeep Reddy, MSFS',
-                                'managed_by' => 'Missionaries of St. Francis de Sales',
-                                'telephone' => '-',
-                                'history' => 'The S.F.S. School was started in June 1995 under the patronage of Most Rev. Thumma Bala and Rev. Fr. Mani Panthalani, MSFS, Provincial of the Visakhapatnam Province of the Missionaries of St. Francis de Sales for the purpose of Mission Work, for Christian Presence and influence through education apostolate. It is for the spiritual and  all-round upliftment of the rural and remote population eventually.'
-                            ],
-                            [
-                                'id' => 'StJOHNSHIGHSCHOOLEM',
-                                'name' => 'St. JOHN’S HIGH SCHOOL ( E.M.)',
-                                'year' => '1963',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Karimnagar',
-                                'address' => 'St. John’s High School Lourdunagar Karimnagar - 505 002',
-                                'principal' => 'Sr. B. Sundari / Sr. Margaret',
-                                'managed_by' => 'Catechist Sisters of St. Ann',
-                                'telephone' => '-',
-                                'history' => 'St. John’s E.M. School was established in 1963 by Catechist Sisters of St. Ann   at the invitation of Most Rev. Alphonsus Beretta and during the time Sr. Enrichetta, the then Mother General. At first, it was started in Thukkarao’s Compound as a primary school. Later in 1967,  the school was shifted to the present site, Lourdunagar. Gradually, it was up-graded into a High School.
-                                                The main purpose of establishing this institution is to impart good education and all-round formation to both catholic and non-catholic students through English Medium. Till today, 8000 students have been educated, of whom 2500 are Catholics.'
-                            ],
-                            [
-                                'id' => 'StAnthonysHighSchoolTM',
-                                'name' => "St Anthony's High School(T . M)",
-                                'year' => '1990',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Warangal',
-                                'address' => "St.Anthony's HIgh School (T.M),Dharmasagar,Vill & PO Via:Madikonda,Warangal Dt. - 506 142",
-                                'principal' => 'Sr.Maria',
-                                'managed_by' => 'Franciscan Sisters of the Immaculate Heart of Mary',
-                                'telephone' => '(0870) 2581362',
-                                'history' => 'St. Anthony’s School was established on 21st June, 1993 by the Franciscan Sisters of the Immaculate Heart of Mary, on the invitation of Most Rev. Thumma Bala, Bishop of Warangal. The Provincial Superior, Sr.Arogya Mary, and Sr. Irudhaya Mary, the first Headmistress, were instrumental in opening this institution. The main Purpose of establishing this school is to impart good education to the rural children of this locality and give all-round formation both to Catholics and non-Catholics. The school building was blessed and inaugurated by Bishoip Thumma Bala on 18th January 1999.'
-                            ],
-                            [
-                                'id' => 'StAnthonysHighSchoolEM',
-                                'name' => "St Anthony’ s High School(E . M)",
-                                'year' => '1986',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Karimnagar',
-                                'address' => 'H.M / Correspondent,
-                                    St Anthony’s High School(E . M),
-                                L . M . D . Colony,
-                                Karimnagar - 505 527',
-                                'principal' => 'Rev.Fr.N.Bala Swamy',
-                                'managed_by' => 'Warangal Diocesan Society',
-                                'telephone' => '(0870) 2223235',
-                                'history' => 'St. Anthony’s E.M School for boys and girls is 8kms from Karimnagar on Karimnagar-Hyderabad Highway. It was started by one Boyapati Showreddy, a Catholic, in 1986. Keeping in view of the needs of the catholic children of Karimnagar, Most Rev. Thumma Bala purchased the school together with the land in June 1990. Ever since, it is being managed by the Warangal Diocesan Society. Gradually, the school was up-graded to SSC with boarding facilities for boys. So far, five batches of X class and 10 batches of VII class passed successfully from the school.
-
-                                        The boarding was blessed by Bishop Thumma Bala on 11th April, 1997. The school surmounted the difficulties of acute water scarcity and poor financial position due to low fee structure. There was scarcity and poor financial position due to low fee structure. There was a time when the Management gave notice to the parents that the school was going to be shifted to the premises of St.Alphone’s High School in Karimnagar Town. The realization of the needed co-operation from the parents and timely water source and Fr.Joji’s able & proper handling as correspondent, saved the situation.'
-                            ],
-                            [
-                                'id' => 'StCLAIREEMCONVENTSCHOOL',
-                                'name' => 'St. CLAIRE E.M.CONVENT SCHOOL',
-                                'year' => '1984',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Karimnagar',
-                                'address' => 'St. Claire Convent School NTPC,
-                                            Jyothinagar- Ramagundam
-                                            Karimanagar Dt. - 505 215',
-                                'principal' => 'Fr. Casmir D, Souza',
-                                'managed_by' => 'Franciscan Missionaries of Mary',
-                                'telephone' => '(08728) 271813',
-                                'history' => 'St. Claire Convent School was started with the encouragement of Most Rev. A.Beretta  and the effort of Sr. Sophia Pais, the Provincial of FMM in 1984 at NTPC, Ramagundam. The main purpose of taking up this school is to give education to the children of Employees there and to the poor children of this locality.
-                                                This Institution will be taken over by the Society of Divine Word Missionaries from May/June 2003.'
-                            ],
-                            [
-                                'id' => 'StGabrielsHighSchoolTMEM)',
-                                'name' => 'St.Gabriel’ s High School(T . M & E . M)',
-                                'year' => '1985',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Warangal',
-                                'address' => 'H.M/Correspondent,St.Gabriel High School Fathiminagar Waranga l- 506004',
-                                'principal' => 'Bro.Roque',
-                                'managed_by' => 'Montfort Brother of Gabriel',
-                                'telephone' => '(0870) 2459241',
-                                'history' => 'St. Gabriel’s High School T.M & E.M for Boys, Fathimanagar, is a Minority Institution established by Provincial Rev. Bro. Louis Beaureau of the Society of the Brothers of St. Gabriel in June. 1995 at the invitation of most Rev. Alphonsus Beretts. The Diocese handed-over the land and existing structures in the campus to the Brothers of St.Gabriel’s. It is one of the first educational institutions established at Fathimanagar & also in the Diocese of Warangal after its erection and also to commemorate the centenary celebrations of All Saint’s High School, Hyderabad. Bro .Vincent was its founder Principal. The school, initially, had only from class VI both in English & Telugu media. A Primary section was added in 1977 at the initiative of Bro. Berchmans, the then principal St.Gabriel’s school, which was exclusively for boys during the first three decades, became co-educational in June 1985 during the tenure of Bro. Alexander. Today the school has 2 sections from Classes LKG to IV and 3 sections from classes V to X English Medium and one section V to X TM. Bishop Thumma Bala and many Priests of the Diocese Studied in this school. A hostel is attached to the school, which caters to the rural population of Telangana.
-
-                                            In Keeping with the school’s Motto “Lead Kindly Light” , its priorities in education are not only academic excellence, but also formation of the children in discipline, hard work , moral and religious Values.'
-                            ],
-                            [
-                                'id' => 'StJOHNSHIGHSCHOOLTMEM',
-                                'name' => 'St. JOHN’S HIGH SCHOOL ( T.M.& E.M)',
-                                'year' => '1982',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Warangal',
-                                'address' => 'St. John’s High School Ookal (H), Via Dharmaram Warangal Dt. - 506 330',
-                                'principal' => 'Sr. Shyni / Sr. Maggie',
-                                'managed_by' => 'Sisters of our Lady of Fatima',
-                                'telephone' => '(0870) 2581362',
-                                'history' => 'St. John’s School was started on 14th June, 1982  on the initiative of Fr. B.Anthony, the then Parish Priest of Ookal, with the encouragement  of Bishop Alphonsus Beretta.  In 1986, it was handed over  to the  Sisters of our Lady of Fatima.  Sr. Archangela Cheeran was the Superior Genera then. The main purpose of establishing this institution is to impart good education and to cater to the ever growing needs of students with high aspirations by providing opportunities both to catholic and non-catholic rural children. There were about 451 students who had, so far, successfully completed their S.S.C. Examinations. Among them 81 were Catholics.'
-                            ],
-                            [
-                                'id' => 'StJOSEPHSGIRLSHIGHSCHOOLTMEM',
-                                'name' => 'St. JOSEPH’S GIRLS’ HIGH SCHOOL T.M./E.M',
-                                'year' => '1967',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Warangal',
-                                'address' => 'St. Joseph’s Girls’ High School Kumarapally, Hanamkonda Warangal - 506 001',
-                                'principal' => 'Sr.Seligree John / Sr. Jesintha',
-                                'managed_by' => 'Catechist Sisters of St. Ann',
-                                'telephone' => '(0870) 2450543',
-                                'history' => 'St. Joseph’s T.M. School was started in the year 1967  by the Catechist Sisters of St. Ann, during the time of  Most Rev. Alphonsus Beretta and  Sr. Enrichetta, the then Mother General. English Medium was introduced in the year 1990. The primary purpose of establishing the school is to impart good education to the poor and neglected children apart from teaching catechism to catholic children.'
-                            ],
-                            [
-                                'id' => 'StPAULSHIGHSCHOOLEM',
-                                'name' => 'St. PAUL’S HIGH SCHOOL (E.M) ',
-                                'year' => '1999',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Warangal',
-                                'address' => 'St. Paul’s High School
-                                                Near Nehru Park
-                                                Jangaon (P.O.)Warangal Dt. - 506 167',
-                                'principal' => 'Fr. T. Augustine Reddy',
-                                'managed_by' => 'Warangal Diocesan Society',
-                                'telephone' => '(08716) 221027',
-                                'history' => 'At the request of Most Rev. Thumma Bala, the Bishop of Warangal, the then Provincial, Sr. Dominic of Congregation of Mother of Carmel, decided to open a school to create good educational facility to the Town people of Jagtial. Thus, Mount Carmel High School was started in June, 1996 at Dharur, Jagtial, Karimnagar Dt. The school was blessed and inaugurated by Bishop Thumma Bala on 2nd April, 1998.'
-                            ],
-                            [
-                                'id' => 'STPAULSEMHIGHSCHOOL',
-                                'name' => 'ST. PAUL’S E.M. HIGH SCHOOL',
-                                'year' => '1991',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Warangal',
-                                'address' => 'St. Paul’s High School Pradeepthi Nagar, Thorrur ( P.O.) Warangal Dt. - 506 163',
-                                'principal' => 'Sr. Irudaya Mary/ Sr. Shamala',
-                                'managed_by' => 'Sisters of St. John the Baptist',
-                                'telephone' => '(08719) 231263',
-                                'history' => 'At the request of Most Rev. Thumma Bala, the Bishop of Warangal, the then Provincial, Sr. Dominic of Congregation of Mother of Carmel, decided to open a school to create good educational facility to the Town people of Jagtial. Thus, Mount Carmel High School was started in June, 1996 at Dharur, Jagtial, Karimnagar Dt. The school was blessed and inaugurated by Bishop Thumma Bala on 2nd April, 1998.'
-                            ],
-                            [
-                                'id' => 'VIDYANIKETANTMHIGHSCHOOL ',
-                                'name' => 'VIDYA NIKETAN T.M. HIGH SCHOOL ',
-                                'year' => '1990',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Warangal',
-                                'address' => 'St. Mary’s School, Dantalapally, Narasimhulapet Mdl  warangal',
-                                'principal' => 'Fr. D.Prashanth Reddy',
-                                'managed_by' => 'Warangal Diocesan Society',
-                                'telephone' => '(08711) 243129',
-                                'history' => 'At the request of Most Rev. Thumma Bala, the Bishop of Warangal, the then Provincial, Sr. Dominic of Congregation of Mother of Carmel, decided to open a school to create good educational facility to the Town people of Jagtial. Thus, Mount Carmel High School was started in June, 1996 at Dharur, Jagtial, Karimnagar Dt. The school was blessed and inaugurated by Bishop Thumma Bala on 2nd April, 1998.'
-                            ],
-                            [
-                                'id' => 'STTHOMASHIGHSCHOOLEM',
-                                'name' => 'ST. THOMAS HIGH SCHOOL E/M',
-                                'year' => '1994',
-                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
-                                'place' => 'Karimnagar',
-                                'address' => 'St. Thomas High School K. Abadi, Jammikunta Karimnagar Dt. 505129',
-                                'principal' => 'Rev. Fr.Maria Joseph',
-                                'managed_by' => 'Warangal Diocesan Society',
-                                'telephone' => '-',
-                                'history' => 'At the Invitation of  Most Rev. Thumma Bala,  the Bishop of Warangal, the then  Provincial Sr. Fatima, F.C.C., estabilished St. Augustine’s School in 1994 at Maripeda.  The School is situated in the rural area, where most of the people are tribals and illiterate.  Fr. M.P. Joseph has been instumental to get the land, in getting Sisters and in all the constructions there. The purpose of this school is to bring the people / children out of their ignorance and also proclaim the Good News through the medium of education.'
-                            ],
-
-
-
-                        ];
-                        ?>
-
-
-
-
-
-                        <!-- Dynamic Looping OF code  -->
-
-                        <?php foreach ($schools as $school): ?>
-                            <div class="card mb-4">
-                                <div class="row no-gutters align-items-stretch" data-aos="fade-up"
-                                    data-aos-anchor-placement="center-bottom"
-                                    data-aos-duration="1000">
-                                    <!-- Image -->
-                                    <div class="col-lg-4 col-md-12">
-                                        <img src="<?= base_url($school['image']) ?>" class="img-fluid h-100 w-100" style="object-fit: cover;" alt="<?= $school['name'] ?>">
-                                    </div>
-
-                                    <!-- Info -->
-                                    <div class="col-lg-8 col-md-12">
-                                        <div class="card-body">
-                                            <div class="row apoicons">
-                                                <h5 class="card-title text-center"><?= $school['name'] ?> (<?= $school['year'] ?>)</h5>
-                                                <hr>
-
-                                                <!-- Formed On -->
-                                                <div class="col-6 col-sm-6 mb-3">
-                                                    <div class="row text-secondary align-items-center">
-                                                        <div class="col-3 pr-0">
-                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/est-icon.jpg') ?>">
-                                                        </div>
-                                                        <div class="col-9"><span class="fw-bold">Formed on</span><br><?= $school['year'] ?></div>
-                                                    </div>
+                                <!-- Info Side -->
+                                <div class="col-lg-8 col-md-12 transition-col" id="infoCol">
+                                    <div class="card-body">
+                                        <div class="row apoicons">
+                                            <h5 class="card-title text-center">DON BOSCO ENGLISH MEDIUM SCHOOL(1993)</h5>
+                                            <hr>
+                                            <!-- Info items (shortened for brevity) -->
+                                            <div class="col-sm-6 mb-3">
+                                                <div class="row text-secondary align-items-center">
+                                                    <div class="col-3 pr-0"><img class="img-fluid" src="<?= base_url('public/assets/images/icons/est-icon.jpg') ?>"></div>
+                                                    <div class="col-9"><span class="fw-bold">Formed on</span><br>1993</div>
                                                 </div>
-
-                                                <!-- Place -->
-                                                <div class="col-6 col-sm-6 mb-3">
-                                                    <div class="row text-secondary align-items-center">
-                                                        <div class="col-3 pr-0">
-                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/church-icon.jpg') ?>">
-                                                        </div>
-                                                        <div class="col-9"><span class="fw-bold">Place</span><br><?= $school['place'] ?></div>
+                                            </div>
+                                            <div class="col-sm-6 mb-4">
+                                                <div class="row text-secondary align-items-center">
+                                                    <div class="col-3 pr-0">
+                                                        <img class="img-fluid" src="<?= base_url('public/assets/images/icons/church-icon.jpg') ?>">
                                                     </div>
-                                                </div>
-
-                                                <!-- Address -->
-                                                <div class="col-12 col-sm-6 mb-3">
-                                                    <div class="row text-secondary">
-                                                        <div class="col-3 pr-0">
-                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/place-icon.jpg') ?>">
-                                                        </div>
-                                                        <div class="col-9">
-                                                            <span class="fw-bold">Address</span><br><?= $school['address'] ?>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <!-- Principal -->
-                                                <div class="col-12 col-sm-6 mb-3">
-                                                    <div class="row text-secondary align-items-center">
-                                                        <div class="col-3 pr-0">
-                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/vicar-icon.jpg') ?>">
-                                                        </div>
-                                                        <div class="col-9">
-                                                            <span class="fw-bold">Principal/Correspondent</span><br><?= $school['principal'] ?>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <!-- Managed By -->
-                                                <div class="col-12 col-sm-6 mb-3">
-                                                    <div class="row text-secondary align-items-center">
-                                                        <div class="col-3 pr-0 text-center fs-4">
-                                                            <i class="fas fa-building custom-icon"></i>
-                                                        </div>
-                                                        <div class="col-9" style="word-break: break-word;">
-                                                            <span class="fw-bold">MANAGED BY</span><br><?= $school['managed_by'] ?>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <!-- Telephone -->
-                                                <div class="col-12 col-sm-6 mb-3">
-                                                    <div class="row text-secondary align-items-center">
-                                                        <div class="col-3 pr-0">
-                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/phone-icon.jpg') ?>">
-                                                        </div>
-                                                        <div class="col-9">
-                                                            <span class="fw-bold">Telephone</span><br><?= $school['telephone'] ?>
-                                                        </div>
+                                                    <div class="col-9">
+                                                        <span class="fw-bold">Place</span><br>Karimnagar
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            <!-- Buttons -->
-                                            <div class="text-center mt-3">
-                                                <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#<?= $school['id'] ?>Modal">
-                                                    View History <i class="bi bi-arrow-right ms-1"></i>
-                                                </button>
+                                            <div class="col-sm-6 mb-4">
+                                                <div class="row text-secondary">
+                                                    <div class="col-3 pr-0">
+                                                        <img class="img-fluid" src="<?= base_url('public/assets/images/icons/place-icon.jpg') ?>">
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <span class="fw-bold">Address</span><br>
+                                                        Don Boso High School (E.M.)
+                                                        Mariapuram, Post Box-4
+                                                        Warangal Dt.
+                                                        Dt.-506005
+                                                    </div>
+                                                </div>
                                             </div>
+
+                                            <div class="col-sm-6 mb-4">
+                                                <div class="row text-secondary align-items-center apodir">
+                                                    <div class="col-3 pr-0">
+                                                        <img class="img-fluid" src="<?= base_url('public/assets/images/icons/vicar-icon.jpg') ?>">
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <span class="fw-bold">Principal/Correspondent</span><br>
+                                                        Fr.Joseph Abraham /
+                                                        Fr. Benny Mathew
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-6 mb-4">
+                                                <div class="row text-secondary align-items-center">
+                                                    <!-- <div class="col-3 pr-0">
+                                                        <img class="img-fluid" src="<?= base_url('public/assets/images/icons/mail-icon.jpg') ?>">
+                                                    </div> -->
+                                                    <div class="col-3 pr-0 text-center fs-4">
+                                                        <i class="fas fa-building custom-icon"></i>
+                                                    </div>
+                                                    <div class="col-9" style="word-break: break-word;">
+                                                        <span class="fw-bold">MANAGED BY</span><br>
+                                                        Salesians of Don Bosco
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-6 mb-4">
+                                                <div class="row text-secondary align-items-center">
+                                                    <div class="col-3 pr-0">
+                                                        <img class="img-fluid" src="<?= base_url('public/assets/images/icons/phone-icon.jpg') ?>">
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <span class="fw-bold">Telephone</span><br>(0870) 2685104
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Add other info items here -->
+                                        </div>
+
+                                        <!-- View History Button -->
+                                        <div class="text-center">
+                                            <a href=""></a>
+                                            <button class="btn btn-outline-primary btn-sm">View Website <i class="bi bi-arrow-right ms-1"></i></button>
+                                            <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#DONBOSCOENGLISHMEDIUMSCHOOLModal">View History <i class="bi bi-arrow-right ms-1"></i></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <!-- History Modal -->
+                        <div class="modal fade" id="DONBOSCOENGLISHMEDIUMSCHOOLModal" tabindex="-1" aria-labelledby="historyModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="historyModalLabel">DON BOSCO ENGLISH MEDIUM SCHOOL (1993) - History</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            Don Bosco School at Mariapuram was started in the year 1993. Every year, one class was added to the existing ones.
+                                            The school aims at all round development of students from all strata of life in the Society. Academic success is
+                                            the constant aim of the classroom. But more important than the academic success is the building up of character.
+                                            Honesty, truthfulness, integrity and piety are inculcated in the children by the well-regulated discipline.
+                                            Moral instruction, which is essencial for character formation, is imparted to all the pupils.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                            <!-- History Modal -->
-                            <div class="modal fade" id="<?= $school['id'] ?>Modal" tabindex="-1" aria-labelledby="<?= $school['id'] ?>Label" aria-hidden="true">
-                                <div class="modal-dialog modal-lg">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="<?= $school['id'] ?>Label"><?= $school['name'] ?> (<?= $school['year'] ?>) - History</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <!-- Eight School -->
+
+                        <div class="card mb-4">
+                            <div class="row no-gutters align-items-stretch" id="schoolCard">
+                                <!-- Image Side -->
+                                <div class="col-lg-4 col-md-12 transition-col" id="imageCol">
+                                    <img src="<?= base_url('public/assets/images/education/Carmel-Integrate-school2.jpg') ?>" class="img-fluid h-100 w-100" alt="EEE" style="object-fit: cover;">
+                                </div>
+
+                                <!-- Info Side -->
+                                <div class="col-lg-8 col-md-12 transition-col" id="infoCol">
+                                    <div class="card-body">
+                                        <div class="row apoicons">
+                                            <h5 class="card-title text-center">DON BOSCO ENGLISH MEDIUM SCHOOL(1993)</h5>
+                                            <hr>
+                                            <!-- Info items (shortened for brevity) -->
+                                            <div class="col-sm-6 mb-3">
+                                                <div class="row text-secondary align-items-center">
+                                                    <div class="col-3 pr-0"><img class="img-fluid" src="<?= base_url('public/assets/images/icons/est-icon.jpg') ?>"></div>
+                                                    <div class="col-9"><span class="fw-bold">Formed on</span><br>1993</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 mb-4">
+                                                <div class="row text-secondary align-items-center">
+                                                    <div class="col-3 pr-0">
+                                                        <img class="img-fluid" src="<?= base_url('public/assets/images/icons/church-icon.jpg') ?>">
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <span class="fw-bold">Place</span><br>Karimnagar
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-6 mb-4">
+                                                <div class="row text-secondary">
+                                                    <div class="col-3 pr-0">
+                                                        <img class="img-fluid" src="<?= base_url('public/assets/images/icons/place-icon.jpg') ?>">
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <span class="fw-bold">Address</span><br>
+                                                        Don Boso High School (E.M.)
+                                                        Mariapuram, Post Box-4
+                                                        Warangal Dt.
+                                                        Dt.-506005
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-6 mb-4">
+                                                <div class="row text-secondary align-items-center apodir">
+                                                    <div class="col-3 pr-0">
+                                                        <img class="img-fluid" src="<?= base_url('public/assets/images/icons/vicar-icon.jpg') ?>">
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <span class="fw-bold">Principal/Correspondent</span><br>
+                                                        Fr.Joseph Abraham /
+                                                        Fr. Benny Mathew
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-6 mb-4">
+                                                <div class="row text-secondary align-items-center">
+                                                    <!-- <div class="col-3 pr-0">
+                                                        <img class="img-fluid" src="<?= base_url('public/assets/images/icons/mail-icon.jpg') ?>">
+                                                    </div> -->
+                                                    <div class="col-3 pr-0 text-center fs-4">
+                                                        <i class="fas fa-building custom-icon"></i>
+                                                    </div>
+                                                    <div class="col-9" style="word-break: break-word;">
+                                                        <span class="fw-bold">MANAGED BY</span><br>
+                                                        Salesians of Don Bosco
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-6 mb-4">
+                                                <div class="row text-secondary align-items-center">
+                                                    <div class="col-3 pr-0">
+                                                        <img class="img-fluid" src="<?= base_url('public/assets/images/icons/phone-icon.jpg') ?>">
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <span class="fw-bold">Telephone</span><br>(0870) 2685104
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Add other info items here -->
                                         </div>
-                                        <div class="modal-body">
-                                            <p><?= nl2br($school['history']) ?></p>
+
+                                        <!-- View History Button -->
+                                        <div class="text-center">
+                                            <a href=""></a>
+                                            <button class="btn btn-outline-primary btn-sm">View Website <i class="bi bi-arrow-right ms-1"></i></button>
+                                            <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#DONBOSCOENGLISHMEDIUMSCHOOLModal">View History <i class="bi bi-arrow-right ms-1"></i></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        <?php endforeach; ?>
+                        </div>
+                        <!-- History Modal -->
+                        <div class="modal fade" id="DONBOSCOENGLISHMEDIUMSCHOOLModal" tabindex="-1" aria-labelledby="historyModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="historyModalLabel">DON BOSCO ENGLISH MEDIUM SCHOOL (1993) - History</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            Don Bosco School at Mariapuram was started in the year 1993. Every year, one class was added to the existing ones.
+                                            The school aims at all round development of students from all strata of life in the Society. Academic success is
+                                            the constant aim of the classroom. But more important than the academic success is the building up of character.
+                                            Honesty, truthfulness, integrity and piety are inculcated in the children by the well-regulated discipline.
+                                            Moral instruction, which is essencial for character formation, is imparted to all the pupils.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
+
+                        <!-- Nine School -->
+                        <div class="card mb-4">
+                            <div class="row no-gutters align-items-stretch" id="schoolCard">
+                                <!-- Image Side -->
+                                <div class="col-lg-4 col-md-12 transition-col" id="imageCol">
+                                    <img src="<?= base_url('public/assets/images/education/Carmel-Integrate-school2.jpg') ?>" class="img-fluid h-100 w-100" alt="EEE" style="object-fit: cover;">
+                                </div>
+
+                                <!-- Info Side -->
+                                <div class="col-lg-8 col-md-12 transition-col" id="infoCol">
+                                    <div class="card-body">
+                                        <div class="row apoicons">
+                                            <h5 class="card-title text-center">DON BOSCO ENGLISH MEDIUM SCHOOL(1993)</h5>
+                                            <hr>
+                                            <!-- Info items (shortened for brevity) -->
+                                            <div class="col-sm-6 mb-3">
+                                                <div class="row text-secondary align-items-center">
+                                                    <div class="col-3 pr-0"><img class="img-fluid" src="<?= base_url('public/assets/images/icons/est-icon.jpg') ?>"></div>
+                                                    <div class="col-9"><span class="fw-bold">Formed on</span><br>1993</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 mb-4">
+                                                <div class="row text-secondary align-items-center">
+                                                    <div class="col-3 pr-0">
+                                                        <img class="img-fluid" src="<?= base_url('public/assets/images/icons/church-icon.jpg') ?>">
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <span class="fw-bold">Place</span><br>Karimnagar
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-6 mb-4">
+                                                <div class="row text-secondary">
+                                                    <div class="col-3 pr-0">
+                                                        <img class="img-fluid" src="<?= base_url('public/assets/images/icons/place-icon.jpg') ?>">
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <span class="fw-bold">Address</span><br>
+                                                        Don Boso High School (E.M.)
+                                                        Mariapuram, Post Box-4
+                                                        Warangal Dt.
+                                                        Dt.-506005
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-6 mb-4">
+                                                <div class="row text-secondary align-items-center apodir">
+                                                    <div class="col-3 pr-0">
+                                                        <img class="img-fluid" src="<?= base_url('public/assets/images/icons/vicar-icon.jpg') ?>">
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <span class="fw-bold">Principal/Correspondent</span><br>
+                                                        Fr.Joseph Abraham /
+                                                        Fr. Benny Mathew
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-6 mb-4">
+                                                <div class="row text-secondary align-items-center">
+                                                    <!-- <div class="col-3 pr-0">
+                                                        <img class="img-fluid" src="<?= base_url('public/assets/images/icons/mail-icon.jpg') ?>">
+                                                    </div> -->
+                                                    <div class="col-3 pr-0 text-center fs-4">
+                                                        <i class="fas fa-building custom-icon"></i>
+                                                    </div>
+                                                    <div class="col-9" style="word-break: break-word;">
+                                                        <span class="fw-bold">MANAGED BY</span><br>
+                                                        Salesians of Don Bosco
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-6 mb-4">
+                                                <div class="row text-secondary align-items-center">
+                                                    <div class="col-3 pr-0">
+                                                        <img class="img-fluid" src="<?= base_url('public/assets/images/icons/phone-icon.jpg') ?>">
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <span class="fw-bold">Telephone</span><br>(0870) 2685104
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Add other info items here -->
+                                        </div>
+
+                                        <!-- View History Button -->
+                                        <div class="text-center">
+                                            <a href=""></a>
+                                            <button class="btn btn-outline-primary btn-sm">View Website <i class="bi bi-arrow-right ms-1"></i></button>
+                                            <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#DONBOSCOENGLISHMEDIUMSCHOOLModal">View History <i class="bi bi-arrow-right ms-1"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- History Modal -->
+                        <div class="modal fade" id="DONBOSCOENGLISHMEDIUMSCHOOLModal" tabindex="-1" aria-labelledby="historyModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="historyModalLabel">DON BOSCO ENGLISH MEDIUM SCHOOL (1993) - History</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            Don Bosco School at Mariapuram was started in the year 1993. Every year, one class was added to the existing ones.
+                                            The school aims at all round development of students from all strata of life in the Society. Academic success is
+                                            the constant aim of the classroom. But more important than the academic success is the building up of character.
+                                            Honesty, truthfulness, integrity and piety are inculcated in the children by the well-regulated discipline.
+                                            Moral instruction, which is essencial for character formation, is imparted to all the pupils.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 10th school -->
+                        <div class="card mb-4">
+                            <div class="row no-gutters align-items-stretch" id="schoolCard">
+                                <!-- Image Side -->
+                                <div class="col-lg-4 col-md-12 transition-col" id="imageCol">
+                                    <img src="<?= base_url('public/assets/images/education/Carmel-Integrate-school2.jpg') ?>" class="img-fluid h-100 w-100" alt="EEE" style="object-fit: cover;">
+                                </div>
+
+                                <!-- Info Side -->
+                                <div class="col-lg-8 col-md-12 transition-col" id="infoCol">
+                                    <div class="card-body">
+                                        <div class="row apoicons">
+                                            <h5 class="card-title text-center">DON BOSCO ENGLISH MEDIUM SCHOOL(1993)</h5>
+                                            <hr>
+                                            <!-- Info items (shortened for brevity) -->
+                                            <div class="col-sm-6 mb-3">
+                                                <div class="row text-secondary align-items-center">
+                                                    <div class="col-3 pr-0"><img class="img-fluid" src="<?= base_url('public/assets/images/icons/est-icon.jpg') ?>"></div>
+                                                    <div class="col-9"><span class="fw-bold">Formed on</span><br>1993</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 mb-4">
+                                                <div class="row text-secondary align-items-center">
+                                                    <div class="col-3 pr-0">
+                                                        <img class="img-fluid" src="<?= base_url('public/assets/images/icons/church-icon.jpg') ?>">
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <span class="fw-bold">Place</span><br>Karimnagar
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-6 mb-4">
+                                                <div class="row text-secondary">
+                                                    <div class="col-3 pr-0">
+                                                        <img class="img-fluid" src="<?= base_url('public/assets/images/icons/place-icon.jpg') ?>">
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <span class="fw-bold">Address</span><br>
+                                                        Don Boso High School (E.M.)
+                                                        Mariapuram, Post Box-4
+                                                        Warangal Dt.
+                                                        Dt.-506005
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-6 mb-4">
+                                                <div class="row text-secondary align-items-center apodir">
+                                                    <div class="col-3 pr-0">
+                                                        <img class="img-fluid" src="<?= base_url('public/assets/images/icons/vicar-icon.jpg') ?>">
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <span class="fw-bold">Principal/Correspondent</span><br>
+                                                        Fr.Joseph Abraham /
+                                                        Fr. Benny Mathew
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-6 mb-4">
+                                                <div class="row text-secondary align-items-center">
+                                                    <!-- <div class="col-3 pr-0">
+                                                        <img class="img-fluid" src="<?= base_url('public/assets/images/icons/mail-icon.jpg') ?>">
+                                                    </div> -->
+                                                    <div class="col-3 pr-0 text-center fs-4">
+                                                        <i class="fas fa-building custom-icon"></i>
+                                                    </div>
+                                                    <div class="col-9" style="word-break: break-word;">
+                                                        <span class="fw-bold">MANAGED BY</span><br>
+                                                        Salesians of Don Bosco
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-6 mb-4">
+                                                <div class="row text-secondary align-items-center">
+                                                    <div class="col-3 pr-0">
+                                                        <img class="img-fluid" src="<?= base_url('public/assets/images/icons/phone-icon.jpg') ?>">
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <span class="fw-bold">Telephone</span><br>(0870) 2685104
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Add other info items here -->
+                                        </div>
+
+                                        <!-- View History Button -->
+                                        <div class="text-center">
+                                            <a href=""></a>
+                                            <button class="btn btn-outline-primary btn-sm">View Website <i class="bi bi-arrow-right ms-1"></i></button>
+                                            <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#DONBOSCOENGLISHMEDIUMSCHOOLModal">View History <i class="bi bi-arrow-right ms-1"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- History Modal -->
+                        <div class="modal fade" id="DONBOSCOENGLISHMEDIUMSCHOOLModal" tabindex="-1" aria-labelledby="historyModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="historyModalLabel">DON BOSCO ENGLISH MEDIUM SCHOOL (1993) - History</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            Don Bosco School at Mariapuram was started in the year 1993. Every year, one class was added to the existing ones.
+                                            The school aims at all round development of students from all strata of life in the Society. Academic success is
+                                            the constant aim of the classroom. But more important than the academic success is the building up of character.
+                                            Honesty, truthfulness, integrity and piety are inculcated in the children by the well-regulated discipline.
+                                            Moral instruction, which is essencial for character formation, is imparted to all the pupils.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
 
@@ -1867,10 +1823,8 @@
     </div>
 </section>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init();
-</script>
+
+
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         const buttons = document.querySelectorAll('#academicTab button');
