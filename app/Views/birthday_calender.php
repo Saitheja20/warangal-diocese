@@ -31,7 +31,9 @@
       </div>
    
     <div class="members-list">
-      <h4>👥 All Members</h4>
+    <div class="heading">
+                <h4>All Members Birthday Card</h4>
+        </div>   
       <ul id="membersList"></ul>
     </div>
      </div>
@@ -70,7 +72,7 @@
 
       if(filtered.length === 0) {
         // Display message if no birthdays
-        cards.innerHTML = `<div class="no-birthday-message">🎈 No birthdays this month! Take a moment to celebrate life and cherish memories. 🎉</div>`;
+        cards.innerHTML = `<div class="no-birthday-message"> No birthdays this month!</div>`;
         document.getElementById("monthName").innerText =
           new Date(today.getFullYear(), currentMonth).toLocaleString("default", { month: "long", year: "numeric" });
         return;
