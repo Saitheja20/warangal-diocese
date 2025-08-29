@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Diocesan Curia - Holy Accordion</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<?= view('layouts/header') ?>
+<?= view('layouts/header-link') ?>
+  
   <style>
     body {
       background: #f9f9f9;
@@ -74,7 +70,7 @@
 </head>
 <body>
   <div class="container">
-    <div class="heading">WOMEN RELIGIOUS FORMATION HOUSES</div>
+    <div class="heading">MEN RELIGIOUS FORMATION HOUSES</div>
 
   <div class="accordion" id="holyAccordion">
 
@@ -195,7 +191,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-         <p>At the invitation of Most Rev. Thumma Bala, the Founder, Rev. Fr. Richard Ho Lund of the Missionaries of the Poor, which is of Jamaican origin, West Indies, started their Christ the King House of Formation in Warangal Diocese at Fatimangar in 1992. It is the first house of their Society in India.  Fr. Hayden Augustine and Bro. Philip were the Pioneers of this new Mission. The Charism of the Society is to bring joy to the anawin of Yahweh very similar to that of Mother Theresa of Calcutta. This institution was opened  to cater to the services of the Society in Warangal and also to recruit Candidates for their Congregation from all parts of India. The aspiring Candidates from all over India are recruited and a spiritual formation is given for a year before they are sent to Jamaica for further studies and formation. Bishop Thumma Bala officially inaugurated this Formation House on 10th July, 1993.</p>
+         <p>At  the invitation of Most Rev. Thumma Bala, the Founder, Rev. Fr. Richard Ho Lund of the Missionaries of the Poor, which is of Jamaican origin, West Indies, started their Christ the King House of Formation in Warangal Diocese at Fatimangar in 1992. It is the first house of their Society in India.  Fr. Hayden Augustine and Bro. Philip were the Pioneers of this new Mission. The Charism of the Society is to bring joy to the anawin of Yahweh very similar to that of Mother Theresa of Calcutta. This institution was opened  to cater to the services of the Society in Warangal and also to recruit Candidates for their Congregation from all parts of India. The aspiring Candidates from all over India are recruited and a spiritual formation is given for a year before they are sent to Jamaica for further studies and formation. Bishop Thumma Bala officially inaugurated this Formation House on 10th July, 1993.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -375,6 +371,6 @@
   </div>
 </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+
+<?= view('layouts/footer') ?>
+
