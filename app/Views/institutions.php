@@ -32,7 +32,7 @@
     .accordion-collapse.show .accordion-body {
         padding: 1rem;
     }
-    .accordion-header h3 {
+    .accordion-header h1 {
         font-size: 1.75rem;
         margin-bottom: 1rem;
     }
@@ -54,7 +54,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 mt-5 mb-5">
-                <h3>Seminors</h3>
+                <h1>Seminors</h1>
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingOne">
@@ -286,7 +286,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 mt-5 mb-5">
-                <h3>MEN RELIGOUS FORMATION HOUSES</h3>
+                <h1>MEN RELIGOUS FORMATION HOUSES</h1>
                 <div class="accordion accordion-flush" id="menreligiousaccordion">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="men-religious-head-one">
@@ -667,7 +667,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 mt-5 mb-5">
-                <h3>WOMEN RELIGOUS FORMATION HOUSES</h3>
+                <h1>WOMEN RELIGOUS FORMATION HOUSES</h1>
                 <div class="accordion accordion-flush" id="womenreligiousaccordion">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="women-religious-head-one">
