@@ -117,7 +117,7 @@ AOS JS (before closing </body>)
                                     <a class="dropdown-item" href="#">Articles</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>Photo_Gallery">Photo Gallery</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>Video_gallery">Video Gallery</a>
-                                    <a class="dropdown-item" href="#">Songs Gallery</a>
+                                    <a class="dropdown-item" href="<?= base_url() ?>song_gallery">Songs Gallery</a>
                                     <a class="dropdown-item" href="#">Newsletters</a>
                                 </div>
                             </li>

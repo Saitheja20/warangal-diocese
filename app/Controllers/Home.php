@@ -64,4 +64,10 @@ class Home extends BaseController
         return view('Video_gallery');  
     }
 
+
+       public function song_gallery(): string
+    {
+        return view('song_gallery');  
+    }
+    
 }

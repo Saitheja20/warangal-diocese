@@ -23,3 +23,5 @@ $routes->get('gallery/gallery_1', 'Home::gallery_1');
 
 $routes->get('Video_gallery', 'Home::Video_gallery');
 
+
+$routes->get('song_gallery', 'Home::song_gallery');
