@@ -1,5 +1,5 @@
 <head>
-<link rel="stylesheet" href="http://localhost/diocese/public/assets/css/gallery_main.css">
+<link rel="stylesheet" href="http://localhost/diocese/public/assets/css/birthday_calender.css">
 
 <?= view('layouts/header') ?>
 <?= view('layouts/header-link') ?>
