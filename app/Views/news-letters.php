@@ -45,12 +45,12 @@
             // ['month' => 'September', 'image' => 'default.png', 'volume' => 'XLXXXVXXIII', 'pages' => 22],
             ['month' => 'August', 'image' => 'august2025-2.png', 'volume' => 'XLXXXVXXII', 'pages' => 23],
             ['month' => 'July', 'image' => 'july2025-3.png', 'volume' => 'XLXXXVXXI', 'pages' => 21],
-            ['month' => 'June', 'image' => 'july2025-2.png', 'volume' => 'XLXXXVXX', 'pages' => 20],
-            ['month' => 'May', 'image' => 'default.png', 'volume' => 'XLXXXVXIX', 'pages' => 18],
-            ['month' => 'April', 'image' => 'default.png', 'volume' => 'XLXXXVXIII', 'pages' => 19],
-            ['month' => 'March', 'image' => 'default.png', 'volume' => 'XLXXXVXII', 'pages' => 22],
-            ['month' => 'February', 'image' => 'default.png', 'volume' => 'XLXXXVXI', 'pages' => 21],
-            ['month' => 'January', 'image' => 'default.png', 'volume' => 'XLXXXVX', 'pages' => 20],
+            ['month' => 'June', 'image' => 'June-2025.jpg', 'volume' => 'XLXXXVXX', 'pages' => 20],
+            ['month' => 'May', 'image' => 'May-2025.jpg', 'volume' => 'XLXXXVXIX', 'pages' => 18],
+            ['month' => 'April', 'image' => 'April-2025.jpg', 'volume' => 'XLXXXVXIII', 'pages' => 19],
+            ['month' => 'March', 'image' => 'March-2025.jpg', 'volume' => 'XLXXXVXII', 'pages' => 22],
+            ['month' => 'February', 'image' => 'February-2025.jpg', 'volume' => 'XLXXXVXI', 'pages' => 21],
+            ['month' => 'January', 'image' => 'January-2025.jpg', 'volume' => 'XLXXXVX', 'pages' => 20],
         ];
 
         foreach ($months2025 as $data):
@@ -112,18 +112,18 @@
         <?php
 
         $months2024 = [
-            ['month' => 'December', 'image' => 'default.png', 'volume' => 'XLXXXVXXVI', 'pages' => 25],
-            ['month' => 'November', 'image' => 'default.png', 'volume' => 'XLXXXVXXV', 'pages' => 24],
+            ['month' => 'December', 'image' => 'December-2024.jpg', 'volume' => 'XLXXXVXXVI', 'pages' => 25],
+            ['month' => 'November', 'image' => 'November-2024.jpg', 'volume' => 'XLXXXVXXV', 'pages' => 24],
             ['month' => 'October', 'image' => 'default.png', 'volume' => 'XLXXXVXXIV', 'pages' => 20],
-            ['month' => 'September', 'image' => 'default.png', 'volume' => 'XLXXXVXXIII', 'pages' => 22],
-            ['month' => 'August', 'image' => 'default.png', 'volume' => 'XLXXXVXXII', 'pages' => 23],
-            ['month' => 'July', 'image' => 'default.png', 'volume' => 'XLXXXVXXI', 'pages' => 21],
-            ['month' => 'June', 'image' => 'default.png', 'volume' => 'XLXXXVXX', 'pages' => 20],
-            ['month' => 'May', 'image' => 'default.png', 'volume' => 'XLXXXVXIX', 'pages' => 18],
-            ['month' => 'April', 'image' => 'default.png', 'volume' => 'XLXXXVXIII', 'pages' => 19],
-            ['month' => 'March', 'image' => 'default.png', 'volume' => 'XLXXXVXII', 'pages' => 22],
-            ['month' => 'February', 'image' => 'default.png', 'volume' => 'XLXXXVXI', 'pages' => 21],
-            ['month' => 'January', 'image' => 'default.png', 'volume' => 'XLXXXVX', 'pages' => 20],
+            ['month' => 'September', 'image' => 'September-2024.jpg', 'volume' => 'XLXXXVXXIII', 'pages' => 22],
+            ['month' => 'August', 'image' => 'August-2024.jpg', 'volume' => 'XLXXXVXXII', 'pages' => 23],
+            ['month' => 'July', 'image' => 'July-2024.jpg', 'volume' => 'XLXXXVXXI', 'pages' => 21],
+            ['month' => 'June', 'image' => 'June-2024.jpg', 'volume' => 'XLXXXVXX', 'pages' => 20],
+            ['month' => 'May', 'image' => 'May-2024.jpg', 'volume' => 'XLXXXVXIX', 'pages' => 18],
+            ['month' => 'April', 'image' => 'April_2024.jpg', 'volume' => 'XLXXXVXIII', 'pages' => 19],
+            ['month' => 'March', 'image' => 'March-2024.jpg', 'volume' => 'XLXXXVXII', 'pages' => 22],
+            ['month' => 'February', 'image' => 'February-2024.jpg', 'volume' => 'XLXXXVXI', 'pages' => 21],
+            ['month' => 'January', 'image' => 'January-2024.jpg', 'volume' => 'XLXXXVX', 'pages' => 20],
         ];
 
         foreach ($months2024 as $data):
@@ -189,18 +189,18 @@
 
         $months = [
             // 2023
-            ['month' => 'December', 'year' => 2023, 'volume' => 'XLXXXVXXV', 'pages' => 28, 'image' => 'default.png',],
-            ['month' => 'November', 'year' => 2023, 'volume' => 'XLXXXVXXIV', 'pages' => 27, 'image' => 'default.png'],
-            ['month' => 'October', 'year' => 2023, 'volume' => 'XLXXXVXXIII', 'pages' => 26, 'image' => 'default.png'],
-            ['month' => 'September', 'year' => 2023, 'volume' => 'XLXXXVXXII', 'pages' => 25, 'image' => 'default.png'],
-            ['month' => 'August', 'year' => 2023, 'volume' => 'XLXXXVXXI', 'pages' => 24, 'image' => 'default.png'],
-            ['month' => 'July', 'year' => 2023, 'volume' => 'XLXXXVXX', 'pages' => 23, 'image' => 'default.png'],
-            ['month' => 'June', 'year' => 2023, 'volume' => 'XLXXXVXIX', 'pages' => 22, 'image' => 'default.png'],
-            ['month' => 'May', 'year' => 2023, 'volume' => 'XLXXXVXIII', 'pages' => 21, 'image' => 'default.png'],
-            ['month' => 'April', 'year' => 2023, 'volume' => 'XLXXXVXII', 'pages' => 20, 'image' => 'default.png'],
-            ['month' => 'March', 'year' => 2023, 'volume' => 'XLXXXVXI', 'pages' => 19, 'image' => 'default.png'],
-            ['month' => 'February', 'year' => 2023, 'volume' => 'XLXXXVX', 'pages' => 18, 'image' => 'default.png'],
-            ['month' => 'January', 'year' => 2023, 'volume' => 'XLXXXV', 'pages' => 17, 'image' => 'default.png'],
+            ['month' => 'December', 'year' => 2023, 'volume' => 'XLXXXVXXV', 'pages' => 28, 'image' => 'December-2023.jpg',],
+            ['month' => 'November', 'year' => 2023, 'volume' => 'XLXXXVXXIV', 'pages' => 27, 'image' => 'November-2023.jpg'],
+            ['month' => 'October', 'year' => 2023, 'volume' => 'XLXXXVXXIII', 'pages' => 26, 'image' => 'October-2023.jpg'],
+            // ['month' => 'September', 'year' => 2023, 'volume' => 'XLXXXVXXII', 'pages' => 25, 'image' => 'September-2023.jpg'],
+            ['month' => 'August', 'year' => 2023, 'volume' => 'XLXXXVXXI', 'pages' => 24, 'image' => 'August-2023.jpg'],
+            ['month' => 'July', 'year' => 2023, 'volume' => 'XLXXXVXX', 'pages' => 23, 'image' => 'July-2023.jpg'],
+            ['month' => 'June', 'year' => 2023, 'volume' => 'XLXXXVXIX', 'pages' => 22, 'image' => 'June-2023.jpg'],
+            ['month' => 'May', 'year' => 2023, 'volume' => 'XLXXXVXIII', 'pages' => 21, 'image' => 'May-2023.jpg'],
+            ['month' => 'April', 'year' => 2023, 'volume' => 'XLXXXVXII', 'pages' => 20, 'image' => 'April-2023.jpg'],
+            ['month' => 'March', 'year' => 2023, 'volume' => 'XLXXXVXI', 'pages' => 19, 'image' => 'March-2023.jpg'],
+            ['month' => 'February', 'year' => 2023, 'volume' => 'XLXXXVX', 'pages' => 18, 'image' => 'February-2023.jpg'],
+            ['month' => 'January', 'year' => 2023, 'volume' => 'XLXXXV', 'pages' => 17, 'image' => 'January-2023.jpg'],
 
             // 2022
             ['month' => 'December', 'year' => 2022, 'volume' => 'XLXXXIV', 'pages' => 28, 'image' => 'default.png'],

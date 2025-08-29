@@ -28,6 +28,7 @@ class Home extends BaseController
        public function commissions(): string{
         return view('commissions');
     }
+
            public function institution_men(): string{
         return view('Institute_Men');
     }
@@ -69,5 +70,9 @@ class Home extends BaseController
     {
         return view('song_gallery');  
     }
-    
+ 
+     public function education(): string{
+        return view('education');
+    }
+
 }
