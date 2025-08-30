@@ -1,64 +1,62 @@
 <?= view('layouts/header') ?>
 <?= view('layouts/header-link') ?>
-  
-  <style>
-    /* 🎨 Root Holy Colors */
-    :root {
-      --holy-blue: #004aad;
-      --holy-red: #8b0000;
-      --holy-hover: #d1e3ff;
-      --holy-bg: #f9f9f9;
-      --holy-shadow: rgba(0, 0, 0, 0.15);
-    }
 
-    body {
-      background: var(--holy-bg);
-      font-family: "Comic Sans MS", cursive, sans-serif; /* holy comic scrolls */
-      overflow-x: hidden;
-    }
+<style>
+  /* 🎨 Root Holy Colors */
 
-    .heading {
-      text-align: center;
-      color: var(--holy-red);
-      margin-bottom: 10px;
-      font-weight: bold;
-    }
 
-    .sub-text {
-      text-align: center;
-      font-size: 14px;
-      color: #333;
-      margin-bottom: 20px;
-    }
+  #diocese_curia .card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 100%;
+    /* allow full height card */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
 
-    .table thead {
-      background-color: var(--holy-blue);
-      color: #fff;
-    }
+  #diocese_curia .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  }
 
-    .table-hover tbody tr:hover {
-      background-color: var(--holy-hover);
-      transform: scale(1.02);
-      transition: 0.3s ease-in-out;
-      box-shadow: 0 4px 8px var(--holy-shadow);
-    }
+  #diocese_curia .card-img-container {
+    flex: 7;
+    /* 70% of the height */
+    overflow: hidden;
+  }
 
-    .card {
-      border: none;
-      border-radius: 12px;
-      box-shadow: 0 6px 12px var(--holy-shadow);
-    }
+  #diocese_curia .card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
-    /* Responsiveness Blessings ✨ */
-    .table-responsive {
-      overflow-x: auto;
-    }
-    .table td, .table th {
-      white-space: nowrap; /* no holy word-wrapping sins */
-    }
-  </style>
-</head>
-<body>
+  #diocese_curia .card-body {
+    flex: 3;
+    /* 30% of the height */
+    padding: 1rem;
+    background-color: #ffffff;
+  }
+
+  #diocese_curia .card-text span {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    color: #333;
+  }
+
+  #diocese_curia .card-text {
+    text-align: left;
+    font-size: 1rem;
+    color: #555;
+  }
+</style>
+<!-- </head> -->
+
+<!-- <body>
   <div class="container my-4">
     <div class="card p-4">
       <h2 class="heading">DIOCESAN CURIA</h2>
@@ -66,8 +64,6 @@
         The church’s very own “Mission Control.” 🚀 <br>
         (Except instead of astronauts, we have bishops, chancellors, and secretaries plotting holiness.)
       </p>
-
-      <!-- The sacred scrollable ark -->
       <div class="table-responsive">
         <table class="table table-bordered table-hover align-middle text-center">
           <thead>
@@ -100,8 +96,94 @@
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+</body> -->
+
+<!-- </html> -->
+
+
+
+<!-- <section id="diocese_curia">
+  <div class="container">
+    <div class="row mb-2">
+      <div class="col-lg-3 text-center" style="width: 18rem;">
+        <div class="card">
+          <img class="card-img-top" src="<?= base_url('public/assets/images/bishops/b1.jpg') ?>" alt="Card image cap" height="200px">
+          <div class="card-body">
+            <p class="card-text"><span class="fw-bold">Name: </span> Most Rev. Dr. Udumala Bala
+              <span class="fw-bold">Designation: </span> Bishop
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 text-center" style="width: 18rem;">
+        <div class="card">
+          <img class="card-img-top" src="<?= base_url('public/assets/images/bishops/b2.jpg') ?>" alt="Card image cap" height="200px">
+          <div class="card-body">
+            <p class="card-text"><span class="fw-bold">Name: </span> Fr. Kommareddy Joseph Reddy
+              <span class="fw-bold">Designation: </span> Chancellor cum Procurator
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 text-center" style="width: 18rem;">
+        <div class="card">
+          <img class="card-img-top" src="<?= base_url('public/assets/images/bishops/udumula-bala.jpg') ?>" alt="Card image cap" height="200px">
+          <div class="card-body">
+            <p class="card-text"><span class="fw-bold">Name: </span> Fr. Anukiran Gangarapu
+              <span class="fw-bold">Designation: </span> Secretary
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section> -->
+
+<section id="diocese_curia mb-2 mt-2 " style="min-height: 100vh;">
+  <div class="container">
+    <h2 class="section-title text-center my-4">Warangal Diocese Curia</h2>
+    <div class="row justify-content-center g-4 my-4">
+
+      <div class="col-lg-3 col-md-6">
+        <div class="card text-center">
+          <img class="card-img-top" src="<?= base_url('public/assets/images/bishops/b1.jpg') ?>" alt="Bishop Image">
+          <div class="card-body">
+            <p class="card-text">
+              <span class="fw-bold">Name:</span> Most Rev. Dr. Udumala Bala
+              <span class="fw-bold">Designation:</span> Bishop
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="card text-center">
+          <img class="card-img-top" src="<?= base_url('public/assets/images/bishops/b2.jpg') ?>" alt="Chancellor Image">
+          <div class="card-body">
+            <p class="card-text">
+              <span class="fw-bold">Name:</span> Fr. Kommareddy Joseph Reddy
+              <span class="fw-bold">Designation:</span> Chancellor cum Procurator
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="card text-center">
+          <img class="card-img-top" src="<?= base_url('public/assets/images/bishops/udumula-bala.jpg') ?>" alt="Secretary Image">
+          <div class="card-body">
+            <p class="card-text">
+              <span class="fw-bold">Name:</span> Fr. Anukiran Gangarapu
+              <span class="fw-bold">Designation:</span> Secretary
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 
 <?= view('layouts/footer') ?>

@@ -31,69 +31,89 @@
     /* === Modal Styles === */
 
     .modal-content {
-        border-radius: 12px;
+        border-radius: 16px;
         border: none;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-        background: #fdfdfd;
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+        background: #ffffff;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
     }
 
     .modal-header {
-        background: #3f51b5;
-        /* Indigo theme color */
-        color: #fff;
-        border-bottom: none;
-        border-top-left-radius: 12px;
-        border-top-right-radius: 12px;
+        background: #E8E8E8;
+        color: #e60808ff;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
         padding: 1rem 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
     .modal-title {
-        font-weight: 600;
-        font-size: 1.25rem;
-        letter-spacing: 0.5px;
+        font-weight: 700;
+        font-size: 1.35rem;
+        letter-spacing: 0.3px;
+        margin: 0;
     }
 
     .btn-close {
         filter: invert(1);
-        /* white icon on dark background */
-        opacity: 0.8;
+        opacity: 0.85;
+        transition: opacity 0.2s ease-in-out;
+    }
+
+    .btn-close:hover {
+        opacity: 1;
     }
 
     .modal-body {
-        padding: 1.5rem;
+        padding: 1.5rem 2rem;
         font-size: 1rem;
         line-height: 1.7;
-        color: #444;
-        background-color: #fff;
+        color: #444444;
+        background-color: #ffffff;
     }
 
     .modal-body p {
-        margin-bottom: 1rem;
+        margin-bottom: 1.2rem;
         text-align: justify;
+        font-size: 1.02rem;
     }
 
     .modal-body p:first-child {
-        font-weight: 600;
-        font-size: 1.1rem;
+        font-weight: 400;
+        font-size: 1.15rem;
         color: #2c3e50;
-        margin-bottom: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .modal-footer {
+        border-top: 1px solid #eeeeee;
+        padding: 1rem 1.5rem;
+        background-color: #fafafa;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+    }
+
+    h5 {
+        color: rgb(219, 96, 50) !important;
+        font-weight: bold;
+        margin-top: 1rem;
     }
 
     @media (max-width: 576px) {
         .modal-dialog {
-            margin: 1.5rem;
+            margin: 1rem;
         }
 
         .modal-body {
             font-size: 0.95rem;
-            padding: 1rem;
+            padding: 1rem 1.2rem;
         }
-    }
 
-    h5 {
-        /* color: rgb(189, 168, 93) !important; */
-        color: rgb(219 96 50) !important;
-        font-weight: bold;
+        .modal-title {
+            font-size: 1.2rem;
+        }
     }
 </style>
 
