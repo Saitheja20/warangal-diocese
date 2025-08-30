@@ -71,13 +71,13 @@ AOS JS (before closing </body>)
                                     <a class="dropdown-item" href="<?= base_url() ?>College_Consultors">College of Consultors</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>Senate_Members">Senate Members</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>commissions">Commissions</a>
-                                    <a class="dropdown-item" href="#">Committees</a>
+                                    <a class="dropdown-item disabled-link" href="#">Committees</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>Marriage_tribunal">Marriage Tribunal</a>
-                                    <a class="dropdown-item" href="#">Deaneries</a>
-                                    <a class="dropdown-item" href="#">Directress</a>
-                                    <a class="dropdown-item" href="#">Parishes</a>
-                                    <a class="dropdown-item" href="#">Cathedral</a>
-                                    <a class="dropdown-item" href="#">Diocesan Shrines</a>
+                                    <a class="dropdown-item disabled-link" href="#">Deaneries</a>
+                                    <a class="dropdown-item disabled-link" href="#">Directress</a>
+                                    <a class="dropdown-item disabled-link" href="#">Parishes</a>
+                                    <a class="dropdown-item disabled-link" href="#">Cathedral</a>
+                                    <a class="dropdown-item disabled-link" href="#">Diocesan Shrines</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>Seminarians">Seminarians</a>
 
                               </div>
