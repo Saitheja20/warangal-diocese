@@ -67,18 +67,20 @@ AOS JS (before closing </body>)
                                     <a class="dropdown-item disabled-link" href="#">About Us</a>
                                     <a class="dropdown-item disabled-link" href="#">History</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>diocese_curia">Diocesan Curia</a>
-                                    <a class="dropdown-item disabled-link" href="#">College of Consultors</a>
-                                    <a class="dropdown-item disabled-link" href="#">Senate Members</a>
+
+                                    <a class="dropdown-item" href="<?= base_url() ?>College_Consultors">College of Consultors</a>
+                                    <a class="dropdown-item" href="#">Senate Members</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>commissions">Commissions</a>
-                                    <a class="dropdown-item disabled-link" href="#">Committees</a>
-                                    <a class="dropdown-item" href="<?= base_url() ?>Marriagetribunal">Marriage Tribunal</a>
-                                    <a class="dropdown-item disabled-link" href="#">Deaneries</a>
-                                    <a class="dropdown-item disabled-link" href="#">Directress</a>
-                                    <a class="dropdown-item disabled-link" href="#">Parishes</a>
-                                    <a class="dropdown-item disabled-link" href="#">Cathedral</a>
-                                    <a class="dropdown-item disabled-link" href="#">Diocesan Shrines</a>
-                                    <a class="dropdown-item disabled-link" href="#">Seminarians</a>
-                                </div>
+                                    <a class="dropdown-item" href="#">Committees</a>
+                                    <a class="dropdown-item" href="<?= base_url() ?>Marriage_tribunal">Marriage Tribunal</a>
+                                    <a class="dropdown-item" href="#">Deaneries</a>
+                                    <a class="dropdown-item" href="#">Directress</a>
+                                    <a class="dropdown-item" href="#">Parishes</a>
+                                    <a class="dropdown-item" href="#">Cathedral</a>
+                                    <a class="dropdown-item" href="#">Diocesan Shrines</a>
+                                    <a class="dropdown-item" href="<?= base_url() ?>Seminarians">Seminarians</a>
+
+                              </div>
                             </li>
 
                             <!-- Bishop Dropdown -->
@@ -92,10 +94,9 @@ AOS JS (before closing </body>)
 
                             <!-- Institutions Dropdown -->
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Institutions</a>
+<!--                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Institutions</a> -->
                                 <div class="dropdown-menu rounded-0 sub-drop pb-3">
                                     <a class="dropdown-item" href="<?= base_url() ?>institutions">Institutions</a>
-
 
 
                                     <a class="dropdown-item" href="<?= base_url() ?>education">Educational Institutions</a>

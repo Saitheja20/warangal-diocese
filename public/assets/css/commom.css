@@ -1,0 +1,88 @@
+/* Reset margins, paddings, box model */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-family:"Poppins", sans-serif;
+  --color-primary: #007bff;
+  --color-secondary: #6c757d;
+  --color-dark: #333;
+  --color-light: #f8f9fa;
+
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+  --space-bottom:1rem;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* Remove default button + input outline */
+button, input, textarea {
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+
+h1, h2, h3, h4, h5, h6,p {
+  line-height: 1.2;
+}
+/* Remove Bootstrap focus glow */
+.btn:focus,
+.form-control:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+button, .btn,a {
+  cursor: pointer;
+  border-radius: 8px;
+  transition: red 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  opacity: 0.9;
+}
+
+
+
+.heading h4{
+   font-size: clamp(24px, 5vw, 40px);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* .heading_2{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+} */
+.sub_heading{
+ text-align: left;
+ font-size: 30px;
+ font-weight: 600;
+}
+
+.section {
+  padding: var(--space-lg) var(--space-md);
+  margin-bottom: var(--space-bottom);
+}
+.card {
+  margin-bottom: var(--space-md);
+}
