@@ -11,6 +11,18 @@ class Home extends BaseController
         return view('index');
     }
 
+   public function About_us(): string
+    {
+        return view('About_us');
+    }
+
+   public function Bishop(): string
+    {
+        return view('Bishop');
+    }
+
+    
+    
     public function welcome(): string
     {
         return view('welcome_message');

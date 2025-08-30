@@ -17,21 +17,21 @@
       text-shadow: 0 1px 2px rgba(0,0,0,0.05);
     }
  
-  
-    figure {
-      background: #fff;
-      border-radius: 14px;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.12);
-      padding: 14px;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      cursor: pointer;
-      margin: 0; /* reset default margins */
-    }
-    figure:hover {
+.card {
+    background: #fff;
+    border-radius: 14px !important;
+    box-shadow: 0 6px 18px rgb(0 0 0 / 28%) !important;
+    padding: 14px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    margin: 0;
+    height: -webkit-fill-available !important;
+}
+    .card:hover {
       transform: translateY(-6px);
       box-shadow: 0 14px 36px rgba(0,0,0,0.18);
     }
-    figure img {
+    .card img {
       width: 100%;
       height: auto;
       display: block;
@@ -41,7 +41,7 @@
       transition: filter 0.3s ease;
       /* No padding or margin here */
     }
-    figure:hover img {
+    .card:hover img {
       filter: brightness(0.9);
     }
     figcaption {
@@ -56,3 +56,6 @@
     .container {
       max-width: 1200px;
     }
+.gallery_card{
+    height: -webkit-fill-available;
+}

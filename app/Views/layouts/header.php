@@ -64,7 +64,7 @@ AOS JS (before closing </body>)
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Diocese</a>
                                 <div class="dropdown-menu rounded-0 sub-drop pb-3">
-                                    <a class="dropdown-item disabled-link" href="#">About Us</a>
+                                    <a class="dropdown-item " href="<?= base_url() ?>About_us">About Us</a>
                                     <a class="dropdown-item disabled-link" href="#">History</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>diocese_curia">Diocesan Curia</a>
 
@@ -87,14 +87,14 @@ AOS JS (before closing </body>)
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Bishop</a>
                                 <div class="dropdown-menu rounded-0 sub-drop pb-3">
-                                    <a class="dropdown-item disabled-link" href="#">Bishop</a>
+                                    <a class="dropdown-item " href="<?= base_url() ?>Bishop">Bishop</a>
                                     <a class="dropdown-item disabled-link" href="#">Bishop's Message</a>
                                 </div>
                             </li>
 
                             <!-- Institutions Dropdown -->
                             <li class="nav-item dropdown">
-<!--                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Institutions</a> -->
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Institutions</a>
                                 <div class="dropdown-menu rounded-0 sub-drop pb-3">
                                     <a class="dropdown-item" href="<?= base_url() ?>institutions">Institutions</a>
 
