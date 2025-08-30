@@ -46,10 +46,10 @@
       { name: "Akhil", dob: "1996-08-28", img: "<?= base_url('public/assets/images/birthday/person2.png') ?>" },
       { name: "Sneha", dob: "2002-08-31", img: "<?= base_url('public/assets/images/birthday/person1.png') ?>" },
       { name: "Akhil", dob: "1996-08-30", img: "<?= base_url('public/assets/images/birthday/person2.png') ?>" },
-      { name: "Sita", dob: "1990-01-05", img: "https://i.pravatar.cc/300?img=3" },
-      { name: "Rahul", dob: "1989-01-21", img: "https://i.pravatar.cc/300?img=4" },
-      { name: "Priya", dob: "1992-02-14", img: "https://i.pravatar.cc/300?img=5" },
-      { name: "Vikram", dob: "1994-02-28", img: "https://i.pravatar.cc/300?img=6" }
+      { name: "Sita", dob: "1990-01-05", img: "public/assets/images/birthday/person2.png" },
+      { name: "Rahul", dob: "1989-01-21", img: "public/assets/images/birthday/person2.png" },
+      { name: "Priya", dob: "1992-02-14", img: "public/assets/images/birthday/person2.png" },
+      { name: "Vikram", dob: "1994-02-28", img: "public/assets/images/birthday/person2.png" }
     ];
 
     let currentMonth = new Date().getMonth();

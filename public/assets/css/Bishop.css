@@ -1,0 +1,101 @@
+
+    body {
+      background: #fff7f3;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .profile-card {
+      border-radius: 12px;
+      padding: 2rem;
+    }
+    .profile-img {
+      border-radius: 12px;
+      object-fit: cover;
+      width: 100%;
+      max-width: 340px;
+    }
+    .section-title {
+      font-weight: 600;
+      margin-bottom: .8rem;
+      font-size: 1.1rem;
+      color: #c03a2b;
+      text-transform: uppercase;
+    }
+    .info-box {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .info-card {
+      background: #f5f5f5;
+      border-radius: 10px;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      gap: .8rem;
+      font-size: .95rem;
+      font-weight: 500;
+    }
+    .info-card i {
+      font-size: 1.3rem;
+      color: #c03a2b;
+    }
+    .bishop_row {
+      text-align: center;
+      background: #fff;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      padding: 20px;
+    }
+    .card {
+      border: none;
+      border-radius: 12px;
+      background: #ffffff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+    .card h4 {
+      color: #c03a2b;
+      font-size: 1.05rem;
+      font-weight: 600;
+    }
+    .bishop_container {
+      /* padding: 50px 0px; */
+      border-radius: 15px;
+    }
+    .bishop_row2 {
+      padding: 20px 10px;
+      background: #fff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      margin-top: 20px;
+      overflow: hidden;
+      opacity: 0;
+      max-height: 0;
+      transition: all 0.6s ease;
+    }
+    .bishop_row2.show {
+      opacity: 1;
+      max-height: 2000px; /* large enough to fit content */
+    }
+    .heading {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .heading h4 {
+      font-size: 50px;
+      font-weight: 700;
+      color: rgb(180, 2, 2);
+    }
+    .bishop1{
+      padding: 50px 0px;
+    }
+       .bishop2{
+      padding-bottom: 50px;
+    }
+    @media(max-width:575px){
+      .profile-card p {
+        text-align: justify;
+      }
+    }

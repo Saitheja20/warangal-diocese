@@ -7,6 +7,10 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('index', 'Home::index');
+$routes->get('About_us', 'Home::About_us');
+$routes->get('Bishop', 'Home::Bishop');
+
+
 $routes->get('welcome', 'Home::welcome');
 $routes->get('news-letters', 'Home::newsletters');
 $routes->get('institutions', 'Home::institutions');
@@ -41,5 +45,6 @@ $routes->get('Marriage_tribunal', 'Home::Marriage_tribunal');
 
 $routes->get('College_Consultors', 'Home::College_Consultors');
 
+$routes->get('Senate_Members', 'Home::Senate_Members');
 
 
