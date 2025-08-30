@@ -63,7 +63,7 @@ button:hover, .btn:hover {
 
 
 .heading h4{
-    font-size: 40px;
+   font-size: clamp(24px, 5vw, 40px);
     font-weight: 700;
     text-align: center;
     margin-bottom: 50px;
