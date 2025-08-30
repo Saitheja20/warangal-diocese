@@ -18,6 +18,17 @@ AOS JS (before closing </body>)
     AOS.init();
 </script> -->
 
+<style>
+    .disabled-link {
+        pointer-events: none;
+        /* disables click */
+        cursor: not-allowed;
+        /* shows disabled cursor */
+        opacity: 0.6;
+        /* dim the text */
+    }
+</style>
+
 <section class="bg-white border-bottom sticky-top hide-print">
     <div class="col-sm-11 col-lg-11 mx-auto pr-0">
         <nav class="navbar navbar-expand-lg navbar-light pr-0" style="width:100%">
@@ -53,9 +64,10 @@ AOS JS (before closing </body>)
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Diocese</a>
                                 <div class="dropdown-menu rounded-0 sub-drop pb-3">
-                                    <a class="dropdown-item" href="#">About Us</a>
-                                    <a class="dropdown-item" href="#">History</a>
+                                    <a class="dropdown-item disabled-link" href="#">About Us</a>
+                                    <a class="dropdown-item disabled-link" href="#">History</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>diocese_curia">Diocesan Curia</a>
+
                                     <a class="dropdown-item" href="<?= base_url() ?>College_Consultors">College of Consultors</a>
                                     <a class="dropdown-item" href="#">Senate Members</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>commissions">Commissions</a>
@@ -67,29 +79,29 @@ AOS JS (before closing </body>)
                                     <a class="dropdown-item" href="#">Cathedral</a>
                                     <a class="dropdown-item" href="#">Diocesan Shrines</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>Seminarians">Seminarians</a>
-                                </div>
+
+                              </div>
                             </li>
 
                             <!-- Bishop Dropdown -->
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Bishop</a>
                                 <div class="dropdown-menu rounded-0 sub-drop pb-3">
-                                    <a class="dropdown-item" href="#">Bishop</a>
-                                    <a class="dropdown-item" href="#">Bishop's Message</a>
+                                    <a class="dropdown-item disabled-link" href="#">Bishop</a>
+                                    <a class="dropdown-item disabled-link" href="#">Bishop's Message</a>
                                 </div>
                             </li>
 
                             <!-- Institutions Dropdown -->
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Institutions</a>
+<!--                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Institutions</a> -->
                                 <div class="dropdown-menu rounded-0 sub-drop pb-3">
                                     <a class="dropdown-item" href="<?= base_url() ?>institutions">Institutions</a>
 
-                                    
 
                                     <a class="dropdown-item" href="<?= base_url() ?>education">Educational Institutions</a>
 
-                                    <a class="dropdown-item" href="#">Hospitals</a>
+                                    <a class="dropdown-item disabled-link" href="#">Hospitals</a>
                                 </div>
                             </li>
 
@@ -97,9 +109,9 @@ AOS JS (before closing </body>)
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Priests & Religious</a>
                                 <div class="dropdown-menu rounded-0 sub-drop pb-3">
-                                    <a class="dropdown-item" href="#">Diocesan Priests</a>
-                                    <a class="dropdown-item" href="#">Religious Priests</a>
-                                    <a class="dropdown-item" href="#">Religious Sisters</a>
+                                    <a class="dropdown-item disabled-link" href="#">Diocesan Priests</a>
+                                    <a class="dropdown-item disabled-link" href="#">Religious Priests</a>
+                                    <a class="dropdown-item disabled-link" href="#">Religious Sisters</a>
                                 </div>
                             </li>
 
@@ -117,18 +129,18 @@ AOS JS (before closing </body>)
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Media</a>
                                 <div class="dropdown-menu rounded-0 sub-drop pb-3">
-                                    <a class="dropdown-item" href="#">News & Events</a>
-                                    <a class="dropdown-item" href="#">Articles</a>
+                                    <a class="dropdown-item disabled-link" href="#">News & Events</a>
+                                    <a class="dropdown-item disabled-link" href="#">Articles</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>Photo_Gallery">Photo Gallery</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>Video_gallery">Video Gallery</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>song_gallery">Songs Gallery</a>
-                                    <a class="dropdown-item" href="#">Newsletters</a>
+                                    <a class="dropdown-item disabled-link" href="#">Newsletters</a>
                                 </div>
                             </li>
 
                             <!-- Feedback & Contact -->
-                            <li class="nav-item"><a class="nav-link" href="#">Feedback</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                            <li class="nav-item"><a class="nav-link disabled-link" href="#">Feedback</a></li>
+                            <li class="nav-item"><a class="nav-link disabled-link" href="#">Contact Us</a></li>
 
                         </ul>
                     </div>
@@ -137,3 +149,11 @@ AOS JS (before closing </body>)
         </nav>
     </div>
 </section>
+
+<script>
+    document.querySelectorAll('.disabled-link').forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+        });
+    });
+</script>

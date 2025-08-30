@@ -98,7 +98,6 @@
 </style>
 
 <style>
-    /* Make cards have a consistent shadow and padding */
     .card {
         border: 1px solid #ddd;
         border-radius: 10px;
@@ -110,7 +109,7 @@
         padding: 1.5rem;
     }
 
-    /* Ensure icons and text are aligned properly */
+
     .apoicons .row {
         align-items: center;
     }
@@ -120,24 +119,24 @@
         height: auto;
     }
 
-    /* Let image take full height and width in its container */
+
     .card img {
         object-fit: cover;
         height: 100%;
         width: 100%;
     }
 
-    /* Ensure email breaks cleanly on smaller screens */
+
     .apoicons .col-9 {
         word-break: break-word;
     }
 
-    /* Add margin between cards */
+
     .card+.card {
         margin-top: 2rem;
     }
 
-    /* Optional: Make the cards responsive for smaller screens */
+
     @media (max-width: 767.98px) {
         .card-body {
             padding: 1rem;
@@ -152,96 +151,88 @@
         }
     }
 
-    /* Typography enhancements */
     .text-brown {
         color: #5d4037;
-        /* Replace with theme brown if needed */
+
     }
 
     .lead {
         font-size: 1.1rem;
     }
 
-    /* Adjust image padding if needed */
+
     .card img.img-fluid {
         padding: 0;
         border-radius: 0;
     }
-</style>
-<!-- STYLES FOR TRANSITION -->
-<!-- <style>
-    .transition-col {
-        transition: all 0.5s ease;
+
+    /* Academic header and sslm */
+    .acdemic_head h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-align: left;
+        color: #2a6b4e;
+        /* Bootstrap primary 7cb078    0d6efd*/
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
     }
 
-    /* Optional: Smoothly expand the hidden column */
-    #historyCol {
-        opacity: 0;
-        transition: opacity 0.5s ease;
-    }
-
-    #historyCol:not(.d-none) {
-        opacity: 1;
-    }
-</style> -->
-<!-- <style>
-    .transition-col {
-        transition: all 0.5s ease;
-    }
-
-    /* .history-col {
-        opacity: 0;
-        transition: opacity 0.5s ease;
-    }
-
-    .history-col.show {
-        opacity: 1;
+    /* .acdemic_head hr {
+        text-align: left;
+        width: 20rem;
+        height: 4px;
+        background-color: #0d6efd;
+        border: 2px solid red;
+        margin: 0 auto 2rem auto;
+        border-radius: 2px;
     } */
 
-    .history-col {
-        opacity: 0;
-        visibility: hidden;
-        transition: opacity 0.5s ease;
-        height: 0;
-        overflow: hidden;
+    .nav-item .btn {
+        border-radius: 30px;
+        font-weight: 500;
+        transition: all 0.3s ease-in-out;
+        padding: 0.75rem 1rem;
     }
 
-    .history-col.show {
-        opacity: 1;
-        visibility: visible;
-        height: auto;
+    .nav-item .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     }
-</style> -->
 
+    .nav-item .btn.active {
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+    }
+</style>
 
 <section class="academic_main" id="academic_tab_main">
     <div class="container acdemic_head">
-        <h2>Education Institute</h2>
+        <h2>Education Institutes</h2>
         <hr>
     </div>
 
     <div class="container">
-        <!-- Academic Tabs -->
+        <!-- School Tabs -->
         <div class="row text-center mb-4 g-2 nav" id="academicTab" role="tablist">
             <div class="col-lg-2 col-md-6 col-sm-6 col-6 nav-item">
                 <button class="btn btn-primary w-100 active" id="polytechnic-tab" data-bs-toggle="tab"
                     data-bs-target="#polytechnic" type="button" role="tab" aria-controls="polytechnic"
-                    aria-selected="true">Colleges</button>
+                    aria-selected="true">Primary School</button>
             </div>
             <div class="col-lg-2 col-md-6 col-sm-6 col-6 nav-item">
                 <button class="btn btn-outline-primary w-100" id="btech-tab" data-bs-toggle="tab"
                     data-bs-target="#btech" type="button" role="tab" aria-controls="btech"
-                    aria-selected="false">High Schools</button>
+                    aria-selected="false">Upper Primary School</button>
             </div>
             <div class="col-lg-2 col-md-6 col-sm-6 col-6 nav-item">
                 <button class="btn btn-outline-primary w-100" id="mtech-tab" data-bs-toggle="tab"
                     data-bs-target="#mtech" type="button" role="tab" aria-controls="mtech"
-                    aria-selected="false">Upper Primary School</button>
+                    aria-selected="false">High Schools</button>
             </div>
             <div class="col-lg-2 col-md-6 col-sm-6 col-6 nav-item">
                 <button class="btn btn-outline-primary w-100" id="mba-tab" data-bs-toggle="tab"
                     data-bs-target="#mba" type="button" role="tab" aria-controls="mba"
-                    aria-selected="false">Primary School</button>
+                    aria-selected="false" disabled>Colleges</button>
             </div>
             <div class="col-lg-2 col-md-6 col-sm-6 col-6 nav-item">
                 <button class="btn btn-outline-primary w-100" id="techschool-tab" data-bs-toggle="tab"
@@ -261,151 +252,434 @@
             <div class="col-12">
                 <div class="tab-content" id="academicTabContent">
 
-                    <!-- Polytechnic -->
+                    <!-- Primary Schools -->
                     <div class="tab-pane fade show active" id="polytechnic" role="tabpanel" aria-labelledby="polytechnic-tab">
-                        <div class="academic_inn_head">
-                            <h3>ASSISI HIGH SCHOOL</h3>
-                            <hr>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-7">
-                                <div class="academic_card">
-                                    <img src="https://mananthavadydiocese.com/uploads/posts/1684397167.png" class="img-fluid" alt="EEE">
 
-                                </div>
-                            </div>
-                            <div class="col-lg-5">
-                                <div class="academic_branch">
-                                    <div class="row apoicons mt-4 mt-lg-5">
-                                        <div class="col-sm-6 mb-4">
-                                            <div class="row text-secondary align-items-center">
-                                                <div class="col-3 pr-0"><img class="img-fluid" src="https://mananthavadydiocese.com/assets/images/cs/est-icon.jpg"></div>
-                                                <div class="col-9"><span class="lead text-brown font-weight-bold">Formed on</span><br>1973</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6 mb-4">
-                                            <div class="row text-secondary align-items-center">
-                                                <div class="col-3 pr-0"><img class="img-fluid" src="https://mananthavadydiocese.com/assets/images/cs/church-icon.jpg"></div>
-                                                <div class="col-9"><span class="lead text-brown font-weight-bold">Place</span><br>Warangal</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6 mb-4">
-                                            <div class="row text-secondary ">
-                                                <div class="col-3 pr-0"><img class="img-fluid" src="https://mananthavadydiocese.com/assets/images/cs/place-icon.jpg"></div>
-                                                <div class="col-9"><span class="lead text-brown font-weight-bold">Address</span><br> Assisi High School
-                                                    Assisi Nagar, Mill Colony Warangal
-                                                    - 506 013 Warangal (Dist) – 506015 </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6 mb-4 d-none">
-                                            <div class="row text-secondary align-items-center apodir">
+                        <?php
+                        $primaryschools = [
+                            [
+                                'id' => 'AuxiliumEnglishMediumSchool',
+                                'name' => 'Auxilium English Medium School',
+                                'year' => '1997',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Yellapur, Hasanparthy, Warangal',
+                                'address' => 'H.M. / Correspondent Auxilium English medium school Yellapur P.O., Hasanparthy mdl. Warangal Dt. -506371',
+                                'principal' => 'Sr. Phliomena Fernadez',
+                                'managed_by' => 'Salesian Sisters of Don Fernandez',
+                                'telephone' => '',
+                                'history' => 'Auxilium English medium school was started in 1997. The people of Yellapur and neighbouring villages are poor and illiterate. The people of these villages expressed the need for a school to most rev. Thumma Bala. The Bishop invited the Salesian Sisters of Don Bosco to start aschool at Seethampet cross road, Hasanparthy mandal from the academic year 1997-1998. Sr. Ruby kora , F.M.A., the then provincial, made the arrangements to a school. At present, it has kindergarten and classes I & IV and it being up-graded year by year. The school was blessed and integrated by bishop Thumma Bala on 27th july, 1999. Aims at the integral growth of the children after the example of Don Bosco and Mother Mazzarella, the founder and Co-fundress of the Congregation. Method followed is the preventive system of Don bosco, which isan effective means of reaching the goal.'
+                            ],
+                            [
+                                'id' => 'FatimaPrimarySchoolTM',
+                                'name' => 'Fatima Primary School (T.M.)',
+                                'year' => '1956',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Monugonda, Dharmaram, Warangal',
+                                'address' => 'Fatima Primary School Monugonda (P.O.) Via: Dharmaram Warangal Dt. - 506 330',
+                                'principal' => 'Sr. D. Catherine, FMM',
+                                'managed_by' => 'Franciscan Missionaries of Mary',
+                                'telephone' => '(0870) 2844201',
+                                'history' => 'Fatima Primary School was established on 11th June 1956 by Franciscan Missionaries of Mary  during the time  of  Most Rev. Alphonsus Beretta. The main purpose of establishing this institution was to impart a quality education and all-round formation  both to catholic and non-catholic poor rural children. There were about 13 Sisters who rendered their services as Heamistresses from 1956 to 2000. About 1497 students  studied in this school so far and 173 of them have been Catholics.'
+                            ],
+                            [
+                                'id' => 'FuscosEnglishMediumSchool',
+                                'name' => 'Fusco’s English Medium School',
+                                'year' => '1998',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Wardhannapet, Warangal',
+                                'address' => 'Fusco’s English Medium School Wardhannapet (P.O.) Warangal Dt. - 506 313',
+                                'principal' => 'Sr. Celestina / Sr. Fathima Mary',
+                                'managed_by' => 'Sisters of St. John the Baptist',
+                                'telephone' => '(08711) 241493',
+                                'history' => 'Most. Rev. Thumma Bala has invited the Sisters of St. John the Baptist to Wardhannapet for educational, catechetical and social work, especially women’s development programmes. In view of these objectives, Fusco’s English Medium School was started on June 12th, 1998. Sr. Lucy Kallarackal was the Delegate Superior at that time.'
+                            ],
+                            [
+                                'id' => 'HansonsResidentialSchoolTM',
+                                'name' => "Hanson's Residential School (T.M)",
+                                'year' => '',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Karunapuram, Peddapendiyal, Warangal',
+                                'address' => "Hansen's Residential School, Karunapuram, Peddapendiyal (P.O) Warangal Dt :- 506 051",
+                                'principal' => 'Sr. Lilly Mathew, MIMM',
+                                'managed_by' => 'The Mationaries of Mary Mediatrix',
+                                'telephone' => '',
+                                'history' => 'Hanson’s school was established in 1987 by Fr.Augusto Colombo, PIME, to educate the leprosy affected children along with treatment. The School was handed over to the Missionaries of Mary Mediatrix Sisters at Karunapuram, when Sr. Ann Narikattu was the Delegate Superior. About 300 Students have studied in this school till now and 50 of them have been Catholics.'
+                            ],
+                            [
+                                'id' => 'LittleFlowerSchool',
+                                'name' => 'Little Flower School',
+                                'year' => '2001',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Pasara, Warangal',
+                                'address' => 'Little Flower School Pasara (P.O.) Warangal Dt. - 506 347',
+                                'principal' => 'Sr. Veronica / Sr. Roset Luka',
+                                'managed_by' => 'Missionary Sisters of Mary Help of Christians',
+                                'telephone' => '',
+                                'history' => 'Little Flower School at Pasara was started on June 11th, 2001 at the invitation of Most.Rev. Thumma Bala by the Regional Superior, Sr. Ivy Joseph. Sr. Rosaline George is the first Headmistress.'
+                            ],
+                            [
+                                'id' => 'MaryMediatrixEMSchool',
+                                'name' => 'Mary Mediatrix E.M. School',
+                                'year' => '1997',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Suraipally, Manthani, Karimnagar',
+                                'address' => 'Mary Mediatrix School Suraipally (Vill), Manthani (P.O.) Karimnagar Dt.- 505 184',
+                                'principal' => 'Sr. Valsamma Michael / Sr. Gracy Varghese',
+                                'managed_by' => 'Missionaries of Mary Mediatrix',
+                                'telephone' => '',
+                                'history' => 'Mary Mediatrix School was establised on 12th June 1997. This School was started on the initiative of Most Rev. Thumma Bala, the Bishop of Warangal and the then Regional Superior, Sr. Theresa Thomas. The school building was blessed and inaugurated by Bishop Thumma Bala on 16th January 1997.  The main aim of this institution is to give a sound moral, intellectual, social and physical education.   Fr. M.P. Joseph helped for the construction of the Convent and primary school buildings'
+                            ],
+                            [
+                                'id' => 'MissionSchoolSagaram',
+                                'name' => 'Mission School',
+                                'year' => '',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Sagaram, Wardhanapet, Warangal',
+                                'address' => 'Mission School Sagaram Vill & P.O Wardhanapet (Mdll) Warangal Dt :- 506 313',
+                                'principal' => 'Sr. Theresamma',
+                                'managed_by' => 'Catechist Sister of St. Ann',
+                                'telephone' => '',
+                                'history' => 'We’re sorry, but the history of the school is currently unavailable.'
+                            ],
+                            [
+                                'id' => 'SacredHeartEMSchool',
+                                'name' => 'Sacred Heart E.M. School',
+                                'year' => '1998',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Tharalapally, Kazipet, Warangal',
+                                'address' => 'Sacred Heart School Tharalapally (P.O.),Via Kazipet Warangal Dt. - 506 003',
+                                'principal' => 'Sr. Vijaya',
+                                'managed_by' => 'Sisters of our Lady of Fatima',
+                                'telephone' => '',
+                                'history' => 'Sacred Heart School was started in the year 1998 at the invitation of  Most Rev. Thumma Bala. Then the Regional Superior was Sr. Florence Fernandes. The purpose was to develop the poor and rural children through good education.The late Rev. Fr. Antonello, PIME,P.P. of Kazipet, was instrumental in purchase of the land and the school building, etc.'
+                            ],
+                            [
+                                'id' => 'BlAlphonsasSchool',
+                                'name' => 'Bl. Alphonsa’s School',
+                                'year' => '1978',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Reddipuram, Pegadapally, Warangal',
+                                'address' => 'Bl. Alphonsa’s School Reddipuram (Vill.), Pegadapally (P.O.) Warangal Dt. - 506 371',
+                                'principal' => 'Sr. Fathima',
+                                'managed_by' => 'Society of St. Anne, Guntur',
+                                'telephone' => '',
+                                'history' => 'Bl. Alphonsa’s School was started on 20th June 1978 during the time of  Most  Rev. Alphonsus Beretta and then the  Superior  General Rev. Sr. Margaret Mary. The main purpose of establishing this institution is to give the poor and rural children good academic and religious education with a special reference to the catholic children.'
+                            ],
+                            [
+                                'id' => 'StAlphonsusSchoolTM',
+                                'name' => 'St. Alphonsu’s School (T.M)',
+                                'year' => '1965',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Ragunathpally, Warangal',
+                                'address' => 'St. Alphonsa’s School Ragunathpally, (P.O.) Warangal Dt. - 506 224',
+                                'principal' => 'Sr. V. Arogyam',
+                                'managed_by' => 'Catechist Sister of St.Ann',
+                                'telephone' => '',
+                                'history' => 'We’re sorry, but the history of the school is currently unavailable.'
+                            ],
+                            [
+                                'id' => 'StAnnsEMSchool',
+                                'name' => 'St. Ann’s (E.M.) School',
+                                'year' => '1997',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Mariapuram, Narimetta, Warangal',
+                                'address' => 'St. Ann’s English Medium School Mariapuram Vill. Narsapur (P.O.), Narimetta (Mdl.) Warangal Dt. - 506 224',
+                                'principal' => 'Sr. Beena / Sr. Celine',
+                                'managed_by' => 'Society of St. Anne, Guntur',
+                                'telephone' => '',
+                                'history' => 'At the request of Mariapuram People and with the support and encouragement of Most Rev. Thumma Bala, then the Superior General, Sr. Ignatius Loyola, of the Society of St. Anne, Guntur, started St. Ann’s English Medium School in 1997 at Mariapuram in Warangal District. The school was blessed and inaugurated by Bishop Thumma Bala on 17th June, 1997.'
+                            ],
+                            [
+                                'id' => 'StFrancisSchool',
+                                'name' => 'St. Francis School',
+                                'year' => '2002',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Veleru, Madikonda, Warangal',
+                                'address' => 'St.Francis School Veleru P.O., Via Madikonda Warangal Dt. - 506 142',
+                                'principal' => 'Fr. D. Vijaya Paul Reddy / Sr. Victoria',
+                                'managed_by' => 'Warangal Diocesan Society',
+                                'telephone' => '(08719) 250970',
+                                'history' => 'St. Francis Kindergarten is started for the academic year 2002-03 at Veleru by the Diocese of Warangal in collboration with the Presentation Sisters.  It is co-education from LKG to 2nd grade on experimental basis for 2 to 3 years, then make assessment and proceed accordingly. The purpose of this school is to serve rural and tribal children. Fr. G. Prakash is appointed as its first Correspondent. The purpose of starting this school by the Diocese is to give christian presence first and to reach out to the rural and tribal people.  Educational institution becomes one of the main tools to get in touch with many people. Thus, it becomes a means for evangelisation and service.'
+                            ],
+                            [
+                                'id' => 'StJohnsEMSchool',
+                                'name' => 'St. JOHN’S (E.M.) SCHOOL',
+                                'year' => '2002',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Dhanasari, Kesamudram, Warangal',
+                                'address' => 'St. John’s School Dhanasari (Vill), Kesamudram (Mdl) Warangal Dt. - 506 112',
+                                'principal' => 'Fr. T. Pradeep Reddy',
+                                'managed_by' => 'Warangal Diocesan Society',
+                                'telephone' => '',
+                                'history' => 'St. John’s (E.M) Primary School is started for the academic year 2002 - 03 at Dhanasari village, Kesamudram Mandal by the Diocese of Warangal in memory of its Golden Jubilee. It is co-education from LKG to 2nd grade.  Fr. R. Inna is appointed as its first H.M. & Correspondent. The purpose of starting this school by the Diocese is to give christian presence first and to reach out to the rural and tribal people. An educational institution becomes one of the main tools to get in touch with many people. Thus, it becomes a means for evangelisation and service.
+                                        Most Rev. Thumma Bala, Bishop of Warangal, blessed and inaugurated the newly constructed school building on 5th December 2002 together with the Presbytery.'
+                            ],
+                            [
+                                'id' => 'StJosephsEMSchool',
+                                'name' => 'St. Joseph’s (E.M.) School',
+                                'year' => '1997',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Vadlur, Thotappalli, Karimnagar',
+                                'address' => 'St. Joseph’s School Vadlur (P.O.) Thotappalli Via Karimnagar Dt. - 505 530',
+                                'principal' => 'Sr. Flora',
+                                'managed_by' => 'St. Franciscan Sister of Aloysius De Gonzague',
+                                'telephone' => '',
+                                'history' => 'St. Joseph’s E.M. Primary School was opened in 1998 at Mallakapally by the then Provincial Sr. Bernadette Pinto of  Sisters of St. Joseph of Cluny on the invitation of Most Rev. Thumma Bala.  This school gives academic and moral education to the rural children in an atmosphere of justice, equality, and with a special concern for the poor.'
+                            ],
+                            [
+                                'id' => 'StJosephsTMSchool',
+                                'name' => 'St. Joseph’s (T.M.) School',
+                                'year' => '1998',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Mallakapally, Kazipet, Warangal',
+                                'address' => 'St. Joseph’s Primary School Mallakapally (P.O.) Via Kazipet Warangal Dt. - 506 003',
+                                'principal' => 'Rev. Sr. Philomena Peter',
+                                'managed_by' => 'Sisters of St. Joseph of Cluny',
+                                'telephone' => '',
+                                'history' => 'St. Joseph’s T.M. Primary School was opened in 1998 at Mallakapally by the then Provincial Sr. Bernadette Pinto of  Sisters of St. Joseph of Cluny on the invitation of Most Rev. Thumma Bala.  This school gives academic and moral education to the rural children in an atmosphere of justice, equality, and with a special concern for the poor.'
+                            ],
+                            [
+                                'id' => 'StJosephsEMSchoolJyothinagar',
+                                'name' => 'St. JOSEPH’S E.M. SCHOOL',
+                                'year' => '1999',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Jyothinagar, Husnabad, Karimnagar',
+                                'address' => 'St. Joseph’s School Jyothinagar, Husnabad (P.O.) Karimnagar Dt.- 505 417',
+                                'principal' => 'Fr. D. Sudhakar',
+                                'managed_by' => 'Warangal Diocesan Society',
+                                'telephone' => '',
+                                'history' => 'The Diocese Warangal established St.Joseph’s E.M School at Husnabad in the year 1999, Looking at the educational needs of the place. First it began in the sheds for about two years. Later, The Diocese of Warangal has constructed a school for the children of the locality. At present we have 20 acres of land in the present site. The school has come up to 5th standard with the strength of 391. The purpose of establishing this school is to give all-round development to the children of the locality and bring them up in their life. Fr.Y.Joji was instrumental in purchase of the land and in starting school here..!!'
+                            ],
+                            [
+                                'id' => 'StMarksTMSchool',
+                                'name' => 'St. MARK’S (T.M.) SCHOOL',
+                                'year' => '1954',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Gunturupally, Narimetta, Jangaon',
+                                'address' => 'St.Mark’s School Gunturupally (Vil) Narimetta (P.O.) Jangaon Via Warangal Dt. - 506 167',
+                                'principal' => 'Sr. P. Robert',
+                                'managed_by' => 'Catechist Sisters of St. Ann',
+                                'telephone' => '',
+                                'history' => 'St. Mark’s Primary School was established in the year 1954 by Catechist Sisters of St. Ann at the request of Most Rev. Alphonsus Beretta. The purpose was to educate catholic children of the surrounding catholic villages. Unfortunately, the details are not available.'
+                            ],
+                            [
+                                'id' => 'StMarysEMSchoolRanipuram',
+                                'name' => 'St. MARY’S (E.M.) SCHOOL',
+                                'year' => '1999',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Ranipuram, Kothapally, Karimnagar',
+                                'address' => 'St. Mary’s School Ranipuram (Vill), Kothapally P.O. Karimnagar Dt. - 505 451',
+                                'principal' => 'Sr. Sailaja / Sr. Nirmala',
+                                'managed_by' => 'Seva Missionary Sisters of our Lady',
+                                'telephone' => '',
+                                'history' => 'Most Rev. Thumma Bala invited the Sisters of Seva Missionaries of Mary to open their first Convent and a School at Ranipuram. They opened the school in 1999 with the Motto of direct evangelization and also through education.'
+                            ],
+                            [
+                                'id' => 'StTheresasEMSchool',
+                                'name' => 'St. THERESA’S E.M. SCHOOL',
+                                'year' => '1999',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Atmakur, Warangal',
+                                'address' => 'St. Theresa’s School Atmakur (P.O.) Warangal Dt. - 506 342',
+                                'principal' => 'Sr. Vimala Mary / Sr. Jane Mary',
+                                'managed_by' => 'Sisters of the Adoration of the Blessed Sacrament',
+                                'telephone' => '',
+                                'history' => 'St. Theresa’s School was started on 13th June, 1999 by the Sisters of the Adorarion of the Blessed Sacrament at the request of Most Rev. Thumma Bala. The purpose of establishing this institution is to impart quality education to the young so as to enable them to find their proper place in the Society. The Sisters lay great emphasis on character formation and cultured behaviour of the children entrusted to them.'
+                            ],
+                            [
+                                'id' => 'StVincentPallottiEMSchool',
+                                'name' => 'St. Vincent Pallotti (E.M.) School',
+                                'year' => '2002',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Shanigaram, Regulapalli, Karimnagar',
+                                'address' => 'St. Vincent Pallotti School Shanigaram, Regulapalli (Vill.) Karimnagar Dist.- 505 528',
+                                'principal' => 'Sr. Beena / Sr. Celine',
+                                'managed_by' => 'St. Vincent Pallotti Congregation',
+                                'telephone' => '',
+                                'history' => 'St.Vincent Pallotti E.M. School was started in 2001 by the then the Provincial  Lillia Cappretti on the request of Most Rev.Thumma Bala, the Bishop of Warangal. This school was started to give all-round  formation to  the children, with a special reference to Catholics.'
+                            ],
+                            [
+                                'id' => 'JyothiEMSchool',
+                                'name' => 'JYOTHI ENGLISH MEDIUM SCHOOL',
+                                'year' => '2010',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Parkal, Warangal',
+                                'address' => 'Jyothi E/M School, Bhoopalapally Road, Parkal 506 164, Warangal (Dt)',
+                                'principal' => 'Sr. Joice Maria S.D. / Sr. Maria Rose .S.D.',
+                                'managed_by' => 'Sisters of the Destitute',
+                                'telephone' => '',
+                                'history' => 'There are many private Eng. Med. Schools in Parkal. But they all aimed at making money. Villagers approached us to start an Eng. Med. School. The Bishop also felt the need of an Eng. Med. School, to give better education to the poor children in Parkal and surrounding villages. With this intention Jyothi Eng. Medium School was opened in 2010.'
+                            ],
+                            [
+                                'id' => 'StJohnDeBrittoHighSchool',
+                                'name' => 'ST. JOHN DE BRITTO HIGH SCHOOL',
+                                'year' => '',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Kadavendi, Warangal',
+                                'address' => 'St. John De Britto High School Kadavendi - 506302, Warangal District',
+                                'principal' => 'Fr. T. Antony Joseph, SVD',
+                                'managed_by' => 'Fathers of SVD Society',
+                                'telephone' => '',
+                                'history' => 'At the request of the poor and marginalized people of Kadavendi and nearby villages, Fr. Antony Samy, SVD established St. John De Britto High School, in the year 2003. The main aim of establishing this institution in the remote area is to eradicate the darkness of ignorance among the poor and marginalized people of this area and to proclaim the gospel and form new communities. The school was constructed with the help of the donation, received from Fr. John Schubert SVD, a missionary in Japan.'
+                            ],
+                            [
+                                'id' => 'StAnthonysHighSchool',
+                                'name' => 'ST. ANTHONY’S HIGH SCHOOL',
+                                'year' => '',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Dharmasagar, Warangal',
+                                'address' => 'St. Anthony’s High School Dharmasagar Village & Post, Via: Madikonda Warangal District - 506142',
+                                'principal' => 'S. Leena Mary',
+                                'managed_by' => 'Franciscan Sisters of the Immaculate Heart of Mary',
+                                'telephone' => '',
+                                'history' => 'The invitation of most Rev. Thumma Bala, the Bishop of Warangal and people of Dharmasagar, our St. Anthony’s E/M School was inaugurated on 09.06.2009. The provincial superior S. Anselm Theresa and S. Tiburcia Mary were the instrumental in opening this institution. The main purpose to educate the poor children of this area to “bring out inform potentials” and “to lead” them from darkness to light from ignore to know knowledge both to catholic and non Catholics.'
+                            ],
+                            [
+                                'id' => 'NotreDameHighSchool',
+                                'name' => 'NOTRE DAME HIGH SCHOOL',
+                                'year' => '',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Theegarajupally, Sangem, Warangal',
+                                'address' => 'Notre Dame E.M. School, Theegarajupally, Sangem (M), Warangal - 506310',
+                                'principal' => 'SN. Mary Daisy. SND / Sr. Mary Ranjana Joseph, SND',
+                                'managed_by' => 'Sisters of Notre Dame (Visitation Province, Bangalore)',
+                                'telephone' => '',
+                                'history' => 'Notre Dame E.M. School at Teegarajupally was started in the year 2007 with just 20 students. At the request of most Rev. Bishop Thumma Bala, the sister of notre dame of the visitation province, Bangalore, especially the then provincial superior, Sn. Mary Gayanti; took keen interest in opening the school for the less privileged and backward children of the area.
 
-                                                <div class="col-3 pr-0"><img class="img-fluid" src="https://mananthavadydiocese.com/assets/images/cs/vicar-icon.jpg"></div>
+                                    The motlo of our school is “ story to god, service to all” our schoo9l is committed to impart quality education along with extra curricular activities. Discipline along with character formation is given prime importance. Presently we have classes from nursery to class – III. Our dream is to make this institution a fully pledged high school. As Notre dame education, it is our earnest concern to develop is our students a true love of god and a caring and loving relationship with one another.'
+                            ],
+                            [
+                                'id' => 'StMarysSchoolDantalapally',
+                                'name' => 'ST. MARY’S SCHOOL',
+                                'year' => '2007',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Dantalapally, Narasimhulapet, Warangal',
+                                'address' => 'St. Mary’s School, Dantalapally, Narasimhulapet Mdl, Warangal',
+                                'principal' => 'Fr. Sagar Jose IMS / Sr. Divya Maria CMC',
+                                'managed_by' => 'The Indian Missionary Society',
+                                'telephone' => '',
+                                'history' => 'Dantalapally is situated on the Warangal-Khammam Road, 72 Kms from Warangal city. It comes under Thorrur Parish. Dantalapally and its surroundings areas are basically backward rural area inhabited mostly by poor and uneducated farmers The school was started by the Indian Missionary Society in collaboration with the Sisters of the Congregation of the Mother of Carmel in 2007 in order to impart standard E/M education to the children of this area at an affordable cost.. Based on the Gospel values, the school gives preference to the children of the downtrodden and oppressed classes and gives concession in fees accordingly. The school was started with classes Nursery to III Std. in 2007 with the aim of upgrading year by year to Xth Std. Presently the School is up to Vth Std. The first Correspondent and the Head Mistress of the school continue in their posts till date.'
+                            ],
+                        ];
 
+                        ?>
+                        <?php foreach ($primaryschools as $school): ?>
+                            <div class="card mb-4">
+                                <div class="row no-gutters align-items-stretch" data-aos="fade-up"
+                                    data-aos-anchor-placement="center-bottom"
+                                    data-aos-duration="1000">
+                                    <!-- Image -->
+                                    <div class="col-lg-4 col-md-12">
+                                        <img src="<?= base_url($school['image']) ?>" class="img-fluid h-100 w-100" style="object-fit: cover;" alt="<?= $school['name'] ?>">
+                                    </div>
 
+                                    <!-- Info -->
+                                    <div class="col-lg-8 col-md-12">
+                                        <div class="card-body">
+                                            <div class="row apoicons">
+                                                <h5 class="card-title text-center"><?= $school['name'] ?> (<?= $school['year'] ?>)</h5>
+                                                <hr>
+
+                                                <!-- Formed On -->
+                                                <div class="col-6 col-sm-6 mb-3">
+                                                    <div class="row text-secondary align-items-center">
+                                                        <div class="col-3 pr-0">
+                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/est-icon.jpg') ?>">
+                                                        </div>
+                                                        <div class="col-9"><span class="fw-bold">Formed on</span><br><?= $school['year'] ?></div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Place -->
+                                                <div class="col-6 col-sm-6 mb-3">
+                                                    <div class="row text-secondary align-items-center">
+                                                        <div class="col-3 pr-0">
+                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/church-icon.jpg') ?>">
+                                                        </div>
+                                                        <div class="col-9"><span class="fw-bold">Place</span><br><?= $school['place'] ?></div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Address -->
+                                                <div class="col-12 col-sm-6 mb-3">
+                                                    <div class="row text-secondary">
+                                                        <div class="col-3 pr-0">
+                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/place-icon.jpg') ?>">
+                                                        </div>
+                                                        <div class="col-9">
+                                                            <span class="fw-bold">Address</span><br><?= $school['address'] ?>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Principal -->
+                                                <div class="col-12 col-sm-6 mb-3">
+                                                    <div class="row text-secondary align-items-center">
+                                                        <div class="col-3 pr-0">
+                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/vicar-icon.jpg') ?>">
+                                                        </div>
+                                                        <div class="col-9">
+                                                            <span class="fw-bold">Principal/Correspondent</span><br><?= $school['principal'] ?>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Managed By -->
+                                                <div class="col-12 col-sm-6 mb-3">
+                                                    <div class="row text-secondary align-items-center">
+                                                        <div class="col-3 pr-0">
+                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/managment-icon2.jpg') ?>">
+                                                        </div>
+                                                        <div class="col-9" style="word-break: break-word;">
+                                                            <span class="fw-bold">MANAGED BY</span><br><?= $school['managed_by'] ?>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Telephone -->
+                                                <div class="col-12 col-sm-6 mb-3">
+                                                    <div class="row text-secondary align-items-center">
+                                                        <div class="col-3 pr-0">
+                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/phone-icon.jpg') ?>">
+                                                        </div>
+                                                        <div class="col-9">
+                                                            <span class="fw-bold">Telephone</span><br><?= $school['telephone'] ?>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="col-sm-6 mb-4">
-                                            <div class="row text-secondary align-items-center apodir">
-                                                <div class="col-3 pr-0"><img class="img-fluid" src="https://mananthavadydiocese.com/assets/images/cs/vicar-icon.jpg"></div>
-                                                <div class="col-9"><span class="lead text-brown font-weight-bold">Principal/correspondent</span><br>Sr. Moksha Salomon /
-                                                    Sr. A.Celestina</div>
 
-
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6 mb-4">
-                                            <div class="row text-secondary align-items-center">
-                                                <div class="col-3 pr-0"><img class="img-fluid" src="https://mananthavadydiocese.com/assets/images/cs/mail-icon.jpg"></div>
-                                                <div class="col-9" style="word-break: break-all;"><span class="lead text-brown font-weight-bold">Email</span><br>mountmarycollege1977@gmail.com</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6 mb-4">
-                                            <div class="row text-secondary align-items-center">
-                                                <div class="col-3 pr-0"><img class="img-fluid" src="https://mananthavadydiocese.com/assets/images/cs/phone-icon.jpg"></div>
-                                                <div class="col-9"><span class="lead text-brown font-weight-bold">Telephone</span><br>-</div>
+                                            <!-- Buttons -->
+                                            <div class="text-center mt-3">
+                                                <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#<?= $school['id'] ?>Modal">
+                                                    View History <i class="bi bi-arrow-right ms-1"></i>
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row mt-3">
-                            <div class="col-lg-5">
-                                <div class="academic_card">
 
-                                    <div class="academic_branch">
-                                        <div class="row apoicons mt-4 mt-lg-5">
-
-
-
-
-                                            <div class="col-sm-6 mb-4">
-                                                <div class="row text-secondary align-items-center">
-                                                    <div class="col-3 pr-0"><img class="img-fluid" src="https://mananthavadydiocese.com/assets/images/cs/est-icon.jpg"></div>
-                                                    <div class="col-9"><span class="lead text-brown font-weight-bold">Formed on</span><br>1973</div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6 mb-4">
-                                                <div class="row text-secondary align-items-center">
-                                                    <div class="col-3 pr-0"><img class="img-fluid" src="https://mananthavadydiocese.com/assets/images/cs/church-icon.jpg"></div>
-                                                    <div class="col-9"><span class="lead text-brown font-weight-bold">Place</span><br>Warangal</div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6 mb-4">
-                                                <div class="row text-secondary ">
-                                                    <div class="col-3 pr-0"><img class="img-fluid" src="https://mananthavadydiocese.com/assets/images/cs/place-icon.jpg"></div>
-                                                    <div class="col-9"><span class="lead text-brown font-weight-bold">Address</span><br> Assisi High School
-                                                        Assisi Nagar, Mill Colony Warangal
-                                                        - 506 013 Warangal (Dist) – 506015 </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6 mb-4 d-none">
-                                                <div class="row text-secondary align-items-center apodir">
-
-                                                    <div class="col-3 pr-0"><img class="img-fluid" src="https://mananthavadydiocese.com/assets/images/cs/vicar-icon.jpg"></div>
-
-
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6 mb-4">
-                                                <div class="row text-secondary align-items-center apodir">
-                                                    <div class="col-3 pr-0"><img class="img-fluid" src="https://mananthavadydiocese.com/assets/images/cs/vicar-icon.jpg"></div>
-                                                    <div class="col-9"><span class="lead text-brown font-weight-bold">Principal/correspondent</span><br>Sr. Moksha Salomon /
-                                                        Sr. A.Celestina</div>
-
-
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6 mb-4">
-                                                <div class="row text-secondary align-items-center">
-                                                    <div class="col-3 pr-0"><img class="img-fluid" src="https://mananthavadydiocese.com/assets/images/cs/mail-icon.jpg"></div>
-                                                    <div class="col-9" style="word-break: break-all;"><span class="lead text-brown font-weight-bold">Email</span><br>mountmarycollege1977@gmail.com</div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6 mb-4">
-                                                <div class="row text-secondary align-items-center">
-                                                    <div class="col-3 pr-0"><img class="img-fluid" src="https://mananthavadydiocese.com/assets/images/cs/phone-icon.jpg"></div>
-                                                    <div class="col-9"><span class="lead text-brown font-weight-bold">Telephone</span><br>-</div>
-                                                </div>
-                                            </div>
+                            <!-- History Modal -->
+                            <div class="modal fade" id="<?= $school['id'] ?>Modal" tabindex="-1" aria-labelledby="<?= $school['id'] ?>Label" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="<?= $school['id'] ?>Label"><?= $school['name'] ?> (<?= $school['year'] ?>) - History</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p><?= nl2br($school['history']) ?></p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-7">
-                                <div class="academic_card">
-                                    <img src="https://mananthavadydiocese.com/uploads/posts/1684397167.png" class="img-fluid" alt="EEE">
-                                </div>
-
-                            </div>
-                            <!-- Other BTech cards here... -->
-                        </div>
+                        <?php endforeach; ?>
                     </div>
 
-                    <!-- B.Tech -->
+                    <!-- Upper Primary School -->
                     <div class="tab-pane fade" id="btech" role="tabpanel" aria-labelledby="btech-tab">
-                        <div class="academic_inn_head">
+                        <!-- <div class="academic_inn_head">
                             <h3>B.TECH</h3>
                             <hr>
                         </div>
@@ -478,11 +752,166 @@
                                 </div>
 
                             </div>
-                            <!-- Other BTech cards here... -->
-                        </div>
+                        </div> -->
+
+                        <?php
+                        $upperschools = [
+                            [
+                                'id' => 'PrasentationupperPrimarySchool',
+                                'name' => 'Prasentation Upper Primary School',
+                                'year' => '1998',
+                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
+                                'place' => 'Warangal',
+                                'address' => 'H.M/Correspondent,Presentation Upper Primary School,Cherial Village & P.O,Warangal Dt. - 506 223',
+                                'principal' => 'Sr. Shyni Thomas/Sr. Jessy Thomas',
+                                'managed_by' => 'Daughters of Presentation of Mary in the Temple',
+                                'telephone' => ' (08710) 222512',
+                                'history' => 'Presentation Primary School was started on 15th June, 1998 by Sr. Lorenza, the Regional Superior of the Presentation Sisters at Cherial  at the ivnitation of Most Rev. Thumma Bala. There are  5 Sisters who are rendering their services at Cherial.  About 450 students are studying in this school. It was established with the purpose of educating rural catholic and non-catholic children.'
+                            ],
+                            [
+                                'id' => 'SacredHeartUpperPrimarySchool',
+                                'name' => 'Sacred Heart Upper Primary School',
+                                'year' => '1992',
+                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
+                                'place' => 'Warangal',
+                                'address' => 'H.M./Correspondent Sacred Heart U.P. Primary School, Kanchanapally, Vil, Via Raghunathpalli, Warangal Dt. - 506 244',
+                                'principal' => 'Sr. Lucy/Sr. Arogya',
+                                'managed_by' => 'Catechist Sisters of St. Ann',
+                                'telephone' => '(08716) 230647',
+                                'history' => 'St. Joseph’s Girls’ Vocational Training Centre was started at Kumarapally with the consent of Most Rev. Thumma Bala, D.D. by Catechist Sisters of St. Ann in the Year 1992. It offers four trades. 1. Cutting and Tailoring; 2. Typing and Stenography; 3. Electronics (Mechanism T.V. & Radio); 4. Computers. This Institution is recognised by the State Government since 1992 and affiliated to the National Council for Vocational Training- Delhi as I.T.I.'
+                            ],
+                            [
+                                'id' => 'StTheresasUPSchoolTM',
+                                'name' => 'St.Theresa’ s U . P School(T . M)',
+                                'year' => '1950',
+                                'image' => 'public/assets/images/education/Carmel-Integrate-school2.jpg',
+                                'place' => 'Warangal',
+                                'address' => 'H.M/Correspondent,Presentation St.Theresa’ s U . P School(T . M) Thimmaraopet(P . O),
+                                Chennaraopet Mandal,
+                                Warangal Dt . -506 332',
+                                'principal' => 'Sr. Monica',
+                                'managed_by' => 'Catechist Sister of St.Ann',
+                                'telephone' => '(08716) 230647',
+                                'history' => 'St. Theresa’s Upper Primary School aims at imparting quality education both to catholic and non-catholic children in the rural area. It was established in 1950 by C.S.A. Sisters, when our former Bishop Most Rev. Alphonsus Beretta was the Bishop of Hyderabad and Sr. Enrichetta was the Mother General. There is a boarding attached to the school. Bishop Thumma Bala inaugurated the new school building on 31st July, 1998'
+                            ]
+                        ];
+                        ?>
+                        <?php foreach ($upperschools as $school): ?>
+                            <div class="card mb-4">
+                                <div class="row no-gutters align-items-stretch" data-aos="fade-up"
+                                    data-aos-anchor-placement="center-bottom"
+                                    data-aos-duration="1000">
+                                    <!-- Image -->
+                                    <div class="col-lg-4 col-md-12">
+                                        <img src="<?= base_url($school['image']) ?>" class="img-fluid h-100 w-100" style="object-fit: cover;" alt="<?= $school['name'] ?>">
+                                    </div>
+
+                                    <!-- Info -->
+                                    <div class="col-lg-8 col-md-12">
+                                        <div class="card-body">
+                                            <div class="row apoicons">
+                                                <h5 class="card-title text-center"><?= $school['name'] ?> (<?= $school['year'] ?>)</h5>
+                                                <hr>
+
+                                                <!-- Formed On -->
+                                                <div class="col-6 col-sm-6 mb-3">
+                                                    <div class="row text-secondary align-items-center">
+                                                        <div class="col-3 pr-0">
+                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/est-icon.jpg') ?>">
+                                                        </div>
+                                                        <div class="col-9"><span class="fw-bold">Formed on</span><br><?= $school['year'] ?></div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Place -->
+                                                <div class="col-6 col-sm-6 mb-3">
+                                                    <div class="row text-secondary align-items-center">
+                                                        <div class="col-3 pr-0">
+                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/church-icon.jpg') ?>">
+                                                        </div>
+                                                        <div class="col-9"><span class="fw-bold">Place</span><br><?= $school['place'] ?></div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Address -->
+                                                <div class="col-12 col-sm-6 mb-3">
+                                                    <div class="row text-secondary">
+                                                        <div class="col-3 pr-0">
+                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/place-icon.jpg') ?>">
+                                                        </div>
+                                                        <div class="col-9">
+                                                            <span class="fw-bold">Address</span><br><?= $school['address'] ?>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Principal -->
+                                                <div class="col-12 col-sm-6 mb-3">
+                                                    <div class="row text-secondary align-items-center">
+                                                        <div class="col-3 pr-0">
+                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/vicar-icon.jpg') ?>">
+                                                        </div>
+                                                        <div class="col-9">
+                                                            <span class="fw-bold">Principal/Correspondent</span><br><?= $school['principal'] ?>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Managed By -->
+                                                <div class="col-12 col-sm-6 mb-3">
+                                                    <div class="row text-secondary align-items-center">
+                                                        <div class="col-3 pr-0 text-center fs-4">
+                                                            <i class="fas fa-building custom-icon"></i>
+                                                        </div>
+                                                        <div class="col-9" style="word-break: break-word;">
+                                                            <span class="fw-bold">MANAGED BY</span><br><?= $school['managed_by'] ?>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Telephone -->
+                                                <div class="col-12 col-sm-6 mb-3">
+                                                    <div class="row text-secondary align-items-center">
+                                                        <div class="col-3 pr-0">
+                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/phone-icon.jpg') ?>">
+                                                        </div>
+                                                        <div class="col-9">
+                                                            <span class="fw-bold">Telephone</span><br><?= $school['telephone'] ?>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Buttons -->
+                                            <div class="text-center mt-3">
+                                                <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#<?= $school['id'] ?>Modal">
+                                                    View History <i class="bi bi-arrow-right ms-1"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- History Modal -->
+                            <div class="modal fade" id="<?= $school['id'] ?>Modal" tabindex="-1" aria-labelledby="<?= $school['id'] ?>Label" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="<?= $school['id'] ?>Label"><?= $school['name'] ?> (<?= $school['year'] ?>) - History</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p><?= nl2br($school['history']) ?></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
+
                     </div>
 
-                    <!-- M.Tech -->
+                    <!-- High School -->
                     <div class="tab-pane fade" id="mtech" role="tabpanel" aria-labelledby="mtech-tab">
                         <!-- first row school -->
                         <!-- <div class="academic_inn_head">
@@ -1805,10 +2234,10 @@
                     </div>
 
 
-                    <!-- MBA -->
+                    <!-- College -->
                     <div class="tab-pane fade" id="mba" role="tabpanel" aria-labelledby="mba-tab">
                         <div class="academic_inn_head">
-                            <h3>MBA</h3>
+                            <h3>COllege</h3>
                             <hr>
                         </div>
                         <div class="row">
@@ -1825,40 +2254,324 @@
                     </div>
                     <!-- Technical School -->
                     <div class="tab-pane fade" id="techschool" role="tabpanel" aria-labelledby="techschool-tab">
-                        <div class="academic_inn_head">
-                            <h3>Technical School</h3>
-                            <hr>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="academic_card">
-                                    <img src="https://bitswgl.ac.in/assets/img/icons/desk.png" class="img-fluid" alt="MBA">
-                                    <div class="academic_branch">
-                                        <h3>Master of Business Administration</h3>
-                                        <p><span>Intake</span> - 60</p>
+                        <?php
+                        $technicalschools = [
+                            [
+                                'id' => 'FatimaIndustrialTrainingInstitution',
+                                'name' => 'FATIMA INDUSTRIAL TRAINING INSTITUTION',
+                                'year' => '1969',
+                                'image' => 'public/assets/images/education/dummyschool2.jpg',
+                                'place' => 'Fatimanagar, Warangal',
+                                'address' => 'Fatima Industrial Training Centre, Fatimanagar, Warangal - 506 004',
+                                'principal' => 'Bro. Antony',
+                                'managed_by' => 'Montfort Brothers of St. Gabriel',
+                                'telephone' => '',
+                                'history' => 'Fatima Industrial Institute was established in Fatimanagar in the Year 1969 by Montfort Brothers of St. Gabriel at the invitation of Most Rev. Alphonsus Beretta, PIME, Bishop of Warangal. The main purpose of the this Institution was to give Job-oriented Technical Training to the Youth mainly of Warangal Diocese with a special reference to Catholics. This Vocational Training was taken up by Bro. Anthony Francisco, the then Provincial with the encouragement and support of Most Rev. Alphonsus Beretta to help immediately those who could not pursue  their higher School Education and also for the poor Students.
+                                                The total number of the Students who have been trained in this Centre so far are : 946. Of these, 615 are Catholics. Indeed, it has given a great scope for the Catholic Students.
+
+                                        '
+                            ],
+                            [
+                                'id' => 'StJosephsIndustrialTrainingInstitute',
+                                'name' => 'St. JOSEPH’S INDUSTRIAL TRAINING INSTITUTE (I.T.I.)',
+                                'year' => '1992',
+                                'image' => 'public/assets/images/education/dummyschool2.jpg',
+                                'place' => 'Kumarapalli, Hanamkonda, Warangal',
+                                'address' => 'St. Joseph’s I.T.I., Kumarapalli, Hanamkonda, Warangal – 506 001',
+                                'principal' => 'Sr. Theresa',
+                                'managed_by' => 'Catechist Sisters of St. Ann',
+                                'telephone' => '0870-2450274',
+                                'history' => 'St. Joseph’s Girls’ Vocational Training Centre was started at Kumarapally with the consent of Most Rev. Thumma Bala, D.D. by Catechist Sisters of St. Ann in the Year 1992. It offers four trades. 1. Cutting and Tailoring; 2. Typing and Stenography; 3. Electronics (Mechanism T.V. & Radio); 4. Computers. This Institution is recognised by the State Government since 1992 and affiliated to the National Council for Vocational Training- Delhi as I.T.I.'
+                            ],
+                            [
+                                'id' => 'ImmaculateTechnicalSchool',
+                                'name' => 'IMMACULATE TECHNICAL SCHOOL',
+                                'year' => '1968',
+                                'image' => 'public/assets/images/education/dummyschool2.jpg',
+                                'place' => 'Subedari Road, Hanamkonda, Warangal',
+                                'address' => 'Immaculate Convent, H.No: 1-7-641, Subedari Road, Hanamkonda, Warangal - 500 002',
+                                'principal' => 'Fr. Reddem Cecilla, FMM',
+                                'managed_by' => 'Franciscan Missionaries of Mary (FMM)',
+                                'telephone' => '0870-2575436',
+                                'history' => 'Immaculate Technical School was established in the year 1968 by Franciscan Missionaries of  Mary at Subedari in Hanamkonda, Warangal during the time of his Lordship Alphonsus Beretta and Rev. Sr. Mary Law, the then FMM Provincial. The purpose of establishing the institute was to give Job-Oriented Technical Training to the School-dropped Young Girls and women of the locality in Needle Works, Cutting and Tailoring, Home Science, Hygiene, Gardening, etc. The Embroidery Section was temporarily discontinued for two years between 1994-96 and it got resumed again.
+
+'
+                            ]
+                        ];
+
+                        ?>
+
+                        <?php foreach ($technicalschools as $school): ?>
+                            <div class="card mb-4 " data-aos="fade-up"
+                                data-aos-anchor-placement="center-bottom"
+                                data-aos-duration="1000">
+                                <div class="row no-gutters align-items-stretch">
+                                    <!-- Image -->
+                                    <div class="col-lg-4 col-md-12">
+                                        <img src="<?= base_url($school['image']) ?>" class="img-fluid h-100 w-100" style="object-fit: cover;" alt="<?= $school['name'] ?>">
+                                    </div>
+
+                                    <!-- Info -->
+                                    <div class="col-lg-8 col-md-12">
+                                        <div class="card-body">
+                                            <div class="row apoicons">
+                                                <h5 class="card-title text-center"><?= $school['name'] ?> (<?= $school['year'] ?>)</h5>
+                                                <hr>
+
+                                                <!-- Formed On -->
+                                                <div class="col-6 col-sm-6 mb-3">
+                                                    <div class="row text-secondary align-items-center">
+                                                        <div class="col-3 pr-0">
+                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/est-icon.jpg') ?>">
+                                                        </div>
+                                                        <div class="col-9"><span class="fw-bold">Formed on</span><br><?= $school['year'] ?></div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Place -->
+                                                <div class="col-6 col-sm-6 mb-3">
+                                                    <div class="row text-secondary align-items-center">
+                                                        <div class="col-3 pr-0">
+                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/church-icon.jpg') ?>">
+                                                        </div>
+                                                        <div class="col-9"><span class="fw-bold">Place</span><br><?= $school['place'] ?></div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Address -->
+                                                <div class="col-12 col-sm-6 mb-3">
+                                                    <div class="row text-secondary">
+                                                        <div class="col-3 pr-0">
+                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/place-icon.jpg') ?>">
+                                                        </div>
+                                                        <div class="col-9">
+                                                            <span class="fw-bold">Address</span><br><?= $school['address'] ?>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Principal -->
+                                                <div class="col-12 col-sm-6 mb-3">
+                                                    <div class="row text-secondary align-items-center">
+                                                        <div class="col-3 pr-0">
+                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/vicar-icon.jpg') ?>">
+                                                        </div>
+                                                        <div class="col-9">
+                                                            <span class="fw-bold">Principal/Correspondent</span><br><?= $school['principal'] ?>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Managed By -->
+                                                <div class="col-12 col-sm-6 mb-3">
+                                                    <div class="row text-secondary align-items-center">
+                                                        <div class="col-3 pr-0">
+                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/managment-icon2.jpg') ?>">
+                                                        </div>
+                                                        <div class="col-9" style="word-break: break-word;">
+                                                            <span class="fw-bold">MANAGED BY</span><br><?= $school['managed_by'] ?>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Telephone -->
+                                                <div class="col-12 col-sm-6 mb-3">
+                                                    <div class="row text-secondary align-items-center">
+                                                        <div class="col-3 pr-0">
+                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/phone-icon.jpg') ?>">
+                                                        </div>
+                                                        <div class="col-9">
+                                                            <span class="fw-bold">Telephone</span><br><?= $school['telephone'] ?>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Buttons -->
+                                            <div class="text-center mt-3">
+                                                <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#<?= $school['id'] ?>Modal">
+                                                    View History <i class="bi bi-arrow-right ms-1"></i>
+                                                </button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+
+                            <!-- History Modal -->
+                            <div class="modal fade" id="<?= $school['id'] ?>Modal" tabindex="-1" aria-labelledby="<?= $school['id'] ?>Label" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="<?= $school['id'] ?>Label"><?= $school['name'] ?> (<?= $school['year'] ?>) - History</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p><?= nl2br($school['history']) ?></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
+
                     </div>
 
                     <!--training institute -->
                     <div class="tab-pane fade" id="traininginstitute" role="tabpanel" aria-labelledby="traininginstitute-tab">
-                        <div class="academic_inn_head">
-                            <h3>Training intitute</h3>
-                            <hr>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="academic_card">
-                                    <img src="https://bitswgl.ac.in/assets/img/icons/desk.png" class="img-fluid" alt="MBA">
-                                    <div class="academic_branch">
-                                        <h3>Training institute</h3>
-                                        <p><span>Intake</span> - 60</p>
+                        <?php
+                        $trainingchools = [
+                            [
+                                'id' => 'BalavikasaInformationTechnologyCenter',
+                                'name' => 'BALAVIKASA INFORMATION TECHNOLOGY CENTER (ITC)',
+                                'year' => '3rd June, 2000',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Fatimanagar, Warangal',
+                                'address' => 'Bala Vikasa Information Technology Centre, Fatimanagar, Warangal - 506 004',
+                                'principal' => 'Mrs. S. Sunitha',
+                                'managed_by' => 'Bala Vikasa',
+                                'telephone' => '0870 - 2430357',
+                                'history' => 'Bala Vikasa Information Technology Center is a branch of Bala Vikasa social Service Society. It was established on 3rd June, 2000. The purpose of this Center was to serve the economically poor students by the Job-Oriented Training in Advanced Courses with less tution fee. This Helps the Poor to Compete in the national/international IT Market. The Institute also aims at conducting research to make the IT benefits available to the Rural Areas, So that many rural Poor will get benefited.'
+                            ],
+                            [
+                                'id' => 'DonBoscoIndustrialTrainingInstitute',
+                                'name' => 'DON BOSCO INDUSTRIAL TRAINING INSTITUTE',
+                                'year' => '1992',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Mariapuram, Warangal',
+                                'address' => 'Don Bosco Industrial Training Centre, Mariapuram, P.O. Box. 4, Warangal - 500 002',
+                                'principal' => 'Fr. Joseph Abraham / Fr. M. Rayappa',
+                                'managed_by' => 'Salesians of Don Bosco',
+                                'telephone' => '-',
+                                'history' => 'A Non-formal Training Centre was a real need in the Diocese for the School Drop-outs and poor  Students in and around this Area. To meet this need, Bishop Thumma Bala invited Salesians of Don Bosco into the Diocese. Responding to this Invitation, Fr. Pudota Benjamin, the then Provincial of Hyderabad Salesian Province, came forward to take-up the Mission at Mariapuram in 1992. Keeping the Charism of their Founder in mind, the Salesians soon planned for a Technical Institute for the Poor Rural Youth to assert themselves as useful Citizens. It is heartening to know that after completing the Training, most of them have settled well with some job or the other. At present, there are three Trades in this Centre.'
+                            ],
+                            [
+                                'id' => 'NirmalaHandicraftTrainingCentre',
+                                'name' => 'NIRMALA HANDI-CRAFT TRAINING CENTRE',
+                                'year' => '1st June 1975',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Fatimanagar, Warangal',
+                                'address' => 'Nirmala Handi-craft Centre, Fatimanagar, Warangal - 506 004',
+                                'principal' => 'Fr. G. Bala Martine',
+                                'managed_by' => 'Vishwa Karuna Sangam',
+                                'telephone' => '-',
+                                'history' => 'Fatima Tailoring Centre was started on 1st June 1975 by Fr. Colombo, PIME. Sr. Thomasin (Presentation Congregation) was the first Principal of this Tailoring Institute. In the beginning, there were 40 Students.  The main work of this Centre is teaching Embroidery, Machine-embroidery, Lace and Fabric-painting. Earlier there was even tailoring but now this is shifted to Navajeevan, Karunapuram. After 2 years of learning, they go for Government Exams and get Government Certificates, with which they easily get Jobs in Schools or they can start something privately for their livelyhood. This Institution provides Training for Self-employment to Young Girls from this locality and from surrounding Villages.'
+                            ]
+                        ];
+
+                        ?>
+
+                        <?php foreach ($trainingchools as $school): ?>
+                            <div class="card mb-4">
+                                <div class="row no-gutters align-items-stretch" data-aos="fade-up"
+                                    data-aos-anchor-placement="center-bottom"
+                                    data-aos-duration="1000">
+                                    <!-- Image -->
+                                    <div class="col-lg-4 col-md-12">
+                                        <img src="<?= base_url($school['image']) ?>" class="img-fluid h-100 w-100" style="object-fit: cover;" alt="<?= $school['name'] ?>">
+                                    </div>
+
+                                    <!-- Info -->
+                                    <div class="col-lg-8 col-md-12">
+                                        <div class="card-body">
+                                            <div class="row apoicons">
+                                                <h5 class="card-title text-center"><?= $school['name'] ?> (<?= $school['year'] ?>)</h5>
+                                                <hr>
+
+                                                <!-- Formed On -->
+                                                <div class="col-6 col-sm-6 mb-3">
+                                                    <div class="row text-secondary align-items-center">
+                                                        <div class="col-3 pr-0">
+                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/est-icon.jpg') ?>">
+                                                        </div>
+                                                        <div class="col-9"><span class="fw-bold">Formed on</span><br><?= $school['year'] ?></div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Place -->
+                                                <div class="col-6 col-sm-6 mb-3">
+                                                    <div class="row text-secondary align-items-center">
+                                                        <div class="col-3 pr-0">
+                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/church-icon.jpg') ?>">
+                                                        </div>
+                                                        <div class="col-9"><span class="fw-bold">Place</span><br><?= $school['place'] ?></div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Address -->
+                                                <div class="col-12 col-sm-6 mb-3">
+                                                    <div class="row text-secondary">
+                                                        <div class="col-3 pr-0">
+                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/place-icon.jpg') ?>">
+                                                        </div>
+                                                        <div class="col-9">
+                                                            <span class="fw-bold">Address</span><br><?= $school['address'] ?>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Principal -->
+                                                <div class="col-12 col-sm-6 mb-3">
+                                                    <div class="row text-secondary align-items-center">
+                                                        <div class="col-3 pr-0">
+                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/vicar-icon.jpg') ?>">
+                                                        </div>
+                                                        <div class="col-9">
+                                                            <span class="fw-bold">Principal/Correspondent</span><br><?= $school['principal'] ?>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Managed By -->
+                                                <div class="col-12 col-sm-6 mb-3">
+                                                    <div class="row text-secondary align-items-center">
+                                                        <div class="col-3 pr-0">
+                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/managment-icon2.jpg') ?>">
+                                                        </div>
+                                                        <div class="col-9" style="word-break: break-word;">
+                                                            <span class="fw-bold">MANAGED BY</span><br><?= $school['managed_by'] ?>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Telephone -->
+                                                <div class="col-12 col-sm-6 mb-3">
+                                                    <div class="row text-secondary align-items-center">
+                                                        <div class="col-3 pr-0">
+                                                            <img class="img-fluid" src="<?= base_url('public/assets/images/icons/phone-icon.jpg') ?>">
+                                                        </div>
+                                                        <div class="col-9">
+                                                            <span class="fw-bold">Telephone</span><br><?= $school['telephone'] ?>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Buttons -->
+                                            <div class="text-center mt-3">
+                                                <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#<?= $school['id'] ?>Modal">
+                                                    View History <i class="bi bi-arrow-right ms-1"></i>
+                                                </button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+
+                            <!-- History Modal -->
+                            <div class="modal fade" id="<?= $school['id'] ?>Modal" tabindex="-1" aria-labelledby="<?= $school['id'] ?>Label" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="<?= $school['id'] ?>Label"><?= $school['name'] ?> (<?= $school['year'] ?>) - History</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p><?= nl2br($school['history']) ?></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
                     </div>
 
                 </div><!-- tab-content -->
