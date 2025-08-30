@@ -98,7 +98,6 @@
 </style>
 
 <style>
-    /* Make cards have a consistent shadow and padding */
     .card {
         border: 1px solid #ddd;
         border-radius: 10px;
@@ -110,7 +109,7 @@
         padding: 1.5rem;
     }
 
-    /* Ensure icons and text are aligned properly */
+
     .apoicons .row {
         align-items: center;
     }
@@ -120,24 +119,24 @@
         height: auto;
     }
 
-    /* Let image take full height and width in its container */
+
     .card img {
         object-fit: cover;
         height: 100%;
         width: 100%;
     }
 
-    /* Ensure email breaks cleanly on smaller screens */
+
     .apoicons .col-9 {
         word-break: break-word;
     }
 
-    /* Add margin between cards */
+
     .card+.card {
         margin-top: 2rem;
     }
 
-    /* Optional: Make the cards responsive for smaller screens */
+
     @media (max-width: 767.98px) {
         .card-body {
             padding: 1rem;
@@ -152,76 +151,68 @@
         }
     }
 
-    /* Typography enhancements */
     .text-brown {
         color: #5d4037;
-        /* Replace with theme brown if needed */
+
     }
 
     .lead {
         font-size: 1.1rem;
     }
 
-    /* Adjust image padding if needed */
+
     .card img.img-fluid {
         padding: 0;
         border-radius: 0;
     }
-</style>
-<!-- STYLES FOR TRANSITION -->
-<!-- <style>
-    .transition-col {
-        transition: all 0.5s ease;
+
+    /* Academic header and sslm */
+    .acdemic_head h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-align: left;
+        color: #2a6b4e;
+        /* Bootstrap primary 7cb078    0d6efd*/
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
     }
 
-    /* Optional: Smoothly expand the hidden column */
-    #historyCol {
-        opacity: 0;
-        transition: opacity 0.5s ease;
-    }
-
-    #historyCol:not(.d-none) {
-        opacity: 1;
-    }
-</style> -->
-<!-- <style>
-    .transition-col {
-        transition: all 0.5s ease;
-    }
-
-    /* .history-col {
-        opacity: 0;
-        transition: opacity 0.5s ease;
-    }
-
-    .history-col.show {
-        opacity: 1;
+    /* .acdemic_head hr {
+        text-align: left;
+        width: 20rem;
+        height: 4px;
+        background-color: #0d6efd;
+        border: 2px solid red;
+        margin: 0 auto 2rem auto;
+        border-radius: 2px;
     } */
 
-    .history-col {
-        opacity: 0;
-        visibility: hidden;
-        transition: opacity 0.5s ease;
-        height: 0;
-        overflow: hidden;
+    .nav-item .btn {
+        border-radius: 30px;
+        font-weight: 500;
+        transition: all 0.3s ease-in-out;
+        padding: 0.75rem 1rem;
     }
 
-    .history-col.show {
-        opacity: 1;
-        visibility: visible;
-        height: auto;
+    .nav-item .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     }
-</style> -->
 
+    .nav-item .btn.active {
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+    }
+</style>
 
 <section class="academic_main" id="academic_tab_main">
     <div class="container acdemic_head">
-        <h2>Education Institute</h2>
+        <h2>Education Institutes</h2>
         <hr>
     </div>
 
     <div class="container">
-        <!-- Academic Tabs -->
+        <!-- School Tabs -->
         <div class="row text-center mb-4 g-2 nav" id="academicTab" role="tablist">
             <div class="col-lg-2 col-md-6 col-sm-6 col-6 nav-item">
                 <button class="btn btn-primary w-100 active" id="polytechnic-tab" data-bs-toggle="tab"
@@ -336,9 +327,7 @@
                                 'principal' => 'Sr. Valsamma Michael / Sr. Gracy Varghese',
                                 'managed_by' => 'Missionaries of Mary Mediatrix',
                                 'telephone' => '',
-                                'history' => 'Mary Mediatrix School was establised on 12th June 1997. This School was started on the initiative of Most Rev. Thumma Bala, the Bishop of Warangal and the then Regional Superior, Sr. Theresa Thomas. The school building was blessed and inaugurated by Bishop Thumma Bala on 16th January 1997.  The main aim of this institution is to give a sound moral, intellectual, social and physical education.   Fr. M.P. Joseph helped for the construction of the Convent and primary school buildings.
-
-'
+                                'history' => 'Mary Mediatrix School was establised on 12th June 1997. This School was started on the initiative of Most Rev. Thumma Bala, the Bishop of Warangal and the then Regional Superior, Sr. Theresa Thomas. The school building was blessed and inaugurated by Bishop Thumma Bala on 16th January 1997.  The main aim of this institution is to give a sound moral, intellectual, social and physical education.   Fr. M.P. Joseph helped for the construction of the Convent and primary school buildings'
                             ],
                             [
                                 'id' => 'MissionSchoolSagaram',
@@ -2313,10 +2302,10 @@
                         ?>
 
                         <?php foreach ($technicalschools as $school): ?>
-                            <div class="card mb-4">
-                                <div class="row no-gutters align-items-stretch" data-aos="fade-up"
-                                    data-aos-anchor-placement="center-bottom"
-                                    data-aos-duration="1000">
+                            <div class="card mb-4 " data-aos="fade-up"
+                                data-aos-anchor-placement="center-bottom"
+                                data-aos-duration="1000">
+                                <div class="row no-gutters align-items-stretch">
                                     <!-- Image -->
                                     <div class="col-lg-4 col-md-12">
                                         <img src="<?= base_url($school['image']) ?>" class="img-fluid h-100 w-100" style="object-fit: cover;" alt="<?= $school['name'] ?>">
@@ -2430,46 +2419,46 @@
                     <!--training institute -->
                     <div class="tab-pane fade" id="traininginstitute" role="tabpanel" aria-labelledby="traininginstitute-tab">
                         <?php
-                                $trainingchools = [
-                                    [
-                                        'id' => 'BalavikasaInformationTechnologyCenter',
-                                        'name' => 'BALAVIKASA INFORMATION TECHNOLOGY CENTER (ITC)',
-                                        'year' => '3rd June, 2000',
-                                        'image' => 'public/assets/images/education/dummyschool.jpg',
-                                        'place' => 'Fatimanagar, Warangal',
-                                        'address' => 'Bala Vikasa Information Technology Centre, Fatimanagar, Warangal - 506 004',
-                                        'principal' => 'Mrs. S. Sunitha',
-                                        'managed_by' => 'Bala Vikasa',
-                                        'telephone' => '0870 - 2430357',
-                                        'history' => 'Bala Vikasa Information Technology Center is a branch of Bala Vikasa social Service Society. It was established on 3rd June, 2000. The purpose of this Center was to serve the economically poor students by the Job-Oriented Training in Advanced Courses with less tution fee. This Helps the Poor to Compete in the national/international IT Market. The Institute also aims at conducting research to make the IT benefits available to the Rural Areas, So that many rural Poor will get benefited.'
-                                    ],
-                                    [
-                                        'id' => 'DonBoscoIndustrialTrainingInstitute',
-                                        'name' => 'DON BOSCO INDUSTRIAL TRAINING INSTITUTE',
-                                        'year' => '1992',
-                                        'image' => 'public/assets/images/education/dummyschool.jpg',
-                                        'place' => 'Mariapuram, Warangal',
-                                        'address' => 'Don Bosco Industrial Training Centre, Mariapuram, P.O. Box. 4, Warangal - 500 002',
-                                        'principal' => 'Fr. Joseph Abraham / Fr. M. Rayappa',
-                                        'managed_by' => 'Salesians of Don Bosco',
-                                        'telephone' => '-',
-                                        'history' => 'A Non-formal Training Centre was a real need in the Diocese for the School Drop-outs and poor  Students in and around this Area. To meet this need, Bishop Thumma Bala invited Salesians of Don Bosco into the Diocese. Responding to this Invitation, Fr. Pudota Benjamin, the then Provincial of Hyderabad Salesian Province, came forward to take-up the Mission at Mariapuram in 1992. Keeping the Charism of their Founder in mind, the Salesians soon planned for a Technical Institute for the Poor Rural Youth to assert themselves as useful Citizens. It is heartening to know that after completing the Training, most of them have settled well with some job or the other. At present, there are three Trades in this Centre.'
-                                    ],
-                                    [
-                                        'id' => 'NirmalaHandicraftTrainingCentre',
-                                        'name' => 'NIRMALA HANDI-CRAFT TRAINING CENTRE',
-                                        'year' => '1st June 1975',
-                                        'image' => 'public/assets/images/education/dummyschool.jpg',
-                                        'place' => 'Fatimanagar, Warangal',
-                                        'address' => 'Nirmala Handi-craft Centre, Fatimanagar, Warangal - 506 004',
-                                        'principal' => 'Fr. G. Bala Martine',
-                                        'managed_by' => 'Vishwa Karuna Sangam',
-                                        'telephone' => '-',
-                                        'history' => 'Fatima Tailoring Centre was started on 1st June 1975 by Fr. Colombo, PIME. Sr. Thomasin (Presentation Congregation) was the first Principal of this Tailoring Institute. In the beginning, there were 40 Students.  The main work of this Centre is teaching Embroidery, Machine-embroidery, Lace and Fabric-painting. Earlier there was even tailoring but now this is shifted to Navajeevan, Karunapuram. After 2 years of learning, they go for Government Exams and get Government Certificates, with which they easily get Jobs in Schools or they can start something privately for their livelyhood. This Institution provides Training for Self-employment to Young Girls from this locality and from surrounding Villages.'
-                                    ]
-                                ];
+                        $trainingchools = [
+                            [
+                                'id' => 'BalavikasaInformationTechnologyCenter',
+                                'name' => 'BALAVIKASA INFORMATION TECHNOLOGY CENTER (ITC)',
+                                'year' => '3rd June, 2000',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Fatimanagar, Warangal',
+                                'address' => 'Bala Vikasa Information Technology Centre, Fatimanagar, Warangal - 506 004',
+                                'principal' => 'Mrs. S. Sunitha',
+                                'managed_by' => 'Bala Vikasa',
+                                'telephone' => '0870 - 2430357',
+                                'history' => 'Bala Vikasa Information Technology Center is a branch of Bala Vikasa social Service Society. It was established on 3rd June, 2000. The purpose of this Center was to serve the economically poor students by the Job-Oriented Training in Advanced Courses with less tution fee. This Helps the Poor to Compete in the national/international IT Market. The Institute also aims at conducting research to make the IT benefits available to the Rural Areas, So that many rural Poor will get benefited.'
+                            ],
+                            [
+                                'id' => 'DonBoscoIndustrialTrainingInstitute',
+                                'name' => 'DON BOSCO INDUSTRIAL TRAINING INSTITUTE',
+                                'year' => '1992',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Mariapuram, Warangal',
+                                'address' => 'Don Bosco Industrial Training Centre, Mariapuram, P.O. Box. 4, Warangal - 500 002',
+                                'principal' => 'Fr. Joseph Abraham / Fr. M. Rayappa',
+                                'managed_by' => 'Salesians of Don Bosco',
+                                'telephone' => '-',
+                                'history' => 'A Non-formal Training Centre was a real need in the Diocese for the School Drop-outs and poor  Students in and around this Area. To meet this need, Bishop Thumma Bala invited Salesians of Don Bosco into the Diocese. Responding to this Invitation, Fr. Pudota Benjamin, the then Provincial of Hyderabad Salesian Province, came forward to take-up the Mission at Mariapuram in 1992. Keeping the Charism of their Founder in mind, the Salesians soon planned for a Technical Institute for the Poor Rural Youth to assert themselves as useful Citizens. It is heartening to know that after completing the Training, most of them have settled well with some job or the other. At present, there are three Trades in this Centre.'
+                            ],
+                            [
+                                'id' => 'NirmalaHandicraftTrainingCentre',
+                                'name' => 'NIRMALA HANDI-CRAFT TRAINING CENTRE',
+                                'year' => '1st June 1975',
+                                'image' => 'public/assets/images/education/dummyschool.jpg',
+                                'place' => 'Fatimanagar, Warangal',
+                                'address' => 'Nirmala Handi-craft Centre, Fatimanagar, Warangal - 506 004',
+                                'principal' => 'Fr. G. Bala Martine',
+                                'managed_by' => 'Vishwa Karuna Sangam',
+                                'telephone' => '-',
+                                'history' => 'Fatima Tailoring Centre was started on 1st June 1975 by Fr. Colombo, PIME. Sr. Thomasin (Presentation Congregation) was the first Principal of this Tailoring Institute. In the beginning, there were 40 Students.  The main work of this Centre is teaching Embroidery, Machine-embroidery, Lace and Fabric-painting. Earlier there was even tailoring but now this is shifted to Navajeevan, Karunapuram. After 2 years of learning, they go for Government Exams and get Government Certificates, with which they easily get Jobs in Schools or they can start something privately for their livelyhood. This Institution provides Training for Self-employment to Young Girls from this locality and from surrounding Villages.'
+                            ]
+                        ];
 
-                                                ?>
+                        ?>
 
                         <?php foreach ($trainingchools as $school): ?>
                             <div class="card mb-4">
