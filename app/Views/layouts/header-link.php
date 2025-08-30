@@ -22,6 +22,7 @@
     <!-- aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+<link rel="stylesheet" href="<?= base_url() ?>public/assets/css/commom.css">
     <style>
         /* * {
             outline: 1px solid red;

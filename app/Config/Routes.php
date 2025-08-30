@@ -31,3 +31,15 @@ $routes->get('education', 'Home::education');
 
 $routes->get('birthday_calender', 'Home::birthday_calender');
 
+
+
+$routes->get('Seminarians', 'Home::Seminarians');
+
+
+
+$routes->get('Marriage_tribunal', 'Home::Marriage_tribunal');
+
+$routes->get('College_Consultors', 'Home::College_Consultors');
+
+
+
