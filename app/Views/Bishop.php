@@ -103,14 +103,11 @@
  </section>
 
 
- 
+
  <section class="bishop2">
   <div class="container bishop_container">
     <!-- Top Row: Profile -->
     <div class="row g-4 bishop_row">
-      <div class="heading">
-        <h4>Bishop Profile</h4>
-      </div>
       <!-- Left: Text -->
       <div class="col-lg-8">
         <div class="profile-card">
