@@ -53,6 +53,15 @@
     font-size: 1rem;
     color: #555;
   }
+
+  .card {
+    transition: 0.3s ease-in-out;
+  }
+
+  .card:hover {
+    box-shadow: rgba(99, 99, 99, 0.35) 0px 5px 15px;
+    transform: translateY(-4px);
+  }
 </style>
 <!-- </head> -->
 
@@ -140,38 +149,39 @@
 
 </section> -->
 
-<section id="diocese_curia mb-2 mt-2 " style="min-height: 100vh;">
+<section id="diocese_curia mb-2 mt-2 ">
   <div class="container">
-    <h2 class="section-title text-center my-4">Warangal Diocese Curia</h2>
+    <h2 class="section-title text-center my-4 fw-bold">Warangal Diocese Curia</h2>
     <div class="row justify-content-center g-4 my-4">
 
-      <div class="col-lg-3 col-md-6">
+      <div class="col-lg-3 col-md-4 col-sm-6">
         <div class="card text-center">
-          <img class="card-img-top" src="<?= base_url('public/assets/images/bishops/b1.jpg') ?>" alt="Bishop Image">
+          <img class="card-img-top" src="<?= base_url('public/assets/images/bishops/udumula-bala.jpg') ?>" alt="Bishop Image">
           <div class="card-body">
             <p class="card-text">
-              <span class="fw-bold">Name:</span> Most Rev. Dr. Udumala Bala
-              <span class="fw-bold">Designation:</span> Bishop
+              <span class="fw-bold">Name: </span> Most Rev. Dr. Udumala Bala<br>
+              <span class="fw-bold">Designation: </span> Bishop
             </p>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6">
+      <div class="col-lg-3 col-md-4 col-sm-6">
         <div class="card text-center">
-          <img class="card-img-top" src="<?= base_url('public/assets/images/bishops/b2.jpg') ?>" alt="Chancellor Image">
+          <img class="card-img-top" src="<?= base_url('public/assets/images/bishops/b1.jpg') ?>" alt="Chancellor Image">
           <div class="card-body">
             <p class="card-text">
-              <span class="fw-bold">Name:</span> Fr. Kommareddy Joseph Reddy
-              <span class="fw-bold">Designation:</span> Chancellor cum Procurator
+              <span class="fw-bold">Name: </span> Fr. Kommareddy Joseph Reddy<br>
+              <span class="fw-bold">Designation: </span> Chancellor cum Procurator
             </p>
+
           </div>
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6">
+      <div class="col-lg-3 col-md-4 col-sm-6">
         <div class="card text-center">
-          <img class="card-img-top" src="<?= base_url('public/assets/images/bishops/udumula-bala.jpg') ?>" alt="Secretary Image">
+          <img class="card-img-top" src="<?= base_url('public/assets/images/bishops/b2.jpg') ?>" alt="Secretary Image">
           <div class="card-body">
             <p class="card-text">
               <span class="fw-bold">Name:</span> Fr. Anukiran Gangarapu

@@ -75,12 +75,12 @@ AOS JS (before closing </body>)
                                     <a class="dropdown-item" href="<?= base_url() ?>Marriage_tribunal">Marriage Tribunal</a>
                                     <a class="dropdown-item" href="#">Deaneries</a>
                                     <a class="dropdown-item" href="#">Directress</a>
-                                    <a class="dropdown-item" href="#">Parishes</a>
+                                    <a class="dropdown-item" href="<?= base_url() ?>parishes">Parishes</a>
                                     <a class="dropdown-item" href="#">Cathedral</a>
                                     <a class="dropdown-item" href="#">Diocesan Shrines</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>Seminarians">Seminarians</a>
 
-                              </div>
+                                </div>
                             </li>
 
                             <!-- Bishop Dropdown -->
@@ -94,7 +94,7 @@ AOS JS (before closing </body>)
 
                             <!-- Institutions Dropdown -->
                             <li class="nav-item dropdown">
-<!--                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Institutions</a> -->
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Institutions</a>
                                 <div class="dropdown-menu rounded-0 sub-drop pb-3">
                                     <a class="dropdown-item" href="<?= base_url() ?>institutions">Institutions</a>
 
@@ -134,7 +134,7 @@ AOS JS (before closing </body>)
                                     <a class="dropdown-item" href="<?= base_url() ?>Photo_Gallery">Photo Gallery</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>Video_gallery">Video Gallery</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>song_gallery">Songs Gallery</a>
-                                    <a class="dropdown-item disabled-link" href="#">Newsletters</a>
+                                    <a class="dropdown-item" href="<?= base_url() ?>news-letters/">Newsletters</a>
                                 </div>
                             </li>
 

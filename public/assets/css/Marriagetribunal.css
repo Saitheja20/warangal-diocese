@@ -62,11 +62,11 @@
     tr:nth-child(even) td {
       background: #fdfdfd;
     }
-    tr:hover td {
+    /* tr:hover td {
       background: var(--holy-hover);
       cursor: pointer;
       transition: background 0.2s ease-in-out;
-    }
+    } */
     /* Responsive priest-friendly version */
     @media (max-width: 768px) {
       th, td { font-size: 14px; padding: 10px; }
