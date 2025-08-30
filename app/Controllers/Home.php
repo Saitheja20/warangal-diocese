@@ -75,4 +75,10 @@ class Home extends BaseController
         return view('education');
     }
 
+         public function birthday_calender(): string{
+        return view('birthday_calender');
+    }
+
 }
+
+

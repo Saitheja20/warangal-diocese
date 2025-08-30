@@ -2,10 +2,10 @@
 <?= view('layouts/header-link') ?>
   
   <style>
-    body {
+    /* body {
       background: #f9f9f9;
-      font-family: "Comic Sans MS", cursive, sans-serif; /* because boring fonts are a sin */
-    }
+      font-family: "Comic Sans MS", cursive, sans-serif;
+    } */
     .heading {
       font-size: 2rem;
       font-weight: bold;
