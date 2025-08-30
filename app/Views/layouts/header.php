@@ -64,14 +64,14 @@ AOS JS (before closing </body>)
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Diocese</a>
                                 <div class="dropdown-menu rounded-0 sub-drop pb-3">
-                                    <a class="dropdown-item disabled-link" href="#">About Us</a>
+                                    <a class="dropdown-item " href="<?= base_url() ?>About_us">About Us</a>
                                     <a class="dropdown-item disabled-link" href="#">History</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>diocese_curia">Diocesan Curia</a>
 
                                     <a class="dropdown-item" href="<?= base_url() ?>College_Consultors">College of Consultors</a>
-                                    <a class="dropdown-item" href="#">Senate Members</a>
+                                    <a class="dropdown-item" href="<?= base_url() ?>Senate_Members">Senate Members</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>commissions">Commissions</a>
-                                    <a class="dropdown-item" href="#">Committees</a>
+                                    <a class="dropdown-item disabled-link" href="#">Committees</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>Marriage_tribunal">Marriage Tribunal</a>
                                     <a class="dropdown-item" href="#">Deaneries</a>
                                     <a class="dropdown-item" href="#">Directress</a>
@@ -87,7 +87,7 @@ AOS JS (before closing </body>)
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Bishop</a>
                                 <div class="dropdown-menu rounded-0 sub-drop pb-3">
-                                    <a class="dropdown-item disabled-link" href="#">Bishop</a>
+                                    <a class="dropdown-item " href="<?= base_url() ?>Bishop">Bishop</a>
                                     <a class="dropdown-item disabled-link" href="#">Bishop's Message</a>
                                 </div>
                             </li>

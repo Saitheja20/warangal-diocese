@@ -1,0 +1,64 @@
+
+    body {
+      background: #f8f9fa;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    .section-title {
+      text-align: center;
+       font-size: clamp(24px, 5vw, 40px);
+      font-weight: 700;
+      color: #d35400;
+      margin: 40px 0 20px;
+      position: relative;
+    }
+
+    .section-title::after {
+      content: "";
+      width: 80px;
+      height: 4px;
+      background: linear-gradient(to right, #e74c3c, #f39c12);
+      display: block;
+      margin: 10px auto 0;
+      border-radius: 2px;
+    }
+
+    .history-card {
+      /* background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      padding: 25px; */
+      /* max-width: 1000px; */
+      /* margin: auto; */
+    margin: 0px 50px;
+      color: #444;
+    }
+
+    .history-card p {
+      text-align: justify;
+      margin-bottom: 15px;
+      line-height: 1.7;
+    }
+
+.btn_readmore{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+   .btn-read {
+    text-decoration: none;
+    
+    background: linear-gradient(135deg, #e74c3c, #f39c12);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+    .btn-read:hover {
+      opacity: 0.9;
+      transform: scale(1.05);
+    }
