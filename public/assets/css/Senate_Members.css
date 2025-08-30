@@ -1,0 +1,104 @@
+
+:root {
+  --primary-font-color: #2c3e50;
+  --secondary-font-color: #555555;
+  --accent-color: #1abc9c;
+  --background-color: #f8f9fa;
+  --card-background: #ffffff;
+  --section-padding: 60px;
+  --heading-font-size: 2rem;
+  --subheading-font-size: 1.5rem;
+  --card-heading-font-size: 1.25rem;
+}
+
+/* Global body styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--primary-font-color);
+  background-color: var(--background-color);
+  padding: 0;
+  margin: 0;
+}
+
+/* Section styles */
+.dio_council_section {
+  padding: var(--section-padding) 0;
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+}
+
+/* Headings */
+.heading h4 {
+  text-align: center;
+font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--primary-font-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.subheading h3 {
+  font-size: var(--subheading-font-size);
+  font-weight: 600;
+  color: var(--primary-font-color);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Row */
+.dio_council_row {
+  row-gap: 25px;
+  /* column-gap: 20px; */
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: var(--card-background);
+  height: -webkit-fill-available;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Card heading and text */
+.card_heading {
+  text-align: center;
+  color: var(--accent-color);
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: var(--card-heading-font-size);
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: var(--secondary-font-color);
+  line-height: 1.5;
+}
+.subheading{
+    display: flex;
+    text-align: left;
+   
+}
+.subheading h3{
+     border-bottom: 3px solid  var( --accent-color);
+     padding-bottom: 5px;
+}
+/* Responsive styles */
+@media (max-width: 991px) {
+  .dio_council_section {
+    padding: 40px 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  .card_heading {
+    font-size: 1.1rem;
+  }
+}
+

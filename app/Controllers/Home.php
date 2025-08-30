@@ -92,7 +92,11 @@ class Home extends BaseController
         return view('College_Consultors');
     }
 
-    
+        
+                     public function Senate_Members(): string{
+        return view('Senate_Members');
+    }
+
 
 }
 

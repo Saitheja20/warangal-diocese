@@ -41,5 +41,6 @@ $routes->get('Marriage_tribunal', 'Home::Marriage_tribunal');
 
 $routes->get('College_Consultors', 'Home::College_Consultors');
 
+$routes->get('Senate_Members', 'Home::Senate_Members');
 
 

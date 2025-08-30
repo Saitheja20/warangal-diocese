@@ -69,7 +69,7 @@ AOS JS (before closing </body>)
                                     <a class="dropdown-item" href="<?= base_url() ?>diocese_curia">Diocesan Curia</a>
 
                                     <a class="dropdown-item" href="<?= base_url() ?>College_Consultors">College of Consultors</a>
-                                    <a class="dropdown-item" href="#">Senate Members</a>
+                                    <a class="dropdown-item" href="<?= base_url() ?>Senate_Members">Senate Members</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>commissions">Commissions</a>
                                     <a class="dropdown-item" href="#">Committees</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>Marriage_tribunal">Marriage Tribunal</a>
