@@ -79,6 +79,21 @@ class Home extends BaseController
         return view('birthday_calender');
     }
 
+             public function Seminarians(): string{
+        return view('Seminarians');
+    }
+
+                 public function Marriage_tribunal(): string{
+        return view('Marriage_tribunal');
+    }
+
+    
+                     public function College_Consultors(): string{
+        return view('College_Consultors');
+    }
+
+    
+
 }
 
 

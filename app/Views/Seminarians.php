@@ -1,69 +1,7 @@
+<head>
+  <link rel="stylesheet" href="http://localhost/diocese/public/assets/css/Seminarians.css">
 <?= view('layouts/header') ?>
 <?= view('layouts/header-link') ?>
-  
-  <style>
-    :root {
-      --holy-blue: #004aad;
-      --holy-red: #8b0000;
-      --holy-hover: #d1e3ff;
-      --holy-bg: #f9f9f9;
-      --holy-shadow: rgba(0, 0, 0, 0.15);
-    }
-
-    body {
-      background: var(--holy-bg);
-      font-family: "Comic Sans MS", cursive, sans-serif;
-      overflow-x: hidden;
-    }
-
-    .heading {
-      text-align: center;
-      color: var(--holy-red);
-      margin-bottom: 10px;
-      font-weight: bold;
-    }
-
-    .sub-text {
-      text-align: center;
-      font-size: 14px;
-      color: #333;
-      margin-bottom: 20px;
-    }
-
-    .table thead {
-      background-color: var(--holy-blue);
-      color: #fff;
-    }
-
-    .table-hover tbody tr:hover {
-      background-color: var(--holy-hover);
-      transform: scale(1.01);
-      transition: 0.3s ease-in-out;
-      box-shadow: 0 4px 8px var(--holy-shadow);
-    }
-
-    /* Scrollable Holy Ark */
-    .table-responsive {
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch; /* iOS holy momentum */
-      cursor: grab;
-    }
-
-    .table-responsive:active {
-      cursor: grabbing;
-    }
-
-    /* No text wrap to keep columns aligned */
-    .table td, .table th {
-      white-space: nowrap;
-    }
-
-    @media (min-width: 992px) {
-      .table-responsive {
-        overflow-x: hidden !important;
-      }
-    }
-  </style>
 </head>
 <body>
   <div class="container my-4">
@@ -149,5 +87,6 @@
       holyScroll.scrollLeft = scrollLeft - walk;
     });
   </script>
+  <?= view('layouts/footer') ?>
 </body>
 </html>

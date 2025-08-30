@@ -1,0 +1,81 @@
+    .College_Consultors_section {
+      margin: 50px 0;
+    }
+
+    /* .College_Consultors_section .heading h4 {
+      text-align: center;
+      font-weight: 700;
+      margin-bottom: 40px;
+      font-size: 40px;
+      color: #2c3e50;
+    } */
+     .heading h4{
+        margin-bottom: 40px;
+     }
+    .College_Consultors_row{
+
+    row-gap: 30px;
+    }
+   
+    .user-card {
+      width: 100%;
+    height: -webkit-fill-available;
+      border-radius: 17px;
+      position: relative;
+      margin-top: 80px;
+      text-align: center;
+      padding-top: 100px;
+      background-color: white;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      border: 1px solid #bdbdbd;
+      transition: 0.3s ease-in-out;
+    }
+
+    .user-card:hover {
+      box-shadow: rgba(99, 99, 99, 0.35) 0px 5px 15px;
+      transform: translateY(-4px);
+    }
+
+    .user-card img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      position: absolute;
+      top: -100px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 21px;
+      border: 3px solid #fff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      background: #fff;
+    }
+
+    .user-card .card-body {
+      padding: 15px;
+      text-align: left;
+    }
+
+    .user-card .card-body p {
+      margin: 8px 0;
+      font-size: 15px;
+      font-weight: 500;
+      color: #333;
+    }
+
+    .user-card .card-body strong {
+      font-weight: 700;
+      color: #000;
+    }
+
+    /* Responsive fix for small devices */
+    @media (max-width: 576px) {
+      .user-card img {
+        width: 150px;
+        height: 150px;
+        top: -75px;
+      }
+      .user-card {
+        margin-top: 60px;
+        padding-top: 80px;
+      }
+    }
