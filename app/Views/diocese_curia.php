@@ -1,5 +1,5 @@
 <head>
-<link rel="stylesheet" href="http://localhost/diocese/public/assets/css/College-Consultors.css">
+<link rel="stylesheet" href="<?= base_url() ?>public/assets/css/College-Consultors.css">
 <?= view('layouts/header') ?>
 <?= view('layouts/header-link') ?>
 </head>

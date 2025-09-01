@@ -16,6 +16,12 @@ $routes->get('news-letters', 'Home::newsletters');
 $routes->get('institutions', 'Home::institutions');
 $routes->get('commissions', 'Home::commissions');
 $routes->get('Committees', 'Home::Committees');
+$routes->get('Necrology', 'Home::Necrology');
+
+$routes->get('Diocesan_Shrines', 'Home::Diocesan_Shrines');
+
+$routes->get('Diocesan_Priests', 'Home::Diocesan_Priests');
+$routes->get('Religious_Priests', 'Home::Religious_Priests');
 
 
 

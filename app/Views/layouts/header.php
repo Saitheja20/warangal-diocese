@@ -77,8 +77,10 @@ AOS JS (before closing </body>)
                                     <a class="dropdown-item disabled-link" href="#">Directress</a>
                                     <a class="dropdown-item disabled-link" href="#">Parishes</a>
                                     <a class="dropdown-item disabled-link" href="#">Cathedral</a>
-                                    <a class="dropdown-item disabled-link" href="#">Diocesan Shrines</a>
+                                    <a class="dropdown-item " href="<?= base_url() ?>Diocesan_Shrines">Diocesan Shrines</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>Seminarians">Seminarians</a>
+                                    
+                                   
 
                               </div>
                             </li>
@@ -109,8 +111,8 @@ AOS JS (before closing </body>)
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Priests & Religious</a>
                                 <div class="dropdown-menu rounded-0 sub-drop pb-3">
-                                    <a class="dropdown-item disabled-link" href="#">Diocesan Priests</a>
-                                    <a class="dropdown-item disabled-link" href="#">Religious Priests</a>
+                                    <a class="dropdown-item " href="<?= base_url() ?>Diocesan_Priests">Diocesan Priests</a>
+                                    <a class="dropdown-item " href="<?= base_url() ?>Religious_Priests">Religious Priests</a>
                                     <a class="dropdown-item disabled-link" href="#">Religious Sisters</a>
                                 </div>
                             </li>
@@ -121,7 +123,7 @@ AOS JS (before closing </body>)
                                 <div class="dropdown-menu rounded-0 sub-drop pb-3">
                                     <a class="dropdown-item" href="<?= base_url() ?>birthday_calender">Birthday Calendar</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>birthday_calender">Ordination Calendar</a>
-                                    <a class="dropdown-item" href="#">Necrology</a>
+                                     <a class="dropdown-item" href="<?= base_url() ?>Necrology">Necrology</a>
                                 </div>
                             </li>
 

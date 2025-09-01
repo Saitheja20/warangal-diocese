@@ -1,6 +1,6 @@
 
 <head>
- <link rel="stylesheet" href="http://localhost/diocese/public/assets/css/About_us.css">
+ <link rel="stylesheet" href="<?= base_url() ?>public/assets/css/About_us.css">
 <?= view('layouts/header') ?>
 <?= view('layouts/header-link') ?>
 </head>

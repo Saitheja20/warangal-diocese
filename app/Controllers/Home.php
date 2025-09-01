@@ -70,7 +70,25 @@ class Home extends BaseController
         return view('Marriagetribunal');
     }
 
+                   public function Necrology(): string{
+        return view('Necrology');
+    }
 
+    
+                   public function Diocesan_Shrines(): string{
+        return view('Diocesan_Shrines');
+    }
+
+        
+                   public function Diocesan_Priests(): string{
+        return view('Diocesan_Priests');
+    }
+
+                   public function Religious_Priests(): string{
+        return view('Religious_Priests');
+    }
+
+    
 
                    public function Photo_Gallery(): string{
         return view('Photo_Gallery');

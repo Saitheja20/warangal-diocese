@@ -1,5 +1,6 @@
  <head>
  <link rel="stylesheet" href="http://localhost/diocese/public/assets/css/Marriagetribunal.css">
+
 <?= view('layouts/header') ?>
 <?= view('layouts/header-link') ?>
 
