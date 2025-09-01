@@ -71,7 +71,7 @@ AOS JS (before closing </body>)
                                     <a class="dropdown-item" href="<?= base_url() ?>College_Consultors">College of Consultors</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>Senate_Members">Senate Members</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>commissions">Commissions</a>
-                                    <a class="dropdown-item disabled-link" href="#">Committees</a>
+                                    <a class="dropdown-item " href="<?= base_url() ?>Committees">Committees</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>Marriage_tribunal">Marriage Tribunal</a>
                                     <a class="dropdown-item disabled-link" href="#">Deaneries</a>
                                     <a class="dropdown-item disabled-link" href="#">Directress</a>

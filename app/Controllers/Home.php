@@ -48,6 +48,10 @@ class Home extends BaseController
         return view('commissions');
     }
 
+          public function Committees(): string{
+        return view('Committees');
+    }
+    
            public function institution_men(): string{
         return view('Institute_Men');
     }

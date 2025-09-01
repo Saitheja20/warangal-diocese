@@ -77,7 +77,8 @@
     }
     .bishop_row2.show {
       opacity: 1;
-      max-height: 2000px; /* large enough to fit content */
+      max-height: 2000px; 
+      margin-top: 10px;
     }
     .heading {
       text-align: center;

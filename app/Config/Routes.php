@@ -15,6 +15,9 @@ $routes->get('welcome', 'Home::welcome');
 $routes->get('news-letters', 'Home::newsletters');
 $routes->get('institutions', 'Home::institutions');
 $routes->get('commissions', 'Home::commissions');
+$routes->get('Committees', 'Home::Committees');
+
+
 
 $routes->get('institution_men', 'Home::institution_men');
 $routes->get('institution_women', 'Home::institution_women');

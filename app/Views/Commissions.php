@@ -34,7 +34,7 @@
       border-radius: 8px;
       overflow: hidden;
     }
-
+/* inactive */
     .accordion-button {
       background-color: var(--accordion-bg-inactive);
       color: var(--accordion-text-inactive);
@@ -42,7 +42,7 @@
       position: relative;
       transition: all 0.3s ease;
     }
-
+/* active */
     .accordion-button:not(.collapsed) {
       background-color: var(--accordion-bg-active);
       color: var(--accordion-text-active);
@@ -79,13 +79,15 @@
 }
   </style>
 
+<section class="sec-pd">
 <div class="container">
   <div class="row">
     <div class="col-12">
 
-      <div class="page-title">Commissions</div>
-      <div class="side-heading">WARANGAL DIOCESAN PRESBYTERAL COUNCIL</div>
-      <p>Click to reveal the holy members of each commission! 🕊️</p>
+      <div class=" heading">
+        <h4>Commissions</h4></div>
+      <!-- <div class="side-heading">WARANGAL DIOCESAN PRESBYTERAL COUNCIL</div>
+      <p>Click to reveal the holy members of each commission! 🕊️</p> -->
 
       <div class="accordion" id="commissionsAccordion">
 
@@ -403,6 +405,9 @@
     </div>
   </div>
 </div>
+
+  
+</section>
 <?= view('layouts/footer') ?>
 
 

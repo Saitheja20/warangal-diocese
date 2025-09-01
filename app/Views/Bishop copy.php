@@ -1,6 +1,7 @@
-<head>  
-  <link rel="stylesheet" href="http://localhost/diocese/public/assets/css/Bishop.css">  
-  <?= view('layouts/header') ?>  
+<head>
+  <link rel="stylesheet" href="http://localhost/diocese/public/assets/css/Bishop.css">
+
+  <?= view('layouts/header') ?>
   <?= view('layouts/header-link') ?>
 </head>
 <body>
@@ -9,7 +10,7 @@
     <!-- Top Row: Profile -->
     <div class="row g-4 bishop_row">
       <div class="heading">
-        <h4>Bishop's Profile's</h4>
+        <h4>Bishop Profile</h4>
       </div>
       <!-- Left: Text -->
       <div class="col-lg-8">
@@ -44,6 +45,7 @@
         <button id="toggleProfileBtn" class="btn btn-danger">View Full Profile</button>
       </div>
     </div>
+
     <!-- Second Row: Detailed Profile Sections -->
     <div class="row g-4 bishop_row2" id="bishopDetails">
       <!-- Secular Studies Card -->
@@ -98,9 +100,11 @@
       </div>
     </div>
   </div>
-</section>
+ </section>
 
-<section class="bishop2">
+
+
+ <section class="bishop2">
   <div class="container bishop_container">
     <!-- Top Row: Profile -->
     <div class="row g-4 bishop_row">
@@ -137,6 +141,7 @@
         <button id="toggleProfileBtn1" class="btn btn-danger">View Full Profile</button>
       </div>
     </div>
+
     <!-- Second Row: Detailed Profile Sections -->
     <div class="row g-4 bishop_row2" id="bishopDetails1">
       <!-- Secular Studies Card -->
@@ -191,27 +196,26 @@
       </div>
     </div>
   </div>
-</section>
+ </section>
 
-<script>
-  const toggleBtn = document.getElementById('toggleProfileBtn');
-  const secondRow = document.getElementById('bishopDetails');
 
-  toggleBtn.addEventListener('click', () => {
-    secondRow.classList.toggle('show');
-    toggleBtn.textContent = secondRow.classList.contains('show') ? 'Hide Full Profile' : 'View Full Profile';
-  });
 
-  const toggleBtn1 = document.getElementById('toggleProfileBtn1');
-  const secondRow1 = document.getElementById('bishopDetails1');
+  <script>
+    const toggleBtn = document.getElementById('toggleProfileBtn');
+    const secondRow = document.getElementById('bishopDetails');
+  
+    toggleBtn.addEventListener('click', () => {
+      secondRow.classList.toggle('show');
+      toggleBtn.textContent = secondRow.classList.contains('show') ? 'Hide Full Profile' : 'View Full Profile';
+    });
 
-  toggleBtn1.addEventListener('click', () => {
-    secondRow1.classList.toggle('show');
-    toggleBtn1.textContent = secondRow1.classList.contains('show') ? 'Hide Full Profile' : 'View Full Profile';
-  });
-</script>
-
-<?= view('layouts/footer') ?>
+    const toggleBtn1 = document.getElementById('toggleProfileBtn1');
+        const secondRow1 = document.getElementById('bishopDetails1');
+       toggleBtn.addEventListener('click', () => {
+      secondRow1.classList.toggle('show');
+      toggleBtn.textContent = secondRow1.classList.contains('show') ? 'Hide Full Profile' : 'View Full Profile';
+    });
+  </script>
+    <?= view('layouts/footer') ?>
 </body>
 </html>
-

@@ -7,12 +7,7 @@
       --holy-shadow: rgba(0, 0, 0, 0.15);
       --bd-color: #d1e3ff; 
     }
-    body {
-      /* font-family: "Comic Sans MS", cursive, sans-serif; */
-      background: var(--holy-bg);
-      margin: 30px;
-      color: #222;
-    }
+
     .page-title {
       text-align: center;
       font-size: 34px;
@@ -40,14 +35,19 @@
       width: 100%;
       border-collapse: collapse;
       background: #fff;
-      box-shadow: 0px 3px 10px var(--holy-shadow);
+      /* box-shadow: 0px 7px 3px black; */
       border-radius: 10px;
       overflow: hidden;
+      border: 2px solid black !important;
+ 
+
+ 
     }
     th, td {
-      border: 1px solid var(--bd-color);
-      padding: 12px 14px;
+     border: 2px solid black !important;
+      /* padding: 12px 14px; */
       vertical-align: top;
+       padding: 20px  !important;
     }
     th {
       background-color: var(--holy-blue);
@@ -67,28 +67,25 @@
       cursor: pointer;
       transition: background 0.2s ease-in-out;
     }
-    /* Responsive priest-friendly version */
+
     @media (max-width: 768px) {
       th, td { font-size: 14px; padding: 10px; }
-    }
-    @media (max-width: 480px) {
-      table, thead, tbody, th, td, tr { display: block; }
-      th { display: none; }
-      tr { margin-bottom: 12px; box-shadow: 0px 2px 6px var(--holy-shadow); border-radius: 6px; overflow: hidden; }
-      td {
-        border: none;
-        padding-left: 50%;
-        position: relative;
-        text-align: left;
+      .description{
+        text-align: justify;
       }
-      td::before {
-        position: absolute;
-        top: 10px;
-        left: 12px;
-        font-weight: bold;
-        color: var(--holy-blue);
-      }
-      td:nth-of-type(1)::before { content: "Role"; }
-      td:nth-of-type(2)::before { content: ":"; }
-      td:nth-of-type(3)::before { content: "Name"; }
     }
+
+@media (max-width: 767px) {
+  .table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch; 
+  }
+
+  .table th,
+  .table td {
+    white-space: nowrap;
+  }
+}
