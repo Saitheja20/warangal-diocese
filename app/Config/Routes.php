@@ -19,7 +19,7 @@ $routes->get('commissions', 'Home::commissions');
 $routes->get('institution_men', 'Home::institution_men');
 $routes->get('institution_women', 'Home::institution_women');
 $routes->get('Institute_Seminaries', 'Home::Institute_Seminaries');
-$routes->get('diocese_curia', 'Home::diocese_curia');
+$routes->get('Diocese_curia', 'Home::Diocese_curia');
 $routes->get('Marriagetribunal', 'Home::Marriagetribunal');
 
 $routes->get('Photo_Gallery', 'Home::Photo_Gallery');
@@ -47,4 +47,4 @@ $routes->get('College_Consultors', 'Home::College_Consultors');
 
 $routes->get('Senate_Members', 'Home::Senate_Members');
 
-
+$routes->get('History', 'Home::History');

@@ -8,7 +8,7 @@
 <section class="College_Consultors_section">
   <div class="container College_Consultors_container">
     <div class="heading">
-      <h4>WARANGAL DIOCESAN COLLEGE OF CONSULTORS</h4>
+      <h4 class="card_heading">WARANGAL DIOCESAN COLLEGE OF CONSULTORS</h4>
     </div>
     <div class="row College_Consultors_row">
 

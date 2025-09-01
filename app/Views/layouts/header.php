@@ -65,8 +65,8 @@ AOS JS (before closing </body>)
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Diocese</a>
                                 <div class="dropdown-menu rounded-0 sub-drop pb-3">
                                     <a class="dropdown-item " href="<?= base_url() ?>About_us">About Us</a>
-                                    <a class="dropdown-item disabled-link" href="#">History</a>
-                                    <a class="dropdown-item" href="<?= base_url() ?>diocese_curia">Diocesan Curia</a>
+                                    <a class="dropdown-item " href="<?= base_url() ?>History">History</a>
+                                    <a class="dropdown-item" href="<?= base_url() ?>Diocese_curia">Diocesan Curia</a>
 
                                     <a class="dropdown-item" href="<?= base_url() ?>College_Consultors">College of Consultors</a>
                                     <a class="dropdown-item" href="<?= base_url() ?>Senate_Members">Senate Members</a>

@@ -1,0 +1,97 @@
+<?= view('layouts/header') ?>
+<?= view('layouts/header-link') ?>
+  
+  <style>
+    :root {
+      --holy-blue: #004aad;
+      --holy-red: #8b0000;
+      --holy-hover: #d1e3ff;
+      --holy-bg: #f9f9f9;
+      --holy-shadow: rgba(0, 0, 0, 0.15);
+    }
+
+
+    .heading {
+      text-align: center;
+      color: var(--holy-red);
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .sub-text {
+      text-align: center;
+      font-size: 14px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .table thead {
+      background-color: var(--holy-blue);
+      color: #fff;
+    }
+
+    .table-hover tbody tr:hover {
+      background-color: var(--holy-hover);
+      transform: scale(1.02);
+      transition: 0.3s ease-in-out;
+      box-shadow: 0 4px 8px var(--holy-shadow);
+    }
+
+    .card {
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 6px 12px var(--holy-shadow);
+    }
+
+    /* Responsiveness Blessings ✨ */
+    .table-responsive {
+      overflow-x: auto;
+    }
+    .table td, .table th {
+      white-space: nowrap; /* no holy word-wrapping sins */
+    }
+  </style>
+</head>
+<body>
+  <div class="container my-4">
+    <div class="card p-4">
+      <h4 class="heading">DIOCESAN CURIA</h2>
+      <br>
+      <!-- The sacred scrollable ark -->
+      <div class="table-responsive">
+        <table class="table table-bordered table-hover align-middle text-center">
+          <thead>
+            <tr>
+              <th>Sl. No.</th>
+              <th>Names</th>
+              <th>Designation</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Most Rev. Dr. Udumala Bala</td>
+              <td>Bishop</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Fr. Kommareddy Joseph Reddy</td>
+              <td>Chancellor cum Procurator</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Fr. Anukiran Gangarapu</td>
+              <td>Secretary</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
+
+
+<?= view('layouts/footer') ?>

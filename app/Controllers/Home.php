@@ -21,6 +21,13 @@ class Home extends BaseController
         return view('Bishop');
     }
 
+       public function History(): string
+    {
+        return view('History');
+    }
+
+    
+
     
     
     public function welcome(): string
@@ -51,8 +58,8 @@ class Home extends BaseController
         return view('Institute_Seminaries');
     }
 
-           public function diocese_curia(): string{
-        return view('diocese_curia');
+           public function Diocese_curia(): string{
+        return view('Diocese_curia');
     }
 
                public function Marriagetribunal(): string{
