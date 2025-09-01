@@ -3,26 +3,11 @@
 <?= view('layouts/header-link') ?>
   
   <style>
-    :root {
-      --accordion-bg-inactive: #000000;  
-      --accordion-bg-active: #8d0e0e;  
-      --accordion-text-inactive: #ffffff;
-      --accordion-text-active: #ffffff;
-      --priest-name-color: #000000;     
-    }
-
-    body {
-      font-family: "Comic Sans MS", cursive, sans-serif;
-      background: #f9f9f9;
-      margin: 30px;
-      color: #222;
-    }
-
+ 
     .page-title {
       text-align: center;
       font-size: 32px;
       font-weight: bold;
-      color: #bd0921;
       margin-bottom: 10px;
       text-transform: uppercase;
       letter-spacing: 2px;
@@ -32,7 +17,6 @@
       text-align: center;
       font-size: 20px;
       font-weight: bold;
-      color: #222;
       margin-top: 10px;
       margin-bottom: 15px;
       padding-bottom: 5px;

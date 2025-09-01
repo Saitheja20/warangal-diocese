@@ -2,69 +2,14 @@
 <link rel="stylesheet" href="http://localhost/diocese/public/assets/css/College-Consultors.css">
 <?= view('layouts/header') ?>
 <?= view('layouts/header-link') ?>
-<<<<<<< HEAD
 </head>
 <body>
-
-<section class="College_Consultors_section College_Consultors_section2">
-  <div class="container College_Consultors_container">
-    <div class="heading">
-      <h4 class="card_heading">DIOCESAN CURIA</h4>
-    </div>
-    <div class="row College_Consultors_row">
-
-  <!-- Card 1 -->
-<div class="col-lg-4 col-md-6 col-sm-12">
-  <div class="user-card">
-    <img src="https://i.postimg.cc/Pqzvb6F2/bishop.png" alt="user">
-    <div class="card-body">
-      <p><strong>Names : </strong> Most Rev. Dr. Udumala Bala</p>
-       <p><strong>Designation : </strong> Bishop</p>
-      
-    </div>
-  </div>
-</div>
-
-<!-- Card 2 -->
-<div class="col-lg-4 col-md-6 col-sm-12">
-  <div class="user-card">
-    <img src="https://i.postimg.cc/Pqzvb6F2/bishop.png" alt="user">
-    <div class="card-body">
-      <p><strong>Names : </strong> Fr. Kommareddy Joseph Reddy</p>
-      <p><strong>Designation : </strong> Chancellor cum Procurator</p>
-      
-    </div>
-  </div>
-</div>
-
-<!-- Card 3 -->
-<div class="col-lg-4 col-md-6 col-sm-12">
-  <div class="user-card">
-    <img src="https://i.postimg.cc/Pqzvb6F2/bishop.png" alt="user">
-    <div class="card-body">
-      <p><strong>Names : </strong> Fr. Anukiran Gangarapu</p>
-       <p><strong>Designation : </strong>Secretary</p>
-
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-=======
-
 <style>
-  /* 🎨 Root Holy Colors */
-
-
   #diocese_curia .card {
     border: none;
     border-radius: 12px;
     overflow: hidden;
-    height: 100%;
+      height: 100%;
     /* allow full height card */
     display: flex;
     flex-direction: column;
@@ -82,6 +27,7 @@
     /* 70% of the height */
     overflow: hidden;
   }
+
 
   #diocese_curia .card-img-top {
     width: 100%;
@@ -107,6 +53,9 @@
     text-align: left;
     font-size: 1rem;
     color: #555;
+  }
+    .card{
+      height: -webkit-fill-available ;
   }
 </style>
 <!-- </head> -->
@@ -195,9 +144,12 @@
 
 </section> -->
 
-<section id="diocese_curia mb-2 mt-2 " style="min-height: 100vh;">
+<section id="diocese_curia mb-2 mt-2 " style="min-height: auto;">
   <div class="container">
-    <h2 class="section-title text-center my-4">Warangal Diocese Curia</h2>
+    <div class="heading">
+    <h4 class="section-title text-center my-4">Warangal Diocese Curia</h4>
+    </div>
+
     <div class="row justify-content-center g-4 my-4">
 
       <div class="col-lg-3 col-md-6">
@@ -235,17 +187,17 @@
           </div>
         </div>
       </div>
->>>>>>> 1926234ea42e6b046fb3126daff7ca4ca6e902c5
+
 
     </div>
   </div>
 </section>
 
-<<<<<<< HEAD
+
 <?= view('layouts/footer') ?>
 </body>
 </html>
 =======
 
-<?= view('layouts/footer') ?>
->>>>>>> 1926234ea42e6b046fb3126daff7ca4ca6e902c5
+
+
