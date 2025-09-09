@@ -1,5 +1,5 @@
 <head>
- <link rel="stylesheet" href="http://localhost/diocese/public/assets/css/Senate_Members.css">
+ <link rel="stylesheet" href="<?= base_url() ?>public/assets/css/Senate_Members.css">
 <?= view('layouts/header') ?>
 <?= view('layouts/header-link') ?>
 </head>

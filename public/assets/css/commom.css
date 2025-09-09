@@ -5,12 +5,17 @@
   box-sizing: border-box;
 }
 :root {
-  --font-family:"Poppins", sans-serif;
-  --color-primary: #007bff;
-  --color-secondary: #6c757d;
-  --color-dark: #333;
-  --color-light: #f8f9fa;
-
+   --font-family:"Poppins", sans-serif;
+   --orange: #d35400;
+   --green: #308904;
+   --yellow: #FFBB00;
+   --lightgray:#a7a5a5;
+   --black: #1b1b1b;
+   --white: #f8f9fa;
+   --orangelight: #b64c05;
+   --boxshadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  --gradient_1:linear-gradient(135deg, #06a133, #f39c12);
+  --gradient_2:linear-gradient(135deg, #06a133, #f33112);
   --space-xs: 0.25rem;
   --space-sm: 0.5rem;
   --space-md: 1rem;
@@ -32,7 +37,7 @@ ul, ol {
   padding: 0;
   margin: 0;
 }
-/* Remove default button + input outline */
+
 button, input, textarea {
   border: none;
   outline: none;
@@ -43,7 +48,7 @@ button, input, textarea {
 h1, h2, h3, h4, h5, h6,p {
   line-height: 1.2;
 }
-/* Remove Bootstrap focus glow */
+
 .btn:focus,
 .form-control:focus {
   box-shadow: none !important;
@@ -59,20 +64,34 @@ button, .btn,a {
 button:hover, .btn:hover {
   opacity: 0.9;
 }
-
-
-
-.heading h4{
+.heading h4,.heading2 h4{
    font-size: clamp(24px, 5vw, 40px);
     font-weight: 700;
     text-align: center;
     margin-bottom: 50px;
 }
-/* .heading_2{
-    font-size: 40px;
-    font-weight: 700;
-    text-align: center;
-} */
+.heading h4{
+    color: var( --orange);
+}
+.heading2 h4{
+    color: var( --green);
+}
+.heading ::after {
+    content: "";
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(to right, #e74c3c, #f39c12);
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+.heading .card_heading{
+    margin-bottom: 80px;
+}
+.sec-pd{
+  padding: 60px 0px;
+  overflow: hidden;
+}
 .sub_heading{
  text-align: left;
  font-size: 30px;

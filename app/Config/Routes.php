@@ -15,11 +15,20 @@ $routes->get('welcome', 'Home::welcome');
 $routes->get('news-letters', 'Home::newsletters');
 $routes->get('institutions', 'Home::institutions');
 $routes->get('commissions', 'Home::commissions');
+$routes->get('Committees', 'Home::Committees');
+$routes->get('Necrology', 'Home::Necrology');
+
+$routes->get('Diocesan_Shrines', 'Home::Diocesan_Shrines');
+
+$routes->get('Diocesan_Priests', 'Home::Diocesan_Priests');
+$routes->get('Religious_Priests', 'Home::Religious_Priests');
+
+
 
 $routes->get('institution_men', 'Home::institution_men');
 $routes->get('institution_women', 'Home::institution_women');
 $routes->get('Institute_Seminaries', 'Home::Institute_Seminaries');
-$routes->get('diocese_curia', 'Home::diocese_curia');
+$routes->get('Diocese_curia', 'Home::Diocese_curia');
 $routes->get('Marriagetribunal', 'Home::Marriagetribunal');
 
 $routes->get('Photo_Gallery', 'Home::Photo_Gallery');
@@ -46,5 +55,5 @@ $routes->get('parishes', 'Home::parishes');
 
 $routes->get('Senate_Members', 'Home::Senate_Members');
 
-
+$routes->get('History', 'Home::History');
 

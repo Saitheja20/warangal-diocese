@@ -1,15 +1,15 @@
+<head>
+<link rel="stylesheet" href="<?= base_url() ?>public/assets/css/College-Consultors.css">
 <?= view('layouts/header') ?>
 <?= view('layouts/header-link') ?>
-
+</head>
+<body>
 <style>
-  /* 🎨 Root Holy Colors */
-
-
   #diocese_curia .card {
     border: none;
     border-radius: 12px;
     overflow: hidden;
-    height: 100%;
+      height: 100%;
     /* allow full height card */
     display: flex;
     flex-direction: column;
@@ -27,6 +27,7 @@
     /* 70% of the height */
     overflow: hidden;
   }
+
 
   #diocese_curia .card-img-top {
     width: 100%;
@@ -54,6 +55,10 @@
     color: #555;
   }
 
+    .card{
+      height: -webkit-fill-available ;
+
+
   .card {
     transition: 0.3s ease-in-out;
   }
@@ -61,6 +66,7 @@
   .card:hover {
     box-shadow: rgba(99, 99, 99, 0.35) 0px 5px 15px;
     transform: translateY(-4px);
+
   }
 </style>
 <!-- </head> -->
@@ -149,9 +155,18 @@
 
 </section> -->
 
+
+<section id="diocese_curia mb-2 mt-2 " style="min-height: auto;">
+  <div class="container">
+    <div class="heading">
+    <h4 class="section-title text-center my-4">Warangal Diocese Curia</h4>
+    </div>
+
+
 <section id="diocese_curia mb-2 mt-2 ">
   <div class="container">
     <h2 class="section-title text-center my-4 fw-bold">Warangal Diocese Curia</h2>
+
     <div class="row justify-content-center g-4 my-4">
 
       <div class="col-lg-3 col-md-4 col-sm-6">
@@ -191,9 +206,16 @@
         </div>
       </div>
 
+
     </div>
   </div>
 </section>
 
 
 <?= view('layouts/footer') ?>
+</body>
+</html>
+
+
+
+

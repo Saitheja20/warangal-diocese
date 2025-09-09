@@ -1,6 +1,10 @@
 <?= view('layouts/header') ?>
 <?= view('layouts/header-link') ?>
 
+
+ 
+
+
 <style>
   /* :root {
       --accordion-bg-inactive: #000000;  
@@ -17,11 +21,11 @@
       color: #222;
     }
 
+
     .page-title {
       text-align: center;
       font-size: 32px;
       font-weight: bold;
-      color: #bd0921;
       margin-bottom: 10px;
       text-transform: uppercase;
       letter-spacing: 2px;
@@ -31,7 +35,6 @@
       text-align: center;
       font-size: 20px;
       font-weight: bold;
-      color: #222;
       margin-top: 10px;
       margin-bottom: 15px;
       padding-bottom: 5px;
@@ -49,7 +52,7 @@
       border-radius: 8px;
       overflow: hidden;
     }
-
+/* inactive */
     .accordion-button {
       background-color: var(--accordion-bg-inactive);
       color: var(--accordion-text-inactive);
@@ -57,7 +60,7 @@
       position: relative;
       transition: all 0.3s ease;
     }
-
+/* active */
     .accordion-button:not(.collapsed) {
       background-color: var(--accordion-bg-active);
       color: var(--accordion-text-active);
@@ -88,6 +91,42 @@
       color: var(--priest-name-color);
     }
 .accordion-button:not(.collapsed)::after {
+
+    transform: rotate(180deg); /* Flip it like a superhero cape */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' stroke='%23FFFFFF' stroke-width='2' viewBox='0 0 24 24'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M19 9l-7 7-7-7'/%3E%3C/svg%3E"); /* White arrow screaming: I’m ACTIVE! */
+    transition: transform 0.3s ease; /* Smooth as your Friday vibes */
+}
+ 
+
+<section class="sec-pd">
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+
+      <div class=" heading">
+        <h4>Commissions</h4></div>
+      <!-- <div class="side-heading">WARANGAL DIOCESAN PRESBYTERAL COUNCIL</div>
+      <p>Click to reveal the holy members of each commission! 🕊️</p> -->
+
+      <div class="accordion" id="commissionsAccordion">
+
+        <!-- Commission 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+              Commission for Evangelization / Small Christian Communities & Charismatic renewal
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#commissionsAccordion">
+            <div class="accordion-body">
+              <ul>
+                <li>Fr. G. Kamal</li>
+                <li>Fr. D. Joseph</li>
+                <li>Fr. Allam Inna</li>
+                <li>Fr. A. Prakash</li>
+                <li>Fr. G. Ranjith</li>
+              </ul>
+
     transform: rotate(180deg); 
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' stroke='%23FFFFFF' stroke-width='2' viewBox='0 0 24 24'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M19 9l-7 7-7-7'/%3E%3C/svg%3E"); 
     transition: transform 0.3s ease; 
@@ -872,6 +911,15 @@
       </div>
     </div>
   </div>
+
+</div>
+
+  
 </section>
+<?= view('layouts/footer') ?>
+
+
+</section>
+
 
 <?= view('layouts/footer') ?>
