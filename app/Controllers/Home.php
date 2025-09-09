@@ -132,6 +132,11 @@ class Home extends BaseController
                      public function College_Consultors(): string{
         return view('College_Consultors');
     }
+    
+    public function parishes(): string
+    {
+        return view('parishes');
+    }
 
         
                      public function Senate_Members(): string{
