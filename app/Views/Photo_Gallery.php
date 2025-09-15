@@ -8,7 +8,7 @@
 <body>
   <div class="container py-5 ">
     <div class="photogallery">
-      <h2 class="text_center title">Photo Galaxy</title>
+      <h2 class="text_center title">Photo Gallery</title>
     </div>
     <div class="row g-3 justify-content-start">
       <div class="col-12 col-md-6 col-lg-4">
