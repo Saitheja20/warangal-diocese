@@ -11,7 +11,7 @@
       --accordion-bg-active: #8d0e0e;  
       --accordion-text-inactive: #ffffff;
       --accordion-text-active: #ffffff;
-      --priest-name-color: #000000;     
+      --priest-name-color: #00000000000;     
     }
 
     body {
