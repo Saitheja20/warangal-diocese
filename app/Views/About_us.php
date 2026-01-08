@@ -6,7 +6,7 @@
 </head>
 <body>
 
-  <div class="container my-5">
+  <div class="container my-5 originalsecstart">
     <h2 class="section-title">ORIGINS AND FORMATION OF THE DIOCESE OF WARANGAL</h2>
 
     <div class="history-card">
