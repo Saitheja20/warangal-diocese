@@ -9,7 +9,7 @@
   <div class="container my-5 originalsecstart">
     <h2 class="section-title">ORIGINS AND FORMATION OF THE DIOCESE OF WARANGAL</h2>
 
-    <div class="history-card">
+    <div class="history-card headsectop">
       <p>
         After the bifurcation of Vijayawada Diocese, Hyderabad Diocese was left with Telangana Districts. Of these, let us restrict our view to those that formed Warangal Diocese. 
         The Hyderabad-Vijayawada Railway-line-work had brought a good number of Catholic Employees to the main Railway Junctions / Stations like Kazipet, Dornakal and Khammam. 
