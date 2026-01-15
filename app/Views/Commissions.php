@@ -173,7 +173,7 @@
           <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#commissionsAccordion">
             <div class="accordion-body">
               <ul>
-                <li>Fr. S. Inna</li>
+                <li>Fr. S. Inna cathrin</li>
                 <li>Fr. A. Bala</li>
                 <li>Fr. R. Thomas</li>
                 <li>Fr. G. Naveen</li>
