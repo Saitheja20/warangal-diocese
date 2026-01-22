@@ -1,7 +1,7 @@
 
 <?= view('layouts/header') ?>
 <?= view('layouts/header-link') ?>
-  
+  <!-- global styles calling  -->
   <style>
     :root {
       --accordion-bg-inactive: #000000;  
