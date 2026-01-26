@@ -1,7 +1,7 @@
 
 <?= view('layouts/header') ?>
 <?= view('layouts/header-link') ?>
-  <!-- global styles calling from the root  -->
+  <!-- warangal diases global styles calling from the root  -->
   <style>
     :root {
       --accordion-bg-inactive: #000000;  
