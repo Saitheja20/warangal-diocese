@@ -12,3 +12,4 @@ $routes->get('news-letters', 'Home::newsletters');
 $routes->get('institutions', 'Home::institutions');
 $routes->get('commissions', 'Home::commissions');
 $routes->get('education', 'Home::education');
+$routes->get('education23', 'Home::education23');
