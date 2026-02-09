@@ -9,7 +9,7 @@
             height: 200px;
             width: 155px;
             display: inline-block;
-            opacity: 0.08;
+            opacity: 0.09;
             position: absolute;
             top: 2rem;
             left: 50%;
@@ -70,7 +70,7 @@
 </head>
 <body>
     <div class="wrap">
-        <h1>404</h1>
+        <h1>404 Error Please Go to Home page</h1>
 
         <p>
             <?php if (ENVIRONMENT !== 'production') : ?>
