@@ -12,7 +12,7 @@
     }
 
     body {
-      font-family: "Comic Sans MS", cursive, sans-serif;
+      font-family: "Comic Sans MS", cursive, aria;
       background: #f9f9f9;
       margin: 30px;
       color: #222;
