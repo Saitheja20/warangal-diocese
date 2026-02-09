@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Seminarians of Warangal Diocese – 2020-2021</title>
+  <title>Seminarians of Warangal Diocese – 2023-2025</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     :root {
@@ -110,7 +110,7 @@
             <tr><td>17</td><td>Gayam Rajasekhharreddy</td><td>St. Paul's - Nuzvid</td><td>Spiritual Orientation</td><td>Mariapuram, Narimetta</td></tr>
             <tr><td>18</td><td>Asarapu Akhil</td><td>St. Pius X - Karunapuram</td><td>Inter 2nd Year</td><td>Chagal, Ghanpur</td></tr>
             <tr><td>19</td><td>Dasari Ashwanth Kumar</td><td>St. Pius X - Karunapuram</td><td>Inter 2nd Year</td><td>Thimmaropet</td></tr>
-            <tr><td>20</td><td>Gade Bala Abhishek Reddy</td><td>St. Pius X - Karunapuram</td><td>Inter 2nd Year</td><td>Begumpet, Dacharam</td></tr>
+            <tr><td>20</td><td>Gade Bala Abhishek Reddy</td><td>St. Pius XI - Karunapuram</td><td>Inter 2nd Year</td><td>Begumpet, Dacharam</td></tr>
             <tr><td>21</td><td>Bhukya Anil Kumar</td><td>St. Pius X - Karunapuram</td><td>Inter 1st Year</td><td>Eedulapusapally, Mahabubabad</td></tr>
             <tr><td>22</td><td>Bochu Deekshith</td><td>St. Pius X - Karunapuram</td><td>Inter 1st Year</td><td>Battupalli, Fatima Cathedral</td></tr>
             <tr><td>23</td><td>Mekala Bala Shobith</td><td>St. Pius X - Karunapuram</td><td>Inter 1st Year</td><td>Huzurabad, Shanthipuram</td></tr>
