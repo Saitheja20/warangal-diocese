@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title><?= lang('Errors.pageNotFound') ?></title>
+    <title><?= lang('Errors.pageNotFound ForWarangal Diocese') ?></title>
 
     <style>
         div.logo {
